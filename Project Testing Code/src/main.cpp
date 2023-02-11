@@ -1,4 +1,5 @@
 // main.cpp
+
 // *************************************
 //                #include
 // *************************************
@@ -6,11 +7,16 @@
 #include <WiFi.h>
 #include <painlessMesh.h>
 
+// *************************************
+//                #Define
+// *************************************
+
 // Replace with your network credentials
 #define MESH_SSID "myNetwork"
 #define MESH_PASSWORD "myPassword"
 #define MESH_PORT 5555
 
+// Objects
 Scheduler userScheduler; // to control your personal task
 painlessMesh mesh;
 
@@ -20,15 +26,13 @@ void setup()
   // Intro setup()
   Serial.begin(115200);
 
+  // Mesh Inicialization
   mesh.init(MESH_SSID, MESH_PASSWORD, &userScheduler, MESH_PORT);
 }
 
 void loop()
 {
   mesh.update();
-  // *************************************
-  //                WiFi
-  // *************************************
 
   // Scan nearby Networks
   int numSSID = WiFi.scanNetworks();
