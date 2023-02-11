@@ -5,6 +5,10 @@
 		},
 		{
 			"path": "Scan Networks and Locations"
+		},
+		{
+			"name": "PainlessMesh",
+			"path": "PainlessMesh"
 		}
 	],
 	"settings": {}
