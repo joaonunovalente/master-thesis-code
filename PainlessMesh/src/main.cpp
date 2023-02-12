@@ -18,52 +18,69 @@
 #define LED 2
 #endif
 
-#define   BLINK_PERIOD    3000 // milliseconds until cycle repeat
-#define   BLINK_DURATION  100  // milliseconds LED is on for
+#define BLINK_PERIOD 3000  // milliseconds until cycle repeat
+#define BLINK_DURATION 100 // milliseconds LED is on for
 
-#define   MESH_SSID       "myNetwork"
-#define   MESH_PASSWORD   "myPassword"
-#define   MESH_PORT       5555
+//************************************************************
+//               Network Credentials
+//************************************************************
 
-// Prototypes
-void sendMessage(); 
-void receivedCallback(uint32_t from, String & msg);
-void newConnectionCallback(uint32_t nodeId);
-void changedConnectionCallback(); 
-void nodeTimeAdjustedCallback(int32_t offset); 
-void delayReceivedCallback(uint32_t from, int32_t delay);
+#define MESH_SSID "myNetwork"
+#define MESH_PASSWORD "myPassword"
+#define MESH_PORT 5555
 
-Scheduler     userScheduler; // to control your personal task
-painlessMesh  mesh;
+//************************************************************
+//               Prototypes
+//************************************************************
+// void receivedCallback(uint32_t from, String &msg);
+// void newConnectionCallback(uint32_t nodeId);
+// void changedConnectionCallback();
+// void nodeTimeAdjustedCallback(int32_t offset);
+// void delayReceivedCallback(uint32_t from, int32_t delay);
+
+Scheduler userScheduler; // to control your personal task
+painlessMesh mesh;
 
 bool calc_delay = false;
 SimpleList<uint32_t> nodes;
 
-void sendMessage() ; // Prototype
-Task taskSendMessage( TASK_SECOND * 1, TASK_FOREVER, &sendMessage ); // start with a one second interval
+//************************************************************
+//               Task Invocation
+//************************************************************
+
+// Task to blink the number of nodes
+void sendMessage();                                                // Prototype
+Task taskSendMessage(TASK_SECOND * 1, TASK_FOREVER, &sendMessage); // start with a one second interval
 
 // Task to blink the number of nodes
 Task blinkNoNodes;
 bool onFlag = false;
 
-void setup() {
+//************************************************************
+//              void setup()
+//************************************************************
+void setup()
+{
   Serial.begin(115200);
 
   pinMode(LED, OUTPUT);
 
-  mesh.setDebugMsgTypes(ERROR | DEBUG);  // set before init() so that you can see error messages
+  // mesh.setDebugMsgTypes(ERROR | DEBUG); // set before init() so that you can see error messages
 
   mesh.init(MESH_SSID, MESH_PASSWORD, &userScheduler, MESH_PORT);
-  mesh.onReceive(&receivedCallback);
-  mesh.onNewConnection(&newConnectionCallback);
-  mesh.onChangedConnections(&changedConnectionCallback);
-  mesh.onNodeTimeAdjusted(&nodeTimeAdjustedCallback);
-  mesh.onNodeDelayReceived(&delayReceivedCallback);
+  // mesh.onReceive(&receivedCallback);
+  // mesh.onNewConnection(&newConnectionCallback);
+  // mesh.onChangedConnections(&changedConnectionCallback);
+  // mesh.onNodeTimeAdjusted(&nodeTimeAdjustedCallback);
+  // mesh.onNodeDelayReceived(&delayReceivedCallback);
 
-  userScheduler.addTask( taskSendMessage );
-  taskSendMessage.enable();
+  // --> Task SendMessage
+  // userScheduler.addTask(taskSendMessage);
+  // taskSendMessage.enable();
 
-  blinkNoNodes.set(BLINK_PERIOD, (mesh.getNodeList().size() + 1) * 2, []() {
+  // --> Task NumberOfBlinks
+  blinkNoNodes.set(BLINK_PERIOD, (mesh.getNodeList().size() + 1) * 2, []()
+                   {
       // If on, switch off, else switch on
       if (onFlag)
         onFlag = false;
@@ -79,28 +96,62 @@ void setup() {
         // This results in blinks between nodes being synced
         blinkNoNodes.enableDelayed(BLINK_PERIOD - 
             (mesh.getNodeTime() % (BLINK_PERIOD*1000))/1000);
-      }
-  });
+      } });
   userScheduler.addTask(blinkNoNodes);
   blinkNoNodes.enable();
 
-  // randomSeed(analogRead(A0));
+  
 }
 
-void loop() {
+void loop()
+{
   mesh.update();
   digitalWrite(LED, !onFlag);
+
+  // Scan nearby Networks
+  int numSSID = WiFi.scanNetworks();
+
+  // print the network found:
+  for (int thisNet = 0; thisNet < numSSID; thisNet++)
+  {
+    // List of ESP32 MAC addresses
+    String MAC_address[] = {
+        "78:E3:6D:18:FE:68",
+        "4C:11:AE:CA:92:91",
+        "78:E3:6D:0A:23:01",
+        "78:21:84:8C:B9:39"};
+    // Length of the array MAC_address
+    int len_MAC_address = sizeof(MAC_address) / sizeof(MAC_address[0]);
+
+    for (int ii = 0; ii < len_MAC_address; ii++)
+    {
+      // Prints the MAC_addresses and the RSSI
+      // that match the ESP32.
+      if (WiFi.BSSIDstr(thisNet) == MAC_address[ii])
+      {
+        Serial.print("MAC Address: ");
+        Serial.print(WiFi.BSSIDstr(thisNet));
+        Serial.print(" | ");
+        Serial.print(" Signal = ");
+        Serial.print(WiFi.RSSI(thisNet));
+        Serial.println("dB");
+      }
+    }
+  }
 }
 
-void sendMessage() {
+void sendMessage()
+{
   String msg = "Hello from node ";
   msg += mesh.getNodeId();
   msg += " myFreeMemory: " + String(ESP.getFreeHeap());
   mesh.sendBroadcast(msg);
 
-  if (calc_delay) {
+  if (calc_delay)
+  {
     SimpleList<uint32_t>::iterator node = nodes.begin();
-    while (node != nodes.end()) {
+    while (node != nodes.end())
+    {
       mesh.startDelayMeas(*node);
       node++;
     }
@@ -108,50 +159,51 @@ void sendMessage() {
   }
 
   Serial.printf("Sending message: %s\n", msg.c_str());
-  
-  taskSendMessage.setInterval( random(TASK_SECOND * 1, TASK_SECOND * 5));  // between 1 and 5 seconds
+
+  // taskSendMessage.setInterval( random(TASK_SECOND * 1, TASK_SECOND * 5));  // between 1 and 5 seconds
 }
 
-
-void receivedCallback(uint32_t from, String & msg) {
+void receivedCallback(uint32_t from, String &msg)
+{
   Serial.printf("startHere: Received from %u msg=%s\n", from, msg.c_str());
 }
 
-void newConnectionCallback(uint32_t nodeId) {
+void newConnectionCallback(uint32_t nodeId)
+{
   // Reset blink task
   onFlag = false;
   blinkNoNodes.setIterations((mesh.getNodeList().size() + 1) * 2);
-  blinkNoNodes.enableDelayed(BLINK_PERIOD - (mesh.getNodeTime() % (BLINK_PERIOD*1000))/1000);
- 
-  Serial.printf("--> startHere: New Connection, nodeId = %u\n", nodeId);
-  Serial.printf("--> startHere: New Connection, %s\n", mesh.subConnectionJson(true).c_str());
+  blinkNoNodes.enableDelayed(BLINK_PERIOD - (mesh.getNodeTime() % (BLINK_PERIOD * 1000)) / 1000);
 }
 
-void changedConnectionCallback() {
+void changedConnectionCallback()
+{
   Serial.printf("Changed connections\n");
   // Reset blink task
   onFlag = false;
   blinkNoNodes.setIterations((mesh.getNodeList().size() + 1) * 2);
-  blinkNoNodes.enableDelayed(BLINK_PERIOD - (mesh.getNodeTime() % (BLINK_PERIOD*1000))/1000);
- 
-  nodes = mesh.getNodeList();
+  blinkNoNodes.enableDelayed(BLINK_PERIOD - (mesh.getNodeTime() % (BLINK_PERIOD * 1000)) / 1000);
 
-  Serial.printf("Num nodes: %d\n", nodes.size());
-  Serial.printf("Connection list:");
+  // nodes = mesh.getNodeList();
 
-  SimpleList<uint32_t>::iterator node = nodes.begin();
-  while (node != nodes.end()) {
-    Serial.printf(" %u", *node);
-    node++;
-  }
-  Serial.println();
+  // Serial.printf("Num nodes: %d\n", nodes.size());
+  // Serial.printf("Connection list:");
+
+  // SimpleList<uint32_t>::iterator node = nodes.begin();
+  // while (node != nodes.end()) {
+  //   Serial.printf(" %u", *node);
+  //   node++;
+  // }
+  // Serial.println();
   calc_delay = true;
 }
 
-void nodeTimeAdjustedCallback(int32_t offset) {
-  Serial.printf("Adjusted time %u. Offset = %d\n", mesh.getNodeTime(), offset);
+void nodeTimeAdjustedCallback(int32_t offset)
+{
+  // Serial.printf("Adjusted time %u. Offset = %d\n", mesh.getNodeTime(), offset);
 }
 
-void delayReceivedCallback(uint32_t from, int32_t delay) {
-  Serial.printf("Delay to node %u is %d us\n", from, delay);
+void delayReceivedCallback(uint32_t from, int32_t delay)
+{
+  // Serial.printf("Delay to node %u is %d us\n", from, delay);
 }
