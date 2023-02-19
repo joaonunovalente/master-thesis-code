@@ -4,11 +4,16 @@
 			"path": "Project Testing Code"
 		},
 		{
-			"path": "Scan Networks and Locations"
-		},
-		{
 			"name": "PainlessMesh",
 			"path": "PainlessMesh"
+		},
+		{
+			"name": "Scan Networks - AP_STA",
+			"path": "Scan Networks - AP_STA"
+		},
+		{
+			"name": "Find my MAC Address",
+			"path": "Find my MAC Address"
 		}
 	],
 	"settings": {}
