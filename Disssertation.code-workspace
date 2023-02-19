@@ -14,6 +14,12 @@
 		{
 			"name": "Find my MAC Address",
 			"path": "Find my MAC Address"
+		},
+		{
+			"path": "Scan Networks - AP & STA/Scan Networks - STA"
+		},
+		{
+			"path": "Scan Networks - AP & STA/Scan Networks - AP"
 		}
 	],
 	"settings": {}
