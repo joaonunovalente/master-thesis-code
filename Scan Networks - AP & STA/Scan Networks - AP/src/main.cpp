@@ -1,9 +1,22 @@
+// main.cpp
+// *************************************
+//                #include
+// *************************************
 #include <Arduino.h>
+#include <WiFi.h>
 
-void setup() {
-  // put your setup code here, to run once:
+// Replace with your network credentials (AP)
+const char *ssid = "myNetwork";
+const char *password = "myPassword";
+
+void setup()
+{
+  // Intro setup()
+  Serial.begin(115200);
+  WiFi.mode(WIFI_AP);
+  WiFi.softAP(ssid, password);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop()
+{
 }
