@@ -25,6 +25,7 @@ void loop()
     // List of ESP32 MAC addresses
     String MAC_address[] = {
         "78:E3:6D:18:FE:68",
+        "78:E3:6D:18:FE:69",
         "4C:11:AE:CA:92:91",
         "78:E3:6D:0A:23:01",
         "78:21:84:8C:B9:39",

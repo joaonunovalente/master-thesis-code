@@ -33,13 +33,14 @@ void loop()
   // for (int thisNet = 0; thisNet < numSSID; thisNet++)
   // {
 
-  //   // List of ESP32 MAC addresses
-  //   String MAC_address[] = {
-  //       "78:E3:6D:18:FE:68",
-  //       "4C:11:AE:CA:92:91",
-  //       "78:E3:6D:0A:23:01",
-  //       "78:21:84:8C:B9:39",
-  //       "94:B9:7E:E4:A6:09"};
+  // List of ESP32 MAC addresses
+  // String MAC_address[] = {
+  //     "78:E3:6D:18:FE:68",
+  //     "78:E3:6D:18:FE:69",
+  //     "4C:11:AE:CA:92:91",
+  //     "78:E3:6D:0A:23:01",
+  //     "78:21:84:8C:B9:39",
+  //     "94:B9:7E:E4:A6:09"};
   //   // Number of MAC_address
   //   int Num_MAC_address = sizeof(MAC_address) / sizeof(MAC_address[0]);
 
