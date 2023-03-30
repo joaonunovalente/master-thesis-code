@@ -31,10 +31,12 @@ void sendMessage()
 //  Function/Task that scan networks
 void scanNetworks(); // Prototype so PlatformIO doesn't complain
 
-Task taskScanNetworks(TASK_SECOND * 20, TASK_FOREVER, &scanNetworks);
+Task taskScanNetworks(TASK_SECOND * 10, TASK_FOREVER, &scanNetworks);
 
 void scanNetworks()
 {
+  String msg = "";
+  
   Serial.println("Scan started");
   // returns the number of networks found
   int numSSID = WiFi.scanNetworks();
@@ -53,27 +55,28 @@ void scanNetworks()
         "94:B9:7E:E4:A6:09"};
     // Number of MAC_address
     int Num_MAC_address = sizeof(MAC_address) / sizeof(MAC_address[0]);
-
-    Serial.println(WiFi.BSSIDstr(thisNet));
-
+    
     for (int ii = 0; ii < Num_MAC_address; ii++)
     {
       // Prints the MAC_addresses and the RSSI
       // that match the ESP32.
-
+      
       if (WiFi.BSSIDstr(thisNet) == MAC_address[ii])
       {
         // Message structure: "MAC 78:E3:6D:18:FE:68 | Signal = -39db"
-        String msg = "";
+
         msg += "MAC ";
         msg += WiFi.BSSIDstr(thisNet);
         msg += " | Signal = ";
         msg += WiFi.RSSI(thisNet);
         msg += "dB";
-        mesh.sendBroadcast(msg);
+        msg += " || ";
       }
+
+      
     }
   }
+  mesh.sendBroadcast(msg);
 }
 
 // Needed for painless library
@@ -110,11 +113,11 @@ void setup()
   mesh.onChangedConnections(&changedConnectionCallback);
   mesh.onNodeTimeAdjusted(&nodeTimeAdjustedCallback);
 
-  // userScheduler.addTask(taskScanNetworks);
-  // taskScanNetworks.enable();
+  userScheduler.addTask(taskScanNetworks);
+  taskScanNetworks.enable();
 
-  userScheduler.addTask(taskSendMessage);
-  taskSendMessage.enable();
+  // userScheduler.addTask(taskSendMessage);
+  // taskSendMessage.enable();
 }
 
 void loop()
