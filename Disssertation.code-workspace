@@ -20,6 +20,14 @@
 		},
 		{
 			"path": "Scan Networks - AP & STA/Scan Networks - AP"
+		},
+		{
+			"name": "PainlessMesh - Scan",
+			"path": "PainlessMesh - Scan"
+		},
+		{
+			"name": "PainlessMesh - Home",
+			"path": "PainlessMesh - Home"
 		}
 	],
 	"settings": {}

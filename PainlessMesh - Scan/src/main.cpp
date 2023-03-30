@@ -40,39 +40,40 @@ void scanNetworks()
   int numSSID = WiFi.scanNetworks();
   Serial.println("Scan ended");
 
-  // // print the network found:
-  // for (int thisNet = 0; thisNet < numSSID; thisNet++)
-  // {
-  //   // List of ESP32 MAC addresses
-  //   String MAC_address[] = {
-  //       "78:E3:6D:18:FE:68",
-  //       "78:E3:6D:18:FE:69",
-  //       "4C:11:AE:CA:92:91",
-  //       "78:E3:6D:0A:23:01",
-  //       "78:21:84:8C:B9:39",
-  //       "94:B9:7E:E4:A6:09"};
-  //   // Number of MAC_address
-  //   int Num_MAC_address = sizeof(MAC_address) / sizeof(MAC_address[0]);
+  // print the network found:
+  for (int thisNet = 0; thisNet < numSSID; thisNet++)
+  {
+    // List of ESP32 MAC addresses
+    String MAC_address[] = {
+        "78:E3:6D:18:FE:68",
+        "78:E3:6D:18:FE:69",
+        "4C:11:AE:CA:92:91",
+        "78:E3:6D:0A:23:01",
+        "78:21:84:8C:B9:39",
+        "94:B9:7E:E4:A6:09"};
+    // Number of MAC_address
+    int Num_MAC_address = sizeof(MAC_address) / sizeof(MAC_address[0]);
 
-  // Serial.println(WiFi.BSSIDstr(thisNet));
+    Serial.println(WiFi.BSSIDstr(thisNet));
 
-  // for (int ii = 0; ii < Num_MAC_address; ii++)
-  // {
-  //   // Prints the MAC_addresses and the RSSI
-  //   // that match the ESP32.
+    for (int ii = 0; ii < Num_MAC_address; ii++)
+    {
+      // Prints the MAC_addresses and the RSSI
+      // that match the ESP32.
 
-  //   if (WiFi.BSSIDstr(thisNet) == MAC_address[ii])
-  //   {
-  //     // Message structure: "MAC 78:E3:6D:18:FE:68 | Signal = -39db"
-  //     Serial.print("MAC ");
-  //     Serial.print(WiFi.BSSIDstr(thisNet));
-  //     Serial.print(" | ");
-  //     Serial.print("Signal = ");
-  //     Serial.print(WiFi.RSSI(thisNet));
-  //     Serial.println(" dB");
-  //   }
-  // }
-  // }
+      if (WiFi.BSSIDstr(thisNet) == MAC_address[ii])
+      {
+        // Message structure: "MAC 78:E3:6D:18:FE:68 | Signal = -39db"
+        String msg = "";
+        msg += "MAC ";
+        msg += WiFi.BSSIDstr(thisNet);
+        msg += " | Signal = ";
+        msg += WiFi.RSSI(thisNet);
+        msg += "dB";
+        mesh.sendBroadcast(msg);
+      }
+    }
+  }
 }
 
 // Needed for painless library
