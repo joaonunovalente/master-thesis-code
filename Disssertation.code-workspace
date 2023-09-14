@@ -28,7 +28,84 @@
 		{
 			"name": "PainlessMesh - Home",
 			"path": "PainlessMesh - Home"
+		},
+		{
+			"name": "Accelerometer - MPU-6050",
+			"path": "Accelerometer - MPU-6050"
+		},
+		{
+			"name": "painlessMesh - MPU6050",
+			"path": "painlessMesh - MPU6050"
+		},
+		{
+			"name": "Accelerometer - ADXL337",
+			"path": "Accelerometer - ADXL337"
+		},
+		{
+			"name": "MPU-6050 - FFT",
+			"path": "MPU-6050 - FFT"
+		},
+		{
+			"name": "Accelerometer - Frequencies",
+			"path": "Accelerometer - Frequencies"
+		},
+		{
+			"name": "Accelerometers - Frequencies peaks",
+			"path": "Accelerometers - Frequencies peaks"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"string": "cpp",
+			"string_view": "cpp",
+			"atomic": "cpp",
+			"*.tcc": "cpp",
+			"cctype": "cpp",
+			"clocale": "cpp",
+			"cmath": "cpp",
+			"cstdarg": "cpp",
+			"cstddef": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"deque": "cpp",
+			"list": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"vector": "cpp",
+			"exception": "cpp",
+			"algorithm": "cpp",
+			"functional": "cpp",
+			"iterator": "cpp",
+			"map": "cpp",
+			"memory": "cpp",
+			"memory_resource": "cpp",
+			"numeric": "cpp",
+			"optional": "cpp",
+			"random": "cpp",
+			"system_error": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"fstream": "cpp",
+			"initializer_list": "cpp",
+			"iomanip": "cpp",
+			"iosfwd": "cpp",
+			"iostream": "cpp",
+			"istream": "cpp",
+			"limits": "cpp",
+			"new": "cpp",
+			"ostream": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"cinttypes": "cpp",
+			"typeinfo": "cpp"
+		}
+	}
 }

@@ -1,0 +1,86 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Target value 10.79 is between frequencies 10.74 and 11.72
+Target value 5.89 is between frequencies 5.86 and 6.84
+Loop | 2
+Target value 10.45 is between frequencies 9.77 and 10.74
+Target value 1.51 is between frequencies 0.98 and 1.95
+Loop | 3
+Target value 11.46 is between frequencies 10.74 and 11.72
+Target value 4.87 is between frequencies 3.91 and 4.88
+Loop | 4
+Target value 9.74 is between frequencies 8.79 and 9.77
+Target value 11.59 is between frequencies 10.74 and 11.72
+Loop | 5
+Target value 10.49 is between frequencies 9.77 and 10.74
+Target value 1.54 is between frequencies 0.98 and 1.95
+Loop | 6
+Target value 8.91 is between frequencies 8.79 and 9.77
+Target value 6.79 is between frequencies 5.86 and 6.84
+Loop | 7
+Target value 1.87 is between frequencies 0.98 and 1.95
+Target value 5.91 is between frequencies 5.86 and 6.84
+Loop | 8
+Target value 5.74 is between frequencies 4.88 and 5.86
+Target value 5.93 is between frequencies 5.86 and 6.84
+Loop | 9
+Target value 6.11 is between frequencies 5.86 and 6.84
+Target value 1.04 is between frequencies 0.98 and 1.95
+Loop | 10
+Target value 2.82 is between frequencies 1.95 and 2.93
+Target value 5.23 is between frequencies 4.88 and 5.86
+Loop | 11
+Target value 3.71 is between frequencies 2.93 and 3.91
+Target value 2.75 is between frequencies 1.95 and 2.93
+Loop | 12
+Target value 4.95 is between frequencies 4.88 and 5.86
+Target value 5.76 is between frequencies 4.88 and 5.86
+Loop | 13
+Target value 6.78 is between frequencies 5.86 and 6.84
+Target value 5.51 is between frequencies 4.88 and 5.86
+Loop | 14
+Target value 5.48 is between frequencies 4.88 and 5.86
+Target value 5.27 is between frequencies 4.88 and 5.86
+Loop | 15
+Target value 5.14 is between frequencies 4.88 and 5.86
+Target value 5.73 is between frequencies 4.88 and 5.86
+Loop | 16
+Target value 10.53 is between frequencies 9.77 and 10.74
+Target value 2.77 is between frequencies 1.95 and 2.93
+Loop | 17
+Target value 6.76 is between frequencies 5.86 and 6.84
+Target value 3.65 is between frequencies 2.93 and 3.91
+Loop | 18
+Target value 9.94 is between frequencies 9.77 and 10.74
+Target value 1.83 is between frequencies 0.98 and 1.95
+Loop | 19
+Target value 9.72 is between frequencies 8.79 and 9.77
+Target value 4.74 is between frequencies 3.91 and 4.88
+Loop | 20
+Target value 9.84 is between frequencies 9.77 and 10.74
+Target value 3.93 is between frequencies 3.91 and 4.88
+Loop | 21
+Target value 9.63 is between frequencies 8.79 and 9.77
+Target value 9.68 is between frequencies 8.79 and 9.77
+Loop | 22
+Target value 8.76 is between frequencies 7.81 and 8.79
+Target value 2.30 is between frequencies 1.95 and 2.93
+Loop | 23
+Target value 10.85 is between frequencies 10.74 and 11.72
+Target value 5.96 is between frequencies 5.86 and 6.84
+Loop | 24
+Target value 7.79 is between frequencies 6.84 and 7.81
+Target value 2.89 is between frequencies 1.95 and 2.93
+Loop | 25
+Target value 10.50 is between frequencies 9.77 and 10.74
+Target value 6.90 is between frequencies 6.84 and 7.81
+Loop | 

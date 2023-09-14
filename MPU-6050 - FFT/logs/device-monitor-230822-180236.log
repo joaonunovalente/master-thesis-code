@@ -1,0 +1,299 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Target value 3.99 is between frequencies 3.91 and 4.88
+Target value 3.99 is between frequencies 3.91 and 4.88
+Target value 3.99 is between frequencies 3.91 and 4.88
+Target value 3.99 is between frequencies 3.91 and 4.88
+Target value 3.99 is between frequencies 3.91 and 4.88
+Loop | 2
+Target value 2.30 is between frequencies 1.95 and 2.93
+Target value 2.30 is between frequencies 1.95 and 2.93
+Target value 2.30 is between frequencies 1.95 and 2.93
+Target value 2.30 is between frequencies 1.95 and 2.93
+Target value 2.30 is between frequencies 1.95 and 2.93
+Loop | 3
+Target value 10.84 is between frequencies 10.74 and 11.72
+Target value 10.84 is between frequencies 10.74 and 11.72
+Target value 10.84 is between frequencies 10.74 and 11.72
+Target value 10.84 is between frequencies 10.74 and 11.72
+Target value 10.84 is between frequencies 10.74 and 11.72
+Loop | 4
+Target value 10.71 is between frequencies 9.77 and 10.74
+Target value 10.71 is between frequencies 9.77 and 10.74
+Target value 10.71 is between frequencies 9.77 and 10.74
+Target value 10.71 is between frequencies 9.77 and 10.74
+Target value 10.71 is between frequencies 9.77 and 10.74
+Loop | 5
+Target value 10.80 is between frequencies 10.74 and 11.72
+Target value 10.80 is between frequencies 10.74 and 11.72
+Target value 10.80 is between frequencies 10.74 and 11.72
+Target value 10.80 is between frequencies 10.74 and 11.72
+Target value 10.80 is between frequencies 10.74 and 11.72
+Loop | 6
+Target value 12.60 is between frequencies 11.72 and 12.70
+Target value 12.60 is between frequencies 11.72 and 12.70
+Target value 12.60 is between frequencies 11.72 and 12.70
+Target value 12.60 is between frequencies 11.72 and 12.70
+Target value 12.60 is between frequencies 11.72 and 12.70
+Loop | 7
+Target value 10.50 is between frequencies 9.77 and 10.74
+Target value 10.50 is between frequencies 9.77 and 10.74
+Target value 10.50 is between frequencies 9.77 and 10.74
+Target value 10.50 is between frequencies 9.77 and 10.74
+Target value 10.50 is between frequencies 9.77 and 10.74
+Loop | 8
+Target value 10.54 is between frequencies 9.77 and 10.74
+Target value 10.54 is between frequencies 9.77 and 10.74
+Target value 10.54 is between frequencies 9.77 and 10.74
+Target value 10.54 is between frequencies 9.77 and 10.74
+Target value 10.54 is between frequencies 9.77 and 10.74
+Loop | 9
+Target value 4.87 is between frequencies 3.91 and 4.88
+Target value 4.87 is between frequencies 3.91 and 4.88
+Target value 4.87 is between frequencies 3.91 and 4.88
+Target value 4.87 is between frequencies 3.91 and 4.88
+Target value 4.87 is between frequencies 3.91 and 4.88
+Loop | 10
+Target value 8.09 is between frequencies 7.81 and 8.79
+Target value 8.09 is between frequencies 7.81 and 8.79
+Target value 8.09 is between frequencies 7.81 and 8.79
+Target value 8.09 is between frequencies 7.81 and 8.79
+Target value 8.09 is between frequencies 7.81 and 8.79
+Loop | 11
+Target value 8.65 is between frequencies 7.81 and 8.79
+Target value 8.65 is between frequencies 7.81 and 8.79
+Target value 8.65 is between frequencies 7.81 and 8.79
+Target value 8.65 is between frequencies 7.81 and 8.79
+Target value 8.65 is between frequencies 7.81 and 8.79
+Loop | 12
+Target value 1.73 is between frequencies 0.98 and 1.95
+Target value 1.73 is between frequencies 0.98 and 1.95
+Target value 1.73 is between frequencies 0.98 and 1.95
+Target value 1.73 is between frequencies 0.98 and 1.95
+Target value 1.73 is between frequencies 0.98 and 1.95
+Loop | 13
+Target value 10.18 is between frequencies 9.77 and 10.74
+Target value 10.18 is between frequencies 9.77 and 10.74
+Target value 10.18 is between frequencies 9.77 and 10.74
+Target value 10.18 is between frequencies 9.77 and 10.74
+Target value 10.18 is between frequencies 9.77 and 10.74
+Loop | 14
+Target value 10.23 is between frequencies 9.77 and 10.74
+Target value 10.23 is between frequencies 9.77 and 10.74
+Target value 10.23 is between frequencies 9.77 and 10.74
+Target value 10.23 is between frequencies 9.77 and 10.74
+Target value 10.23 is between frequencies 9.77 and 10.74
+Loop | 15
+Target value 8.67 is between frequencies 7.81 and 8.79
+Target value 8.67 is between frequencies 7.81 and 8.79
+Target value 8.67 is between frequencies 7.81 and 8.79
+Target value 8.67 is between frequencies 7.81 and 8.79
+Target value 8.67 is between frequencies 7.81 and 8.79
+Loop | 16
+Target value 10.82 is between frequencies 10.74 and 11.72
+Target value 10.82 is between frequencies 10.74 and 11.72
+Target value 10.82 is between frequencies 10.74 and 11.72
+Target value 10.82 is between frequencies 10.74 and 11.72
+Target value 10.82 is between frequencies 10.74 and 11.72
+Loop | 17
+Target value 2.38 is between frequencies 1.95 and 2.93
+Target value 2.38 is between frequencies 1.95 and 2.93
+Target value 2.38 is between frequencies 1.95 and 2.93
+Target value 2.38 is between frequencies 1.95 and 2.93
+Target value 2.38 is between frequencies 1.95 and 2.93
+Loop | 18
+Target value 9.68 is between frequencies 8.79 and 9.77
+Target value 9.68 is between frequencies 8.79 and 9.77
+Target value 9.68 is between frequencies 8.79 and 9.77
+Target value 9.68 is between frequencies 8.79 and 9.77
+Target value 9.68 is between frequencies 8.79 and 9.77
+Loop | 19
+Target value 4.92 is between frequencies 4.88 and 5.86
+Target value 4.92 is between frequencies 4.88 and 5.86
+Target value 4.92 is between frequencies 4.88 and 5.86
+Target value 4.92 is between frequencies 4.88 and 5.86
+Target value 4.92 is between frequencies 4.88 and 5.86
+Loop | 20
+Target value 2.11 is between frequencies 1.95 and 2.93
+Target value 2.11 is between frequencies 1.95 and 2.93
+Target value 2.11 is between frequencies 1.95 and 2.93
+Target value 2.11 is between frequencies 1.95 and 2.93
+Target value 2.11 is between frequencies 1.95 and 2.93
+Loop | 21
+Target value 8.73 is between frequencies 7.81 and 8.79
+Target value 8.73 is between frequencies 7.81 and 8.79
+Target value 8.73 is between frequencies 7.81 and 8.79
+Target value 8.73 is between frequencies 7.81 and 8.79
+Target value 8.73 is between frequencies 7.81 and 8.79
+Loop | 22
+Target value 5.00 is between frequencies 4.88 and 5.86
+Target value 5.00 is between frequencies 4.88 and 5.86
+Target value 5.00 is between frequencies 4.88 and 5.86
+Target value 5.00 is between frequencies 4.88 and 5.86
+Target value 5.00 is between frequencies 4.88 and 5.86
+Loop | 23
+Target value 11.31 is between frequencies 10.74 and 11.72
+Target value 11.31 is between frequencies 10.74 and 11.72
+Target value 11.31 is between frequencies 10.74 and 11.72
+Target value 11.31 is between frequencies 10.74 and 11.72
+Target value 11.31 is between frequencies 10.74 and 11.72
+Loop | 24
+Target value 10.61 is between frequencies 9.77 and 10.74
+Target value 10.61 is between frequencies 9.77 and 10.74
+Target value 10.61 is between frequencies 9.77 and 10.74
+Target value 10.61 is between frequencies 9.77 and 10.74
+Target value 10.61 is between frequencies 9.77 and 10.74
+Loop | 25
+Target value 1.78 is between frequencies 0.98 and 1.95
+Target value 1.78 is between frequencies 0.98 and 1.95
+Target value 1.78 is between frequencies 0.98 and 1.95
+Target value 1.78 is between frequencies 0.98 and 1.95
+Target value 1.78 is between frequencies 0.98 and 1.95
+Loop | 26
+Target value 10.01 is between frequencies 9.77 and 10.74
+Target value 10.01 is between frequencies 9.77 and 10.74
+Target value 10.01 is between frequencies 9.77 and 10.74
+Target value 10.01 is between frequencies 9.77 and 10.74
+Target value 10.01 is between frequencies 9.77 and 10.74
+Loop | 27
+Target value 9.96 is between frequencies 9.77 and 10.74
+Target value 9.96 is between frequencies 9.77 and 10.74
+Target value 9.96 is between frequencies 9.77 and 10.74
+Target value 9.96 is between frequencies 9.77 and 10.74
+Target value 9.96 is between frequencies 9.77 and 10.74
+Loop | 28
+Target value 8.78 is between frequencies 7.81 and 8.79
+Target value 8.78 is between frequencies 7.81 and 8.79
+Target value 8.78 is between frequencies 7.81 and 8.79
+Target value 8.78 is between frequencies 7.81 and 8.79
+Target value 8.78 is between frequencies 7.81 and 8.79
+Loop | 29
+Target value 4.55 is between frequencies 3.91 and 4.88
+Target value 4.55 is between frequencies 3.91 and 4.88
+Target value 4.55 is between frequencies 3.91 and 4.88
+Target value 4.55 is between frequencies 3.91 and 4.88
+Target value 4.55 is between frequencies 3.91 and 4.88
+Loop | 30
+Target value 9.93 is between frequencies 9.77 and 10.74
+Target value 9.93 is between frequencies 9.77 and 10.74
+Target value 9.93 is between frequencies 9.77 and 10.74
+Target value 9.93 is between frequencies 9.77 and 10.74
+Target value 9.93 is between frequencies 9.77 and 10.74
+Loop | 31
+Target value 10.08 is between frequencies 9.77 and 10.74
+Target value 10.08 is between frequencies 9.77 and 10.74
+Target value 10.08 is between frequencies 9.77 and 10.74
+Target value 10.08 is between frequencies 9.77 and 10.74
+Target value 10.08 is between frequencies 9.77 and 10.74
+Loop | 32
+Target value 10.82 is between frequencies 10.74 and 11.72
+Target value 10.82 is between frequencies 10.74 and 11.72
+Target value 10.82 is between frequencies 10.74 and 11.72
+Target value 10.82 is between frequencies 10.74 and 11.72
+Target value 10.82 is between frequencies 10.74 and 11.72
+Loop | 33
+Target value 10.77 is between frequencies 10.74 and 11.72
+Target value 10.77 is between frequencies 10.74 and 11.72
+Target value 10.77 is between frequencies 10.74 and 11.72
+Target value 10.77 is between frequencies 10.74 and 11.72
+Target value 10.77 is between frequencies 10.74 and 11.72
+Loop | 34
+Target value 5.90 is between frequencies 5.86 and 6.84
+Target value 5.90 is between frequencies 5.86 and 6.84
+Target value 5.90 is between frequencies 5.86 and 6.84
+Target value 5.90 is between frequencies 5.86 and 6.84
+Target value 5.90 is between frequencies 5.86 and 6.84
+Loop | 35
+Target value 4.03 is between frequencies 3.91 and 4.88
+Target value 4.03 is between frequencies 3.91 and 4.88
+Target value 4.03 is between frequencies 3.91 and 4.88
+Target value 4.03 is between frequencies 3.91 and 4.88
+Target value 4.03 is between frequencies 3.91 and 4.88
+Loop | 36
+Target value 4.82 is between frequencies 3.91 and 4.88
+Target value 4.82 is between frequencies 3.91 and 4.88
+Target value 4.82 is between frequencies 3.91 and 4.88
+Target value 4.82 is between frequencies 3.91 and 4.88
+Target value 4.82 is between frequencies 3.91 and 4.88
+Loop | 37
+Target value 3.21 is between frequencies 2.93 and 3.91
+Target value 3.21 is between frequencies 2.93 and 3.91
+Target value 3.21 is between frequencies 2.93 and 3.91
+Target value 3.21 is between frequencies 2.93 and 3.91
+Target value 3.21 is between frequencies 2.93 and 3.91
+Loop | 38
+Target value 4.75 is between frequencies 3.91 and 4.88
+Target value 4.75 is between frequencies 3.91 and 4.88
+Target value 4.75 is between frequencies 3.91 and 4.88
+Target value 4.75 is between frequencies 3.91 and 4.88
+Target value 4.75 is between frequencies 3.91 and 4.88
+Loop | 39
+Target value 3.60 is between frequencies 2.93 and 3.91
+Target value 3.60 is between frequencies 2.93 and 3.91
+Target value 3.60 is between frequencies 2.93 and 3.91
+Target value 3.60 is between frequencies 2.93 and 3.91
+Target value 3.60 is between frequencies 2.93 and 3.91
+Loop | 40
+Target value 4.77 is between frequencies 3.91 and 4.88
+Target value 4.77 is between frequencies 3.91 and 4.88
+Target value 4.77 is between frequencies 3.91 and 4.88
+Target value 4.77 is between frequencies 3.91 and 4.88
+Target value 4.77 is between frequencies 3.91 and 4.88
+Loop | 41
+Target value 4.02 is between frequencies 3.91 and 4.88
+Target value 4.02 is between frequencies 3.91 and 4.88
+Target value 4.02 is between frequencies 3.91 and 4.88
+Target value 4.02 is between frequencies 3.91 and 4.88
+Target value 4.02 is between frequencies 3.91 and 4.88
+Loop | 42
+Target value 10.06 is between frequencies 9.77 and 10.74
+Target value 10.06 is between frequencies 9.77 and 10.74
+Target value 10.06 is between frequencies 9.77 and 10.74
+Target value 10.06 is between frequencies 9.77 and 10.74
+Target value 10.06 is between frequencies 9.77 and 10.74
+Loop | 43
+Target value 2.75 is between frequencies 1.95 and 2.93
+Target value 2.75 is between frequencies 1.95 and 2.93
+Target value 2.75 is between frequencies 1.95 and 2.93
+Target value 2.75 is between frequencies 1.95 and 2.93
+Target value 2.75 is between frequencies 1.95 and 2.93
+Loop | 44
+Target value 5.10 is between frequencies 4.88 and 5.86
+Target value 5.10 is between frequencies 4.88 and 5.86
+Target value 5.10 is between frequencies 4.88 and 5.86
+Target value 5.10 is between frequencies 4.88 and 5.86
+Target value 5.10 is between frequencies 4.88 and 5.86
+Loop | 45
+Target value 10.74 is between frequencies 10.74 and 11.72
+Target value 10.74 is between frequencies 10.74 and 11.72
+Target value 10.74 is between frequencies 10.74 and 11.72
+Target value 10.74 is between frequencies 10.74 and 11.72
+Target value 10.74 is between frequencies 10.74 and 11.72
+Loop | 46
+Target value 1.87 is between frequencies 0.98 and 1.95
+Target value 1.87 is between frequencies 0.98 and 1.95
+Target value 1.87 is between frequencies 0.98 and 1.95
+Target value 1.87 is between frequencies 0.98 and 1.95
+Target value 1.87 is between frequencies 0.98 and 1.95
+Loop | 47
+Target value 5.34 is between frequencies 4.88 and 5.86
+Target value 5.34 is between frequencies 4.88 and 5.86
+Target value 5.34 is between frequencies 4.88 and 5.86
+Target value 5.34 is between frequencies 4.88 and 5.86
+Target value 5.34 is between frequencies 4.88 and 5.86
+Loop | 48
+Target value 8.94 is between frequencies 8.79 and 9.77
+Target value 8.94 is between frequencies 8.79 and 9.77
+Target value 8.94 is between frequencies 8.79 and 9.77
+Target value 8.94 is between frequencies 8.79 and 9.77
+Target value 8.94 is between frequencies 8.79 and 9.77
+Loop | 

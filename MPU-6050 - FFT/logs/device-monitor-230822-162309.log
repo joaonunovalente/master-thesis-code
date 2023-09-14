@@ -1,0 +1,7703 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+2 Adding value 1223059046
+
+3 Adding value 881399700
+
+4 Adding value -219576827
+
+5 Adding value -1026051386
+
+6 Adding value 1068555739
+
+7 Adding value 1768215803
+
+8 Adding value 608735680
+
+9 Adding value -211017327
+
+10 Adding value 1149993013
+
+11 Adding value 638641627
+
+12 Adding value 663101867
+
+13 Adding value 10005171
+
+14 Adding value -556248201
+
+15 Adding value 1428066673
+
+16 Adding value 855787405
+
+17 Adding value 182775297
+
+18 Adding value -634459719
+
+19 Adding value 1945504242
+
+20 Adding value -1265088398
+
+21 Adding value -1128059940
+
+22 Adding value 1037454306
+
+23 Adding value -1109098846
+
+24 Adding value -1951438844
+
+25 Adding value 1645554604
+
+26 Adding value -612723906
+
+27 Adding value 1318468946
+
+28 Adding value 1037122070
+
+29 Adding value 475096399
+
+30 Adding value 973500737
+
+31 Adding value 1610466642
+
+32 Adding value 1269727578
+
+33 Adding value -1228683993
+
+34 Adding value 1280365752
+
+35 Adding value 1168118068
+
+36 Adding value -150855657
+
+37 Adding value 108995296
+
+38 Adding value -1587747142
+
+39 Adding value 1970643109
+
+40 Adding value 1098081008
+
+41 Adding value 563598809
+
+42 Adding value -374690354
+
+43 Adding value 760073029
+
+44 Adding value -2106073507
+
+45 Adding value 1502251245
+
+46 Adding value 685226754
+
+47 Adding value -879884804
+
+48 Adding value -218454474
+
+49 Adding value -1983812116
+
+50 Adding value 282440151
+
+51 Adding value 1890985922
+
+52 Adding value 1171849752
+
+53 Adding value 238692350
+
+54 Adding value -1052718723
+
+55 Adding value -2036458721
+
+56 Adding value 245406343
+
+57 Adding value 656046081
+
+58 Adding value 1747979847
+
+59 Adding value 1463109590
+
+60 Adding value -709029525
+
+61 Adding value -653672676
+
+62 Adding value -1425696080
+
+63 Adding value 498702569
+
+64 Adding value 384179611
+
+65 Adding value 1613212799
+
+66 Adding value 935570413
+
+67 Adding value -626409281
+
+68 Adding value 964397698
+
+69 Adding value 127579894
+
+70 Adding value 1710187220
+
+71 Adding value 1348833755
+
+72 Adding value -472222584
+
+73 Adding value -1944486628
+
+74 Adding value -804002146
+
+75 Adding value 259894062
+
+76 Adding value 1749390898
+
+77 Adding value -1618722852
+
+78 Adding value 753945594
+
+79 Adding value -1359782754
+
+80 Adding value 2048095703
+
+81 Adding value -994550015
+
+82 Adding value 2090076834
+
+83 Adding value -1949980105
+
+84 Adding value -788548141
+
+85 Adding value -1091252104
+
+86 Adding value 973176533
+
+87 Adding value 1578277461
+
+88 Adding value 1730128776
+
+89 Adding value -2038385052
+
+90 Adding value 2140843012
+
+91 Adding value 1371824858
+
+92 Adding value -454209183
+
+93 Adding value 1743921551
+
+94 Adding value 1243038853
+
+95 Adding value 1515761192
+
+96 Adding value -832202036
+
+97 Adding value -798718725
+
+98 Adding value 1971431554
+
+99 Adding value 1827712604
+
+100 Adding value -1061108734
+
+101 Adding value -1124592271
+
+102 Adding value 1122665897
+
+103 Adding value 1397386304
+
+104 Adding value -1265746246
+
+105 Adding value 1169625470
+
+106 Adding value 257418263
+
+107 Adding value 2038430333
+
+108 Adding value 745457197
+
+109 Adding value 701646039
+
+110 Adding value -1873903023
+
+111 Adding value -57999381
+
+112 Adding value 2062314675
+
+113 Adding value 143641096
+
+114 Adding value -463034289
+
+115 Adding value 1197857699
+
+116 Adding value -1461950979
+
+117 Adding value -1038146327
+
+118 Adding value -1004222530
+
+119 Adding value -1460909963
+
+120 Adding value -2006536067
+
+121 Adding value 139314349
+
+122 Adding value -1260916168
+
+123 Adding value -1548406768
+
+124 Adding value -124022479
+
+125 Adding value -1218087202
+
+126 Adding value -942524309
+
+127 Adding value 364914005
+
+128 Adding value 2057131143
+
+129 Adding value -251432968
+
+130 Adding value -2138076035
+
+131 Adding value -721198141
+
+132 Adding value -548623769
+
+133 Adding value -1179482464
+
+134 Adding value -894995203
+
+135 Adding value 1475970835
+
+136 Adding value 175647821
+
+137 Adding value 1971646868
+
+138 Adding value 1200334123
+
+139 Adding value -1458942094
+
+140 Adding value 1748017862
+
+141 Adding value -1586546638
+
+142 Adding value 1182859296
+
+143 Adding value 1281235547
+
+144 Adding value 1153429341
+
+145 Adding value 179793082
+
+146 Adding value 1631897752
+
+147 Adding value 52308472
+
+148 Adding value 1876239075
+
+149 Adding value 1157974913
+
+150 Adding value -1389150321
+
+151 Adding value 1703877101
+
+152 Adding value 1943843582
+
+153 Adding value 2035122155
+
+154 Adding value -2130404577
+
+155 Adding value 948860069
+
+156 Adding value -1581296451
+
+157 Adding value 1019988595
+
+158 Adding value -987204778
+
+159 Adding value -1785826991
+
+160 Adding value -41868781
+
+161 Adding value 1457211074
+
+162 Adding value -775558880
+
+163 Adding value 205567263
+
+164 Adding value 335285916
+
+165 Adding value 90169117
+
+166 Adding value -908456252
+
+167 Adding value -1687058532
+
+168 Adding value 1263458559
+
+169 Adding value 298872549
+
+170 Adding value -126767610
+
+171 Adding value 1913967982
+
+172 Adding value 1504916668
+
+173 Adding value -61165189
+
+174 Adding value 1900862649
+
+175 Adding value -1223343375
+
+176 Adding value -700180849
+
+177 Adding value 1653312757
+
+178 Adding value -879777493
+
+179 Adding value -1807110746
+
+180 Adding value 408710365
+
+181 Adding value 1929680082
+
+182 Adding value 1610098736
+
+183 Adding value 512073490
+
+184 Adding value -528356534
+
+185 Adding value 1271058405
+
+186 Adding value -787828388
+
+187 Adding value 719891630
+
+188 Adding value -193158626
+
+189 Adding value 1889813605
+
+190 Adding value -1875624895
+
+191 Adding value -288948322
+
+192 Adding value -1214741608
+
+193 Adding value -1825463349
+
+194 Adding value 810166832
+
+195 Adding value 797980780
+
+196 Adding value 22837870
+
+197 Adding value -654521874
+
+198 Adding value 82010245
+
+199 Adding value 1526894175
+
+200 Adding value -1787232042
+
+201 Adding value -384093918
+
+202 Adding value -441730913
+
+203 Adding value 123139613
+
+204 Adding value -2115481085
+
+205 Adding value -840475611
+
+206 Adding value 2029121728
+
+207 Adding value 1060038986
+
+208 Adding value -1643642008
+
+209 Adding value -1170835598
+
+210 Adding value -607563101
+
+211 Adding value 1359782990
+
+212 Adding value 805010965
+
+213 Adding value -67178147
+
+214 Adding value 785449511
+
+215 Adding value -219375972
+
+216 Adding value 948931480
+
+217 Adding value -290491475
+
+218 Adding value -352255395
+
+219 Adding value -189634161
+
+220 Adding value -1164426383
+
+221 Adding value 943742890
+
+222 Adding value 1734219117
+
+223 Adding value -1726940830
+
+224 Adding value 285715357
+
+225 Adding value 365445588
+
+226 Adding value -1908135154
+
+227 Adding value 698532475
+
+228 Adding value 699214272
+
+229 Adding value 305960791
+
+230 Adding value 886747807
+
+231 Adding value 1635442712
+
+232 Adding value 960952629
+
+233 Adding value 575595067
+
+234 Adding value -914358376
+
+235 Adding value -148467849
+
+236 Adding value 1183652373
+
+237 Adding value 1636575444
+
+238 Adding value -10776012
+
+239 Adding value 342059909
+
+240 Adding value -1073272979
+
+241 Adding value -1617288647
+
+242 Adding value 159676838
+
+243 Adding value 145443722
+
+244 Adding value -1334953757
+
+245 Adding value 1848610201
+
+246 Adding value -753542132
+
+247 Adding value -1245018984
+
+248 Adding value 1072459061
+
+249 Adding value -974992143
+
+250 Adding value -1714607469
+
+251 Adding value -1745192440
+
+252 Adding value -1720426327
+
+253 Adding value -380002992
+
+254 Adding value -576579536
+
+255 Adding value 721262334
+
+256 Adding value -547882618
+
+257 Adding value -667637828
+
+258 Adding value 0
+
+259 Adding value -667633195
+
+260 Adding value -547875352
+
+261 Adding value 721297094
+
+262 Adding value -576592103
+
+263 Adding value -379965173
+
+264 Adding value -1720433494
+
+265 Adding value -1745171542
+
+266 Adding value -1714626937
+
+267 Adding value -975003213
+
+268 Adding value 1072463067
+
+269 Adding value -1245018033
+
+270 Adding value -753527140
+
+271 Adding value 1848613616
+
+272 Adding value -1335011564
+
+273 Adding value 145444429
+
+274 Adding value 159676654
+
+275 Adding value -1617283982
+
+276 Adding value -1073260495
+
+277 Adding value 342055720
+
+278 Adding value -10770101
+
+279 Adding value 1636579498
+
+280 Adding value 1183647403
+
+281 Adding value -148463627
+
+282 Adding value -914359831
+
+283 Adding value 575609404
+
+284 Adding value 960970693
+
+285 Adding value 1635409737
+
+286 Adding value 886745062
+
+287 Adding value 305960378
+
+288 Adding value 699210681
+
+289 Adding value 698533327
+
+290 Adding value -1908123656
+
+291 Adding value 365437332
+
+292 Adding value 285713591
+
+293 Adding value -1726940202
+
+294 Adding value 1734216938
+
+295 Adding value 943736189
+
+296 Adding value -1164425487
+
+297 Adding value -189634857
+
+298 Adding value -352252042
+
+299 Adding value -290490312
+
+300 Adding value 948931556
+
+301 Adding value -219373922
+
+302 Adding value 785451542
+
+303 Adding value -67179399
+
+304 Adding value 805014312
+
+305 Adding value 1359783844
+
+306 Adding value -607564884
+
+307 Adding value -1170835836
+
+308 Adding value -1643641894
+
+309 Adding value 1060031512
+
+310 Adding value 2029120742
+
+311 Adding value -840469919
+
+312 Adding value -2115481532
+
+313 Adding value 123139740
+
+314 Adding value -441730970
+
+315 Adding value -384093156
+
+316 Adding value -1787233309
+
+317 Adding value 1526895808
+
+318 Adding value 82010606
+
+319 Adding value -654521142
+
+320 Adding value 22837438
+
+321 Adding value 797979169
+
+322 Adding value 810171853
+
+323 Adding value -1825463031
+
+324 Adding value -1214742097
+
+325 Adding value -288943811
+
+326 Adding value -1875623728
+
+327 Adding value 1889814168
+
+328 Adding value -193157713
+
+329 Adding value 719893312
+
+330 Adding value -787830613
+
+331 Adding value 1271058551
+
+332 Adding value -528356037
+
+333 Adding value 512074203
+
+334 Adding value 1610094798
+
+335 Adding value 1929679910
+
+336 Adding value 408710580
+
+337 Adding value -1807110568
+
+338 Adding value -879776592
+
+339 Adding value 1653310562
+
+340 Adding value -700180395
+
+341 Adding value -1223346403
+
+342 Adding value 1900861242
+
+343 Adding value -61164464
+
+344 Adding value 1504917156
+
+345 Adding value 1913969280
+
+346 Adding value -126768719
+
+347 Adding value 298872815
+
+348 Adding value 1263458635
+
+349 Adding value -1687061478
+
+350 Adding value -908455338
+
+351 Adding value 90169853
+
+352 Adding value 335287621
+
+353 Adding value 205569116
+
+354 Adding value -775558717
+
+355 Adding value 1457209397
+
+356 Adding value -41870008
+
+357 Adding value -1785826372
+
+358 Adding value -987204911
+
+359 Adding value 1019988374
+
+360 Adding value -1581297192
+
+361 Adding value 948859781
+
+362 Adding value -2130404665
+
+363 Adding value 2035122823
+
+364 Adding value 1943843416
+
+365 Adding value 1703880157
+
+366 Adding value -1389152163
+
+367 Adding value 1157974724
+
+368 Adding value 1876240822
+
+369 Adding value 52308926
+
+370 Adding value 1631897461
+
+371 Adding value 179792315
+
+372 Adding value 1153429636
+
+373 Adding value 1281235495
+
+374 Adding value 1182861235
+
+375 Adding value -1586546894
+
+376 Adding value 1748016796
+
+377 Adding value -1458941607
+
+378 Adding value 1200335125
+
+379 Adding value 1971646093
+
+380 Adding value 175647742
+
+381 Adding value 1475970289
+
+382 Adding value -894995391
+
+383 Adding value -1179483029
+
+384 Adding value -548623940
+
+385 Adding value -721199100
+
+386 Adding value -2138075701
+
+387 Adding value -251433026
+
+388 Adding value 2057129995
+
+389 Adding value 364914347
+
+390 Adding value -942524162
+
+391 Adding value -1218087147
+
+392 Adding value -124022877
+
+393 Adding value -1548406861
+
+394 Adding value -1260915112
+
+395 Adding value 139315678
+
+396 Adding value -2006536020
+
+397 Adding value -1460910548
+
+398 Adding value -1004222299
+
+399 Adding value -1038146473
+
+400 Adding value -1461951449
+
+401 Adding value 1197857530
+
+402 Adding value -463034243
+
+403 Adding value 143641177
+
+404 Adding value 2062314802
+
+405 Adding value -57999654
+
+406 Adding value -1873903078
+
+407 Adding value 701646053
+
+408 Adding value 745456737
+
+409 Adding value 2038430817
+
+410 Adding value 257418215
+
+411 Adding value 1169626011
+
+412 Adding value -1265746427
+
+413 Adding value 1397385409
+
+414 Adding value 1122664796
+
+415 Adding value -1124592053
+
+416 Adding value -1061109031
+
+417 Adding value 1827712539
+
+418 Adding value 1971431284
+
+419 Adding value -798718497
+
+420 Adding value -832202050
+
+421 Adding value 1515761352
+
+422 Adding value 1243038750
+
+423 Adding value 1743921628
+
+424 Adding value -454209437
+
+425 Adding value 1371826078
+
+426 Adding value 2140842840
+
+427 Adding value -2038384738
+
+428 Adding value 1730129519
+
+429 Adding value 1578277589
+
+430 Adding value 973176514
+
+431 Adding value -1091251946
+
+432 Adding value -788547986
+
+433 Adding value -1949980314
+
+434 Adding value 2090076971
+
+435 Adding value -994550006
+
+436 Adding value 2048096614
+
+437 Adding value -1359783130
+
+438 Adding value 753945523
+
+439 Adding value -1618722786
+
+440 Adding value 1749391136
+
+441 Adding value 259894345
+
+442 Adding value -804002317
+
+443 Adding value -1944486409
+
+444 Adding value -472222846
+
+445 Adding value 1348833448
+
+446 Adding value 1710187785
+
+447 Adding value 127580156
+
+448 Adding value 964397580
+
+449 Adding value -626409204
+
+450 Adding value 935570499
+
+451 Adding value 1613212742
+
+452 Adding value 384179557
+
+453 Adding value 498702250
+
+454 Adding value -1425695972
+
+455 Adding value -653672589
+
+456 Adding value -709029675
+
+457 Adding value 1463109812
+
+458 Adding value 1747979704
+
+459 Adding value 656045932
+
+460 Adding value 245406318
+
+461 Adding value -2036458708
+
+462 Adding value -1052718915
+
+463 Adding value 238692345
+
+464 Adding value 1171846948
+
+465 Adding value 1890985678
+
+466 Adding value 282440009
+
+467 Adding value -1983812080
+
+468 Adding value -218454430
+
+469 Adding value -879885001
+
+470 Adding value 685226670
+
+471 Adding value 1502251411
+
+472 Adding value -2106073628
+
+473 Adding value 760073057
+
+474 Adding value -374690358
+
+475 Adding value 563598705
+
+476 Adding value 1098081400
+
+477 Adding value 1970643088
+
+478 Adding value -1587747180
+
+479 Adding value 108995283
+
+480 Adding value -150855756
+
+481 Adding value 1168118042
+
+482 Adding value 1280365770
+
+483 Adding value -1228683947
+
+484 Adding value 1269727407
+
+485 Adding value 1610466598
+
+486 Adding value 973500728
+
+487 Adding value 475096387
+
+488 Adding value 1037122058
+
+489 Adding value 1318468937
+
+490 Adding value -612724020
+
+491 Adding value 1645554600
+
+492 Adding value -1951438888
+
+493 Adding value -1109098798
+
+494 Adding value 1037454316
+
+495 Adding value -1128060043
+
+496 Adding value -1265088431
+
+497 Adding value 1945504230
+
+498 Adding value -634459735
+
+499 Adding value 182775471
+
+500 Adding value 855787375
+
+501 Adding value 1428066725
+
+502 Adding value -556248229
+
+503 Adding value 10005225
+
+504 Adding value 663101855
+
+505 Adding value 638641581
+
+506 Adding value 1149992980
+
+507 Adding value -211017342
+
+508 Adding value 608735654
+
+509 Adding value 1768215780
+
+510 Adding value 1068555699
+
+511 Adding value -1026051408
+
+512 Adding value -219576823
+
+513 Adding value 881399692
+
+Freq | 0.00 | -8.74 | -8.73 | 4475.91
+Freq | 0.98 | -8.74 | -8.73 | 0.42
+Freq | 1.95 | -8.74 | -8.73 | 0.22
+Freq | 2.93 | -8.74 | -8.74 | 1.17
+Freq | 3.91 | -8.74 | -8.74 | 0.66
+Freq | 4.88 | -8.73 | -8.73 | 0.84
+Freq | 5.86 | -8.73 | -8.73 | 1.22
+Freq | 6.84 | -8.73 | -8.73 | 0.48
+Freq | 7.81 | -8.73 | -8.73 | 0.79
+Freq | 8.79 | -8.73 | -8.74 | 0.41
+Freq | 9.77 | -8.74 | -8.74 | 0.67
+Freq | 10.74 | -8.73 | -8.74 | 0.13
+Freq | 11.72 | -8.73 | -8.74 | 0.92
+Freq | 12.70 | -8.73 | -8.74 | 0.32
+Freq | 13.67 | -8.73 | -8.73 | 0.66
+Freq | 14.65 | -8.73 | -8.74 | 0.07
+Freq | 15.63 | -8.74 | -8.74 | 0.54
+Freq | 16.60 | -8.74 | -8.74 | 0.34
+Freq | 17.58 | -8.74 | -8.74 | 0.20
+Freq | 18.55 | -8.74 | -8.75 | 0.42
+Freq | 19.53 | -8.74 | -8.75 | 0.26
+Freq | 20.51 | -8.74 | -8.74 | 0.18
+Freq | 21.48 | -8.74 | -8.74 | 0.37
+Freq | 22.46 | -8.75 | -8.74 | 0.20
+Freq | 23.44 | -8.75 | -8.74 | 0.20
+Freq | 24.41 | -8.75 | -8.74 | 0.21
+Freq | 25.39 | -8.75 | -8.74 | 0.42
+Freq | 26.37 | -8.74 | -8.74 | 0.18
+Freq | 27.34 | -8.75 | -8.74 | 0.13
+Freq | 28.32 | -8.75 | -8.74 | 0.18
+Freq | 29.30 | -8.75 | -8.74 | 0.09
+Freq | 30.27 | -8.75 | -8.74 | 0.14
+Freq | 31.25 | -8.75 | -8.74 | 0.25
+Freq | 32.23 | -8.75 | -8.74 | 0.17
+Freq | 33.20 | -8.75 | -8.74 | 0.18
+Freq | 34.18 | -8.74 | -8.74 | 0.12
+Freq | 35.16 | -8.74 | -8.74 | 0.24
+Freq | 36.13 | -8.74 | -8.75 | 0.33
+Freq | 37.11 | -8.74 | -8.75 | 0.04
+Freq | 38.09 | -8.74 | -8.75 | 0.12
+Freq | 39.06 | -8.74 | -8.74 | 0.19
+Freq | 40.04 | -8.75 | -8.74 | 0.15
+Freq | 41.02 | -8.75 | -8.74 | 0.12
+Freq | 41.99 | -8.74 | -8.74 | 0.09
+Freq | 42.97 | -8.75 | -8.74 | 0.06
+Freq | 43.95 | -8.75 | -8.74 | 0.05
+Freq | 44.92 | -8.74 | -8.74 | 0.16
+Freq | 45.90 | -8.74 | -8.73 | 0.04
+Freq | 46.88 | -8.73 | -8.73 | 0.16
+Freq | 47.85 | -8.73 | -8.73 | 0.03
+Freq | 48.83 | -8.73 | -8.74 | 0.01
+Freq | 49.80 | -8.73 | -8.74 | 0.17
+Freq | 50.78 | -8.73 | -8.75 | 0.07
+Freq | 51.76 | -8.74 | -8.75 | 0.14
+Freq | 52.73 | -8.74 | -8.75 | 0.12
+Freq | 53.71 | -8.74 | -8.75 | 0.06
+Freq | 54.69 | -8.74 | -8.75 | 0.14
+Freq | 55.66 | -8.74 | -8.75 | 0.08
+Freq | 56.64 | -8.75 | -8.75 | 0.16
+Freq | 57.62 | -8.75 | -8.75 | 0.07
+Freq | 58.59 | -8.75 | -8.75 | 0.04
+Freq | 59.57 | -8.76 | -8.75 | 0.07
+Freq | 60.55 | -8.75 | -8.75 | 0.01
+Freq | 61.52 | -8.75 | -8.76 | 0.08
+Freq | 62.50 | -8.76 | -8.76 | 0.11
+Freq | 63.48 | -8.76 | -8.76 | 0.05
+Freq | 64.45 | -8.76 | -8.76 | 0.07
+Freq | 65.43 | -8.76 | -8.76 | 0.10
+Freq | 66.41 | -8.76 | -8.76 | 0.05
+Freq | 67.38 | -8.75 | -8.76 | 0.05
+Freq | 68.36 | -8.75 | -8.76 | 0.07
+Freq | 69.34 | -8.75 | -8.76 | 0.08
+Freq | 70.31 | -8.75 | -8.75 | 0.13
+Freq | 71.29 | -8.75 | -8.75 | 0.03
+Freq | 72.27 | -8.75 | -8.75 | 0.11
+Freq | 73.24 | -8.74 | -8.75 | 0.04
+Freq | 74.22 | -8.74 | -8.75 | 0.09
+Freq | 75.20 | -8.74 | -8.76 | 0.04
+Freq | 76.17 | -8.74 | -8.75 | 0.02
+Freq | 77.15 | -8.73 | -8.75 | 0.03
+Freq | 78.12 | -8.73 | -8.75 | 0.12
+Freq | 79.10 | -8.73 | -8.75 | 0.11
+Freq | 80.08 | -8.73 | -8.75 | 0.05
+Freq | 81.05 | -8.73 | -8.74 | 0.06
+Freq | 82.03 | -8.73 | -8.74 | 0.12
+Freq | 83.01 | -8.73 | -8.73 | 0.04
+Freq | 83.98 | -8.73 | -8.73 | 0.03
+Freq | 84.96 | -8.73 | -8.73 | 0.05
+Freq | 85.94 | -8.73 | -8.73 | 0.11
+Freq | 86.91 | -8.72 | -8.73 | 0.00
+Freq | 87.89 | -8.72 | -8.73 | 0.05
+Freq | 88.87 | -8.72 | -8.73 | 0.06
+Freq | 89.84 | -8.72 | -8.73 | 0.12
+Freq | 90.82 | -8.73 | -8.73 | 0.04
+Freq | 91.80 | -8.73 | -8.73 | 0.06
+Freq | 92.77 | -8.73 | -8.74 | 0.04
+Freq | 93.75 | -8.73 | -8.74 | 0.06
+Freq | 94.73 | -8.73 | -8.74 | 0.10
+Freq | 95.70 | -8.74 | -8.74 | 0.05
+Freq | 96.68 | -8.74 | -8.74 | 0.07
+Freq | 97.66 | -8.74 | -8.74 | 0.01
+Freq | 98.63 | -8.74 | -8.74 | 0.04
+Freq | 99.61 | -8.73 | -8.74 | 0.05
+Freq | 100.59 | -8.73 | -8.74 | 0.01
+Freq | 101.56 | -8.73 | -8.74 | 0.06
+Freq | 102.54 | -8.73 | -8.74 | 0.05
+Freq | 103.52 | -8.73 | -8.74 | 0.03
+Freq | 104.49 | -8.73 | -8.75 | 0.07
+Freq | 105.47 | -8.73 | -8.75 | 0.06
+Freq | 106.45 | -8.73 | -8.76 | 0.04
+Freq | 107.42 | -8.73 | -8.75 | 0.04
+Freq | 108.40 | -8.73 | -8.75 | 0.06
+Freq | 109.37 | -8.73 | -8.75 | 0.03
+Freq | 110.35 | -8.73 | -8.75 | 0.04
+Freq | 111.33 | -8.74 | -8.75 | 0.04
+Freq | 112.30 | -8.74 | -8.75 | 0.04
+Freq | 113.28 | -8.73 | -8.75 | 0.06
+Freq | 114.26 | -8.73 | -8.76 | 0.02
+Freq | 115.23 | -8.73 | -8.75 | 0.04
+Freq | 116.21 | -8.73 | -8.75 | 0.02
+Freq | 117.19 | -8.73 | -8.75 | 0.03
+Freq | 118.16 | -8.74 | -8.76 | 0.03
+Freq | 119.14 | -8.73 | -8.75 | 0.07
+Freq | 120.12 | -8.73 | -8.75 | 0.03
+Freq | 121.09 | -8.73 | -8.75 | 0.04
+Freq | 122.07 | -8.74 | -8.75 | 0.06
+Freq | 123.05 | -8.74 | -8.75 | 0.03
+Freq | 124.02 | -8.73 | -8.75 | 0.06
+Freq | 125.00 | -8.73 | -8.75 | 0.02
+Freq | 125.98 | -8.73 | -8.75 | 0.03
+Freq | 126.95 | -8.73 | -8.74 | 0.04
+Freq | 127.93 | -8.74 | -8.75 | 0.08
+Freq | 128.91 | -8.74 | -8.75 | 0.02
+Freq | 129.88 | -8.74 | -8.75 | 0.05
+Freq | 130.86 | -8.73 | -8.75 | 0.07
+Freq | 131.84 | -8.74 | -8.75 | 0.03
+Freq | 132.81 | -8.74 | -8.75 | 0.03
+Freq | 133.79 | -8.74 | -8.76 | 0.04
+Freq | 134.77 | -8.75 | -8.76 | 0.04
+Freq | 135.74 | -8.75 | -8.76 | 0.02
+Freq | 136.72 | -8.75 | -8.76 | 0.02
+Freq | 137.70 | -8.75 | -8.76 | 0.02
+Freq | 138.67 | -8.75 | -8.75 | 0.05
+Freq | 139.65 | -8.75 | -8.75 | 0.02
+Freq | 140.62 | -8.75 | -8.75 | 0.04
+Freq | 141.60 | -8.75 | -8.75 | 0.03
+Freq | 142.58 | -8.75 | -8.75 | 0.00
+Freq | 143.55 | -8.75 | -8.74 | 0.03
+Freq | 144.53 | -8.75 | -8.74 | 0.03
+Freq | 145.51 | -8.75 | -8.74 | 0.01
+Freq | 146.48 | -8.75 | -8.73 | 0.06
+Freq | 147.46 | -8.75 | -8.73 | 0.04
+Freq | 148.44 | -8.75 | -8.73 | 0.03
+Freq | 149.41 | -8.75 | -8.73 | 0.02
+Freq | 150.39 | -8.75 | -8.73 | 0.04
+Freq | 151.37 | -8.75 | -8.73 | 0.05
+Freq | 152.34 | -8.75 | -8.73 | 0.04
+Freq | 153.32 | -8.75 | -8.73 | 0.05
+Freq | 154.30 | -8.75 | -8.74 | 0.03
+Freq | 155.27 | -8.75 | -8.74 | 0.02
+Freq | 156.25 | -8.75 | -8.74 | 0.06
+Freq | 157.23 | -8.75 | -8.75 | 0.01
+Freq | 158.20 | -8.76 | -8.74 | 0.01
+Freq | 159.18 | -8.76 | -8.74 | 0.02
+Freq | 160.16 | -8.75 | -8.74 | 0.03
+Freq | 161.13 | -8.75 | -8.74 | 0.01
+Freq | 162.11 | -8.75 | -8.74 | 0.02
+Freq | 163.09 | -8.75 | -8.74 | 0.03
+Freq | 164.06 | -8.75 | -8.74 | 0.03
+Freq | 165.04 | -8.75 | -8.74 | 0.03
+Freq | 166.02 | -8.74 | -8.73 | 0.03
+Freq | 166.99 | -8.75 | -8.73 | 0.02
+Freq | 167.97 | -8.75 | -8.73 | 0.01
+Freq | 168.95 | -8.75 | -8.73 | 0.01
+Freq | 169.92 | -8.75 | -8.73 | 0.02
+Freq | 170.90 | -8.75 | -8.73 | 0.03
+Freq | 171.87 | -8.75 | -8.73 | 0.03
+Freq | 172.85 | -8.74 | -8.72 | 0.03
+Freq | 173.83 | -8.74 | -8.72 | 0.05
+Freq | 174.80 | -8.74 | -8.72 | 0.05
+Freq | 175.78 | -8.74 | -8.72 | 0.01
+Freq | 176.76 | -8.75 | -8.72 | 0.02
+Freq | 177.73 | -8.75 | -8.72 | 0.04
+Freq | 178.71 | -8.75 | -8.72 | 0.04
+Freq | 179.69 | -8.75 | -8.73 | 0.03
+Freq | 180.66 | -8.75 | -8.73 | 0.02
+Freq | 181.64 | -8.75 | -8.73 | 0.03
+Freq | 182.62 | -8.75 | -8.73 | 0.02
+Freq | 183.59 | -8.74 | -8.73 | 0.03
+Freq | 184.57 | -8.74 | -8.73 | 0.01
+Freq | 185.55 | -8.74 | -8.74 | 0.02
+Freq | 186.52 | -8.74 | -8.74 | 0.03
+Freq | 187.50 | -8.74 | -8.75 | 0.01
+Freq | 188.48 | -8.74 | -8.75 | 0.02
+Freq | 189.45 | -8.74 | -8.75 | 0.01
+Freq | 190.43 | -8.74 | -8.75 | 0.01
+Freq | 191.41 | -8.74 | -8.75 | 0.02
+Freq | 192.38 | -8.74 | -8.75 | 0.02
+Freq | 193.36 | -8.74 | -8.75 | 0.04
+Freq | 194.34 | -8.75 | -8.74 | 0.02
+Freq | 195.31 | -8.75 | -8.75 | 0.05
+Freq | 196.29 | -8.75 | -8.74 | 0.03
+Freq | 197.27 | -8.75 | -8.75 | 0.04
+Freq | 198.24 | -8.76 | -8.75 | 0.01
+Freq | 199.22 | -8.75 | -8.75 | 0.03
+Freq | 200.20 | -8.75 | -8.75 | 0.02
+Freq | 201.17 | -8.75 | -8.75 | 0.04
+Freq | 202.15 | -8.75 | -8.75 | 0.03
+Freq | 203.12 | -8.74 | -8.75 | 0.03
+Freq | 204.10 | -8.75 | -8.75 | 0.02
+Freq | 205.08 | -8.75 | -8.75 | 0.03
+Freq | 206.05 | -8.75 | -8.75 | 0.03
+Freq | 207.03 | -8.75 | -8.75 | 0.01
+Freq | 208.01 | -8.75 | -8.75 | 0.02
+Freq | 208.98 | -8.75 | -8.75 | 0.04
+Freq | 209.96 | -8.74 | -8.75 | 0.03
+Freq | 210.94 | -8.74 | -8.75 | 0.03
+Freq | 211.91 | -8.74 | -8.75 | 0.02
+Freq | 212.89 | -8.74 | -8.75 | 0.03
+Freq | 213.87 | -8.74 | -8.75 | 0.02
+Freq | 214.84 | -8.74 | -8.75 | 0.01
+Freq | 215.82 | -8.75 | -8.75 | 0.04
+Freq | 216.80 | -8.75 | -8.75 | 0.03
+Freq | 217.77 | -8.75 | -8.75 | 0.01
+Freq | 218.75 | -8.75 | -8.75 | 0.01
+Freq | 219.73 | -8.74 | -8.75 | 0.05
+Freq | 220.70 | -8.74 | -8.74 | 0.01
+Freq | 221.68 | -8.74 | -8.74 | 0.02
+Freq | 222.66 | -8.73 | -8.74 | 0.02
+Freq | 223.63 | -8.73 | -8.74 | 0.00
+Freq | 224.61 | -8.74 | -8.74 | 0.01
+Freq | 225.59 | -8.74 | -8.74 | 0.01
+Freq | 226.56 | -8.74 | -8.74 | 0.03
+Freq | 227.54 | -8.74 | -8.74 | 0.01
+Freq | 228.52 | -8.73 | -8.74 | 0.02
+Freq | 229.49 | -8.74 | -8.74 | 0.02
+Freq | 230.47 | -8.74 | -8.74 | 0.02
+Freq | 231.45 | -8.74 | -8.74 | 0.05
+Freq | 232.42 | -8.74 | -8.75 | 0.00
+Freq | 233.40 | -8.74 | -8.75 | 0.02
+Freq | 234.37 | -8.73 | -8.74 | 0.03
+Freq | 235.35 | -8.73 | -8.74 | 0.04
+Freq | 236.33 | -8.73 | -8.74 | 0.01
+Freq | 237.30 | -8.73 | -8.74 | 0.04
+Freq | 238.28 | -8.73 | -8.74 | 0.02
+Freq | 239.26 | -8.73 | -8.73 | 0.05
+Freq | 240.23 | -8.73 | -8.73 | 0.04
+Freq | 241.21 | -8.73 | -8.73 | 0.01
+Freq | 242.19 | -8.73 | -8.74 | 0.01
+Freq | 243.16 | -8.73 | -8.74 | 0.01
+Freq | 244.14 | -8.74 | -8.74 | 0.03
+Freq | 245.12 | -8.74 | -8.74 | 0.01
+Freq | 246.09 | -8.74 | -8.74 | 0.02
+Freq | 247.07 | -8.74 | -8.74 | 0.00
+Freq | 248.05 | -8.74 | -8.74 | 0.02
+Freq | 249.02 | -8.74 | -8.74 | 0.03
+Peaks: 0.00 0.00 0.00 0.00 0.00 
+Loop | 2
+2 Adding value 1684432486
+
+3 Adding value 1847516639
+
+4 Adding value -24238831
+
+5 Adding value 880255351
+
+6 Adding value -2109931785
+
+7 Adding value -354999505
+
+8 Adding value -427961542
+
+9 Adding value -1878621316
+
+10 Adding value -1592299192
+
+11 Adding value -375468618
+
+12 Adding value -290754524
+
+13 Adding value -1171587938
+
+14 Adding value 420150036
+
+15 Adding value -921826940
+
+16 Adding value 188233164
+
+17 Adding value 1551547348
+
+18 Adding value -500644287
+
+19 Adding value 317264271
+
+20 Adding value 1813536000
+
+21 Adding value -711999486
+
+22 Adding value 1051945118
+
+23 Adding value -2072961260
+
+24 Adding value 8441528
+
+25 Adding value 2131675257
+
+26 Adding value 514496285
+
+27 Adding value 441707017
+
+28 Adding value 1741820736
+
+29 Adding value -1251694673
+
+30 Adding value -1903528209
+
+31 Adding value -2020926491
+
+32 Adding value 1053809502
+
+33 Adding value -1626999635
+
+34 Adding value 559038869
+
+35 Adding value 670916457
+
+36 Adding value 1466287091
+
+37 Adding value 2118783270
+
+38 Adding value 2037900425
+
+39 Adding value 1672943783
+
+40 Adding value 1708124049
+
+41 Adding value -596717510
+
+42 Adding value -847552439
+
+43 Adding value 1400017149
+
+44 Adding value -1601875390
+
+45 Adding value -1037942487
+
+46 Adding value 1967769450
+
+47 Adding value 1203595483
+
+48 Adding value 89133322
+
+49 Adding value -1321312031
+
+50 Adding value -1469181092
+
+51 Adding value 56847871
+
+52 Adding value -18926995
+
+53 Adding value -794328906
+
+54 Adding value 1215609994
+
+55 Adding value 1938120844
+
+56 Adding value 367544527
+
+57 Adding value -1477058514
+
+58 Adding value 1208776202
+
+59 Adding value 9174074
+
+60 Adding value -84185506
+
+61 Adding value -2029966168
+
+62 Adding value -783080
+
+63 Adding value -1093213383
+
+64 Adding value -109315157
+
+65 Adding value -429369233
+
+66 Adding value 1827997736
+
+67 Adding value 1333321163
+
+68 Adding value -1730816022
+
+69 Adding value 1996311941
+
+70 Adding value -1025683579
+
+71 Adding value 385170592
+
+72 Adding value -1026254067
+
+73 Adding value -425776094
+
+74 Adding value -1412782879
+
+75 Adding value -1057219581
+
+76 Adding value 1414681962
+
+77 Adding value -1753925026
+
+78 Adding value -1792778631
+
+79 Adding value 771597839
+
+80 Adding value 518205470
+
+81 Adding value 2120172177
+
+82 Adding value 725449854
+
+83 Adding value -2085234959
+
+84 Adding value -328068617
+
+85 Adding value 342796637
+
+86 Adding value 462693757
+
+87 Adding value -1266863868
+
+88 Adding value -752871284
+
+89 Adding value 1631930369
+
+90 Adding value 1896989576
+
+91 Adding value 500974339
+
+92 Adding value -609330218
+
+93 Adding value 887006492
+
+94 Adding value 1133401918
+
+95 Adding value -1147941038
+
+96 Adding value 603432250
+
+97 Adding value 83217533
+
+98 Adding value 972011240
+
+99 Adding value -1900804477
+
+100 Adding value 428094878
+
+101 Adding value -1594951249
+
+102 Adding value -295773454
+
+103 Adding value -294834982
+
+104 Adding value 997337339
+
+105 Adding value 1841388935
+
+106 Adding value -1644584590
+
+107 Adding value 1017142096
+
+108 Adding value -1443592802
+
+109 Adding value -445727017
+
+110 Adding value 63350246
+
+111 Adding value -1848426322
+
+112 Adding value 322547955
+
+113 Adding value -252346965
+
+114 Adding value 391919849
+
+115 Adding value 472608086
+
+116 Adding value -43090371
+
+117 Adding value -735780582
+
+118 Adding value 1254537284
+
+119 Adding value -177150153
+
+120 Adding value -1388019908
+
+121 Adding value 1626247051
+
+122 Adding value 1030313867
+
+123 Adding value -444391343
+
+124 Adding value -1960527040
+
+125 Adding value -1578171185
+
+126 Adding value 260069564
+
+127 Adding value -475536092
+
+128 Adding value -975017241
+
+129 Adding value -1920456641
+
+130 Adding value -1640408211
+
+131 Adding value 198669119
+
+132 Adding value 593274038
+
+133 Adding value -1009370116
+
+134 Adding value -395124838
+
+135 Adding value 1189460329
+
+136 Adding value -1514517859
+
+137 Adding value -2055909410
+
+138 Adding value -1520202530
+
+139 Adding value 1954287982
+
+140 Adding value 145940692
+
+141 Adding value -366313890
+
+142 Adding value -1509729725
+
+143 Adding value 1879803602
+
+144 Adding value 746505828
+
+145 Adding value -517566373
+
+146 Adding value -1572743616
+
+147 Adding value 1852318471
+
+148 Adding value -778198199
+
+149 Adding value -929017794
+
+150 Adding value 1828433136
+
+151 Adding value 1418414210
+
+152 Adding value -1433448604
+
+153 Adding value 1818346529
+
+154 Adding value 179205972
+
+155 Adding value 27814758
+
+156 Adding value 754605662
+
+157 Adding value -559581007
+
+158 Adding value -748825584
+
+159 Adding value 344116370
+
+160 Adding value 1229239626
+
+161 Adding value 1246886612
+
+162 Adding value 723542373
+
+163 Adding value -175465572
+
+164 Adding value -1837172265
+
+165 Adding value -1473216415
+
+166 Adding value 1813210552
+
+167 Adding value 386078652
+
+168 Adding value 2029335727
+
+169 Adding value 35321144
+
+170 Adding value 582605708
+
+171 Adding value 1743356684
+
+172 Adding value 1204042086
+
+173 Adding value 472404970
+
+174 Adding value -637834174
+
+175 Adding value -1272867237
+
+176 Adding value -1920482748
+
+177 Adding value -1219992796
+
+178 Adding value -681125398
+
+179 Adding value 946877850
+
+180 Adding value 1807416194
+
+181 Adding value 2135174661
+
+182 Adding value 1153623580
+
+183 Adding value -312292815
+
+184 Adding value 1918844686
+
+185 Adding value -906927093
+
+186 Adding value 876509391
+
+187 Adding value -1978649305
+
+188 Adding value 1092866887
+
+189 Adding value 1024535376
+
+190 Adding value 929155611
+
+191 Adding value 997518207
+
+192 Adding value 222762395
+
+193 Adding value 511049316
+
+194 Adding value 969136956
+
+195 Adding value 1943172918
+
+196 Adding value -921632202
+
+197 Adding value -1838213522
+
+198 Adding value -386471820
+
+199 Adding value -2093163559
+
+200 Adding value 2585316
+
+201 Adding value -1463028862
+
+202 Adding value 284065894
+
+203 Adding value -1800201000
+
+204 Adding value -1840385956
+
+205 Adding value -117173214
+
+206 Adding value -191723250
+
+207 Adding value -1741802124
+
+208 Adding value -1177573270
+
+209 Adding value 452744160
+
+210 Adding value 751150556
+
+211 Adding value 447933660
+
+212 Adding value 459228005
+
+213 Adding value -1005215031
+
+214 Adding value -2068419248
+
+215 Adding value 324533699
+
+216 Adding value 193667610
+
+217 Adding value -2007876029
+
+218 Adding value -368992092
+
+219 Adding value 640779712
+
+220 Adding value 2125525980
+
+221 Adding value 2060625811
+
+222 Adding value -110508810
+
+223 Adding value 697079712
+
+224 Adding value 1965754716
+
+225 Adding value 679419760
+
+226 Adding value -1170864970
+
+227 Adding value 1227904127
+
+228 Adding value -1195398054
+
+229 Adding value -557580083
+
+230 Adding value -1468653008
+
+231 Adding value -1258443105
+
+232 Adding value -975141068
+
+233 Adding value -512862590
+
+234 Adding value 868280076
+
+235 Adding value -1840990058
+
+236 Adding value -1286088585
+
+237 Adding value 1103837303
+
+238 Adding value -1532579230
+
+239 Adding value -5719008
+
+240 Adding value 1626361440
+
+241 Adding value -1727498235
+
+242 Adding value -281557152
+
+243 Adding value 1012924442
+
+244 Adding value -1659041388
+
+245 Adding value -84945892
+
+246 Adding value 232095132
+
+247 Adding value 162849209
+
+248 Adding value 1918547027
+
+249 Adding value 866725849
+
+250 Adding value 1044668761
+
+251 Adding value -435118448
+
+252 Adding value -631034871
+
+253 Adding value -1146203050
+
+254 Adding value 664047589
+
+255 Adding value 2088914865
+
+256 Adding value -1698293195
+
+257 Adding value -969029524
+
+258 Adding value 0
+
+259 Adding value -969034434
+
+260 Adding value -1698294203
+
+261 Adding value 2088929371
+
+262 Adding value 664049911
+
+263 Adding value -1146204322
+
+264 Adding value -631041823
+
+265 Adding value -435116303
+
+266 Adding value 1044656382
+
+267 Adding value 866730770
+
+268 Adding value 1918541907
+
+269 Adding value 162849756
+
+270 Adding value 232093543
+
+271 Adding value -84953785
+
+272 Adding value -1659039831
+
+273 Adding value 1012924633
+
+274 Adding value -281557349
+
+275 Adding value -1727498984
+
+276 Adding value 1626358516
+
+277 Adding value -5715923
+
+278 Adding value -1532601058
+
+279 Adding value 1103806242
+
+280 Adding value -1286097360
+
+281 Adding value -1840991925
+
+282 Adding value 868282003
+
+283 Adding value -512862875
+
+284 Adding value -975143083
+
+285 Adding value -1258452479
+
+286 Adding value -1468653472
+
+287 Adding value -557585418
+
+288 Adding value -1195403287
+
+289 Adding value 1227902488
+
+290 Adding value -1170865036
+
+291 Adding value 679418697
+
+292 Adding value 1965749046
+
+293 Adding value 697077706
+
+294 Adding value -110509671
+
+295 Adding value 2060624957
+
+296 Adding value 2125525683
+
+297 Adding value 640779621
+
+298 Adding value -368989611
+
+299 Adding value -2007875486
+
+300 Adding value 193665981
+
+301 Adding value 324533268
+
+302 Adding value -2068419085
+
+303 Adding value -1005215251
+
+304 Adding value 459226912
+
+305 Adding value 447931588
+
+306 Adding value 751151296
+
+307 Adding value 452742970
+
+308 Adding value -1177572709
+
+309 Adding value -1741807542
+
+310 Adding value -191723908
+
+311 Adding value -117171776
+
+312 Adding value -1840384149
+
+313 Adding value -1800198623
+
+314 Adding value 284064282
+
+315 Adding value -1463025833
+
+316 Adding value 2586002
+
+317 Adding value -2093163663
+
+318 Adding value -386470592
+
+319 Adding value -1838215272
+
+320 Adding value -921631472
+
+321 Adding value 1943172668
+
+322 Adding value 969133957
+
+323 Adding value 511050133
+
+324 Adding value 222770653
+
+325 Adding value 997518407
+
+326 Adding value 929152961
+
+327 Adding value 1024531380
+
+328 Adding value 1092864804
+
+329 Adding value -1978647980
+
+330 Adding value 876510606
+
+331 Adding value -906930466
+
+332 Adding value 1918842687
+
+333 Adding value -312289057
+
+334 Adding value 1153623501
+
+335 Adding value 2135174808
+
+336 Adding value 1807415233
+
+337 Adding value 946878290
+
+338 Adding value -681126818
+
+339 Adding value -1219995297
+
+340 Adding value -1920484683
+
+341 Adding value -1272867582
+
+342 Adding value -637834931
+
+343 Adding value 472404696
+
+344 Adding value 1204041415
+
+345 Adding value 1743356706
+
+346 Adding value 582605311
+
+347 Adding value 35320105
+
+348 Adding value 2029336404
+
+349 Adding value 386078360
+
+350 Adding value 1813209528
+
+351 Adding value -1473216942
+
+352 Adding value -1837171939
+
+353 Adding value -175466122
+
+354 Adding value 723543348
+
+355 Adding value 1246886605
+
+356 Adding value 1229240032
+
+357 Adding value 344116352
+
+358 Adding value -748826315
+
+359 Adding value -559581208
+
+360 Adding value 754606122
+
+361 Adding value 27816800
+
+362 Adding value 179236467
+
+363 Adding value 1818348507
+
+364 Adding value -1433448993
+
+365 Adding value 1418416317
+
+366 Adding value 1828432223
+
+367 Adding value -929017478
+
+368 Adding value -778198691
+
+369 Adding value 1852316399
+
+370 Adding value -1572739309
+
+371 Adding value -517564777
+
+372 Adding value 746505872
+
+373 Adding value 1879803186
+
+374 Adding value -1509722887
+
+375 Adding value -366312056
+
+376 Adding value 145940994
+
+377 Adding value 1954287196
+
+378 Adding value -1520201321
+
+379 Adding value -2055909090
+
+380 Adding value -1514517820
+
+381 Adding value 1189460065
+
+382 Adding value -395125548
+
+383 Adding value -1009369898
+
+384 Adding value 593274315
+
+385 Adding value 198670625
+
+386 Adding value -1640407907
+
+387 Adding value -1920457607
+
+388 Adding value -975017202
+
+389 Adding value -475530981
+
+390 Adding value 260069086
+
+391 Adding value -1578172645
+
+392 Adding value -1960527401
+
+393 Adding value -444390666
+
+394 Adding value 1030315292
+
+395 Adding value 1626246756
+
+396 Adding value -1388020142
+
+397 Adding value -177150148
+
+398 Adding value 1254537597
+
+399 Adding value -735781050
+
+400 Adding value -43087645
+
+401 Adding value 472608529
+
+402 Adding value 391919948
+
+403 Adding value -252347025
+
+404 Adding value 322547404
+
+405 Adding value -1848425997
+
+406 Adding value 63349828
+
+407 Adding value -445726790
+
+408 Adding value -1443593004
+
+409 Adding value 1017142094
+
+410 Adding value -1644584201
+
+411 Adding value 1841389145
+
+412 Adding value 997337495
+
+413 Adding value -294835635
+
+414 Adding value -295773512
+
+415 Adding value -1594951538
+
+416 Adding value 428094890
+
+417 Adding value -1900804488
+
+418 Adding value 972011502
+
+419 Adding value 83216832
+
+420 Adding value 603433144
+
+421 Adding value -1147941096
+
+422 Adding value 1133401985
+
+423 Adding value 887005918
+
+424 Adding value -609330080
+
+425 Adding value 500974243
+
+426 Adding value 1896989178
+
+427 Adding value 1631930592
+
+428 Adding value -752871261
+
+429 Adding value -1266863816
+
+430 Adding value 462693399
+
+431 Adding value 342796265
+
+432 Adding value -328068669
+
+433 Adding value -2085235067
+
+434 Adding value 725449706
+
+435 Adding value 2120171255
+
+436 Adding value 518205309
+
+437 Adding value 771597678
+
+438 Adding value -1792780023
+
+439 Adding value -1753924995
+
+440 Adding value 1414682044
+
+441 Adding value -1057219623
+
+442 Adding value -1412782913
+
+443 Adding value -425775811
+
+444 Adding value -1026254240
+
+445 Adding value 385170529
+
+446 Adding value -1025683626
+
+447 Adding value 1996311825
+
+448 Adding value -1730816041
+
+449 Adding value 1333321082
+
+450 Adding value 1827997636
+
+451 Adding value -429369670
+
+452 Adding value -109315119
+
+453 Adding value -1093213693
+
+454 Adding value -783018
+
+455 Adding value -2029966863
+
+456 Adding value -84185497
+
+457 Adding value 9174086
+
+458 Adding value 1208775714
+
+459 Adding value -1477058503
+
+460 Adding value 367544461
+
+461 Adding value 1938120960
+
+462 Adding value 1215609966
+
+463 Adding value -794328978
+
+464 Adding value -18926377
+
+465 Adding value 56847406
+
+466 Adding value -1469180856
+
+467 Adding value -1321312099
+
+468 Adding value 89133400
+
+469 Adding value 1203595439
+
+470 Adding value 1967769300
+
+471 Adding value -1037942507
+
+472 Adding value -1601875671
+
+473 Adding value 1400017182
+
+474 Adding value -847552236
+
+475 Adding value -596717460
+
+476 Adding value 1708124007
+
+477 Adding value 1672943736
+
+478 Adding value 2037900396
+
+479 Adding value 2118782940
+
+480 Adding value 1466287057
+
+481 Adding value 670916265
+
+482 Adding value 559038629
+
+483 Adding value -1626999710
+
+484 Adding value 1053809465
+
+485 Adding value -2020926557
+
+486 Adding value -1903528229
+
+487 Adding value -1251694750
+
+488 Adding value 1741820543
+
+489 Adding value 441706990
+
+490 Adding value 514496286
+
+491 Adding value 2131675126
+
+492 Adding value 8441486
+
+493 Adding value -2072961287
+
+494 Adding value 1051945084
+
+495 Adding value -711999485
+
+496 Adding value 1813535952
+
+497 Adding value 317264293
+
+498 Adding value -500644309
+
+499 Adding value 1551547332
+
+500 Adding value 188233137
+
+501 Adding value -921826975
+
+502 Adding value 420150035
+
+503 Adding value -1171587441
+
+504 Adding value -290754553
+
+505 Adding value -375468623
+
+506 Adding value -1592299228
+
+507 Adding value -1878621183
+
+508 Adding value -427961592
+
+509 Adding value -354999529
+
+510 Adding value -2109931737
+
+511 Adding value 880255338
+
+512 Adding value -24238861
+
+513 Adding value 1847516612
+
+Freq | 0.00 | -8.74 | -8.75 | 4477.37
+Freq | 0.98 | -8.74 | -8.75 | 1.01
+Freq | 1.95 | -8.74 | -8.74 | 0.59
+Freq | 2.93 | -8.74 | -8.74 | 0.65
+Freq | 3.91 | -8.75 | -8.74 | 0.22
+Freq | 4.88 | -8.74 | -8.74 | 0.35
+Freq | 5.86 | -8.74 | -8.74 | 0.40
+Freq | 6.84 | -8.74 | -8.74 | 0.10
+Freq | 7.81 | -8.75 | -8.74 | 1.15
+Freq | 8.79 | -8.75 | -8.74 | 0.40
+Freq | 9.77 | -8.75 | -8.74 | 0.69
+Freq | 10.74 | -8.75 | -8.74 | 0.03
+Freq | 11.72 | -8.75 | -8.74 | 0.24
+Freq | 12.70 | -8.75 | -8.74 | 0.29
+Freq | 13.67 | -8.76 | -8.75 | 0.23
+Freq | 14.65 | -8.76 | -8.74 | 0.51
+Freq | 15.63 | -8.76 | -8.75 | 0.28
+Freq | 16.60 | -8.75 | -8.75 | 0.02
+Freq | 17.58 | -8.76 | -8.75 | 0.35
+Freq | 18.55 | -8.76 | -8.76 | 0.15
+Freq | 19.53 | -8.76 | -8.75 | 0.53
+Freq | 20.51 | -8.76 | -8.75 | 0.35
+Freq | 21.48 | -8.76 | -8.75 | 0.27
+Freq | 22.46 | -8.76 | -8.75 | 0.18
+Freq | 23.44 | -8.76 | -8.75 | 0.24
+Freq | 24.41 | -8.76 | -8.75 | 0.23
+Freq | 25.39 | -8.76 | -8.75 | 0.09
+Freq | 26.37 | -8.76 | -8.75 | 0.23
+Freq | 27.34 | -8.76 | -8.75 | 0.22
+Freq | 28.32 | -8.76 | -8.75 | 0.36
+Freq | 29.30 | -8.76 | -8.75 | 0.19
+Freq | 30.27 | -8.76 | -8.75 | 0.15
+Freq | 31.25 | -8.76 | -8.75 | 0.03
+Freq | 32.23 | -8.75 | -8.75 | 0.10
+Freq | 33.20 | -8.75 | -8.75 | 0.27
+Freq | 34.18 | -8.75 | -8.75 | 0.10
+Freq | 35.16 | -8.75 | -8.74 | 0.14
+Freq | 36.13 | -8.76 | -8.74 | 0.14
+Freq | 37.11 | -8.75 | -8.74 | 0.12
+Freq | 38.09 | -8.75 | -8.74 | 0.05
+Freq | 39.06 | -8.75 | -8.74 | 0.10
+Freq | 40.04 | -8.74 | -8.74 | 0.18
+Freq | 41.02 | -8.74 | -8.74 | 0.08
+Freq | 41.99 | -8.74 | -8.73 | 0.11
+Freq | 42.97 | -8.74 | -8.74 | 0.12
+Freq | 43.95 | -8.74 | -8.74 | 0.23
+Freq | 44.92 | -8.74 | -8.74 | 0.05
+Freq | 45.90 | -8.74 | -8.74 | 0.18
+Freq | 46.88 | -8.74 | -8.73 | 0.07
+Freq | 47.85 | -8.74 | -8.73 | 0.12
+Freq | 48.83 | -8.75 | -8.73 | 0.04
+Freq | 49.80 | -8.75 | -8.73 | 0.25
+Freq | 50.78 | -8.75 | -8.73 | 0.22
+Freq | 51.76 | -8.74 | -8.73 | 0.05
+Freq | 52.73 | -8.74 | -8.74 | 0.10
+Freq | 53.71 | -8.74 | -8.74 | 0.11
+Freq | 54.69 | -8.73 | -8.74 | 0.12
+Freq | 55.66 | -8.73 | -8.73 | 0.14
+Freq | 56.64 | -8.74 | -8.73 | 0.04
+Freq | 57.62 | -8.74 | -8.74 | 0.03
+Freq | 58.59 | -8.74 | -8.74 | 0.13
+Freq | 59.57 | -8.74 | -8.74 | 0.09
+Freq | 60.55 | -8.74 | -8.74 | 0.14
+Freq | 61.52 | -8.74 | -8.74 | 0.07
+Freq | 62.50 | -8.75 | -8.75 | 0.04
+Freq | 63.48 | -8.75 | -8.75 | 0.02
+Freq | 64.45 | -8.75 | -8.74 | 0.14
+Freq | 65.43 | -8.76 | -8.74 | 0.07
+Freq | 66.41 | -8.75 | -8.74 | 0.09
+Freq | 67.38 | -8.75 | -8.74 | 0.10
+Freq | 68.36 | -8.76 | -8.74 | 0.09
+Freq | 69.34 | -8.76 | -8.74 | 0.11
+Freq | 70.31 | -8.76 | -8.75 | 0.10
+Freq | 71.29 | -8.76 | -8.75 | 0.08
+Freq | 72.27 | -8.75 | -8.75 | 0.04
+Freq | 73.24 | -8.75 | -8.75 | 0.09
+Freq | 74.22 | -8.76 | -8.75 | 0.02
+Freq | 75.20 | -8.75 | -8.75 | 0.04
+Freq | 76.17 | -8.75 | -8.75 | 0.08
+Freq | 77.15 | -8.75 | -8.75 | 0.01
+Freq | 78.12 | -8.75 | -8.75 | 0.08
+Freq | 79.10 | -8.75 | -8.75 | 0.09
+Freq | 80.08 | -8.75 | -8.75 | 0.08
+Freq | 81.05 | -8.76 | -8.75 | 0.03
+Freq | 82.03 | -8.75 | -8.75 | 0.08
+Freq | 83.01 | -8.75 | -8.75 | 0.09
+Freq | 83.98 | -8.75 | -8.75 | 0.03
+Freq | 84.96 | -8.75 | -8.75 | 0.05
+Freq | 85.94 | -8.75 | -8.75 | 0.02
+Freq | 86.91 | -8.75 | -8.75 | 0.06
+Freq | 87.89 | -8.75 | -8.76 | 0.09
+Freq | 88.87 | -8.75 | -8.75 | 0.04
+Freq | 89.84 | -8.75 | -8.75 | 0.03
+Freq | 90.82 | -8.75 | -8.75 | 0.09
+Freq | 91.80 | -8.75 | -8.75 | 0.05
+Freq | 92.77 | -8.75 | -8.75 | 0.03
+Freq | 93.75 | -8.75 | -8.75 | 0.04
+Freq | 94.73 | -8.75 | -8.75 | 0.04
+Freq | 95.70 | -8.75 | -8.75 | 0.07
+Freq | 96.68 | -8.74 | -8.75 | 0.05
+Freq | 97.66 | -8.74 | -8.75 | 0.09
+Freq | 98.63 | -8.75 | -8.75 | 0.04
+Freq | 99.61 | -8.75 | -8.74 | 0.03
+Freq | 100.59 | -8.75 | -8.74 | 0.09
+Freq | 101.56 | -8.75 | -8.74 | 0.01
+Freq | 102.54 | -8.75 | -8.74 | 0.10
+Freq | 103.52 | -8.76 | -8.74 | 0.09
+Freq | 104.49 | -8.75 | -8.75 | 0.08
+Freq | 105.47 | -8.75 | -8.75 | 0.06
+Freq | 106.45 | -8.75 | -8.75 | 0.04
+Freq | 107.42 | -8.75 | -8.74 | 0.06
+Freq | 108.40 | -8.75 | -8.74 | 0.07
+Freq | 109.37 | -8.75 | -8.74 | 0.09
+Freq | 110.35 | -8.75 | -8.75 | 0.05
+Freq | 111.33 | -8.75 | -8.74 | 0.01
+Freq | 112.30 | -8.75 | -8.74 | 0.03
+Freq | 113.28 | -8.75 | -8.73 | 0.06
+Freq | 114.26 | -8.74 | -8.73 | 0.09
+Freq | 115.23 | -8.74 | -8.73 | 0.05
+Freq | 116.21 | -8.74 | -8.73 | 0.07
+Freq | 117.19 | -8.75 | -8.73 | 0.04
+Freq | 118.16 | -8.75 | -8.74 | 0.05
+Freq | 119.14 | -8.75 | -8.74 | 0.03
+Freq | 120.12 | -8.75 | -8.75 | 0.03
+Freq | 121.09 | -8.75 | -8.75 | 0.06
+Freq | 122.07 | -8.75 | -8.74 | 0.01
+Freq | 123.05 | -8.75 | -8.74 | 0.06
+Freq | 124.02 | -8.74 | -8.75 | 0.01
+Freq | 125.00 | -8.74 | -8.75 | 0.02
+Freq | 125.98 | -8.75 | -8.75 | 0.02
+Freq | 126.95 | -8.75 | -8.75 | 0.02
+Freq | 127.93 | -8.75 | -8.75 | 0.03
+Freq | 128.91 | -8.75 | -8.75 | 0.05
+Freq | 129.88 | -8.75 | -8.75 | 0.10
+Freq | 130.86 | -8.75 | -8.75 | 0.02
+Freq | 131.84 | -8.75 | -8.75 | 0.06
+Freq | 132.81 | -8.75 | -8.74 | 0.05
+Freq | 133.79 | -8.75 | -8.74 | 0.05
+Freq | 134.77 | -8.76 | -8.74 | 0.02
+Freq | 135.74 | -8.76 | -8.74 | 0.01
+Freq | 136.72 | -8.76 | -8.73 | 0.01
+Freq | 137.70 | -8.75 | -8.73 | 0.05
+Freq | 138.67 | -8.75 | -8.73 | 0.07
+Freq | 139.65 | -8.74 | -8.73 | 0.02
+Freq | 140.62 | -8.74 | -8.74 | 0.01
+Freq | 141.60 | -8.74 | -8.74 | 0.01
+Freq | 142.58 | -8.74 | -8.74 | 0.06
+Freq | 143.55 | -8.74 | -8.75 | 0.04
+Freq | 144.53 | -8.74 | -8.74 | 0.03
+Freq | 145.51 | -8.74 | -8.74 | 0.02
+Freq | 146.48 | -8.74 | -8.74 | 0.03
+Freq | 147.46 | -8.75 | -8.75 | 0.02
+Freq | 148.44 | -8.75 | -8.75 | 0.00
+Freq | 149.41 | -8.75 | -8.75 | 0.02
+Freq | 150.39 | -8.75 | -8.75 | 0.02
+Freq | 151.37 | -8.75 | -8.75 | 0.04
+Freq | 152.34 | -8.75 | -8.75 | 0.03
+Freq | 153.32 | -8.75 | -8.75 | 0.01
+Freq | 154.30 | -8.74 | -8.75 | 0.06
+Freq | 155.27 | -8.75 | -8.75 | 0.05
+Freq | 156.25 | -8.75 | -8.75 | 0.03
+Freq | 157.23 | -8.75 | -8.74 | 0.03
+Freq | 158.20 | -8.75 | -8.75 | 0.07
+Freq | 159.18 | -8.75 | -8.74 | 0.03
+Freq | 160.16 | -8.74 | -8.74 | 0.02
+Freq | 161.13 | -8.74 | -8.74 | 0.05
+Freq | 162.11 | -8.74 | -8.74 | 0.04
+Freq | 163.09 | -8.74 | -8.74 | 0.03
+Freq | 164.06 | -8.74 | -8.74 | 0.03
+Freq | 165.04 | -8.74 | -8.74 | 0.05
+Freq | 166.02 | -8.74 | -8.73 | 0.01
+Freq | 166.99 | -8.74 | -8.73 | 0.03
+Freq | 167.97 | -8.74 | -8.73 | 0.04
+Freq | 168.95 | -8.74 | -8.74 | 0.03
+Freq | 169.92 | -8.75 | -8.74 | 0.02
+Freq | 170.90 | -8.75 | -8.73 | 0.01
+Freq | 171.87 | -8.75 | -8.73 | 0.03
+Freq | 172.85 | -8.75 | -8.73 | 0.01
+Freq | 173.83 | -8.75 | -8.73 | 0.03
+Freq | 174.80 | -8.75 | -8.73 | 0.06
+Freq | 175.78 | -8.75 | -8.74 | 0.05
+Freq | 176.76 | -8.75 | -8.74 | 0.01
+Freq | 177.73 | -8.75 | -8.75 | 0.02
+Freq | 178.71 | -8.75 | -8.74 | 0.01
+Freq | 179.69 | -8.75 | -8.74 | 0.02
+Freq | 180.66 | -8.75 | -8.74 | 0.04
+Freq | 181.64 | -8.75 | -8.74 | 0.03
+Freq | 182.62 | -8.75 | -8.74 | 0.01
+Freq | 183.59 | -8.75 | -8.73 | 0.01
+Freq | 184.57 | -8.75 | -8.73 | 0.02
+Freq | 185.55 | -8.75 | -8.73 | 0.01
+Freq | 186.52 | -8.75 | -8.73 | 0.01
+Freq | 187.50 | -8.75 | -8.73 | 0.00
+Freq | 188.48 | -8.74 | -8.73 | 0.06
+Freq | 189.45 | -8.74 | -8.73 | 0.02
+Freq | 190.43 | -8.74 | -8.73 | 0.03
+Freq | 191.41 | -8.73 | -8.74 | 0.05
+Freq | 192.38 | -8.74 | -8.74 | 0.04
+Freq | 193.36 | -8.74 | -8.74 | 0.02
+Freq | 194.34 | -8.74 | -8.74 | 0.01
+Freq | 195.31 | -8.74 | -8.74 | 0.02
+Freq | 196.29 | -8.74 | -8.74 | 0.02
+Freq | 197.27 | -8.75 | -8.74 | 0.03
+Freq | 198.24 | -8.75 | -8.74 | 0.01
+Freq | 199.22 | -8.75 | -8.74 | 0.03
+Freq | 200.20 | -8.74 | -8.74 | 0.03
+Freq | 201.17 | -8.74 | -8.74 | 0.05
+Freq | 202.15 | -8.74 | -8.74 | 0.05
+Freq | 203.12 | -8.74 | -8.74 | 0.04
+Freq | 204.10 | -8.75 | -8.74 | 0.03
+Freq | 205.08 | -8.76 | -8.74 | 0.02
+Freq | 206.05 | -8.76 | -8.74 | 0.01
+Freq | 207.03 | -8.76 | -8.74 | 0.01
+Freq | 208.01 | -8.76 | -8.74 | 0.03
+Freq | 208.98 | -8.76 | -8.74 | 0.03
+Freq | 209.96 | -8.76 | -8.74 | 0.04
+Freq | 210.94 | -8.75 | -8.74 | 0.02
+Freq | 211.91 | -8.75 | -8.74 | 0.04
+Freq | 212.89 | -8.75 | -8.74 | 0.04
+Freq | 213.87 | -8.76 | -8.74 | 0.03
+Freq | 214.84 | -8.75 | -8.73 | 0.02
+Freq | 215.82 | -8.75 | -8.73 | 0.02
+Freq | 216.80 | -8.75 | -8.73 | 0.02
+Freq | 217.77 | -8.75 | -8.74 | 0.03
+Freq | 218.75 | -8.75 | -8.74 | 0.04
+Freq | 219.73 | -8.75 | -8.74 | 0.03
+Freq | 220.70 | -8.75 | -8.74 | 0.01
+Freq | 221.68 | -8.75 | -8.74 | 0.02
+Freq | 222.66 | -8.75 | -8.74 | 0.03
+Freq | 223.63 | -8.75 | -8.74 | 0.01
+Freq | 224.61 | -8.75 | -8.74 | 0.03
+Freq | 225.59 | -8.75 | -8.74 | 0.01
+Freq | 226.56 | -8.75 | -8.74 | 0.03
+Freq | 227.54 | -8.75 | -8.74 | 0.03
+Freq | 228.52 | -8.75 | -8.74 | 0.01
+Freq | 229.49 | -8.75 | -8.74 | 0.01
+Freq | 230.47 | -8.75 | -8.74 | 0.01
+Freq | 231.45 | -8.75 | -8.74 | 0.03
+Freq | 232.42 | -8.75 | -8.74 | 0.03
+Freq | 233.40 | -8.75 | -8.74 | 0.01
+Freq | 234.37 | -8.75 | -8.73 | 0.03
+Freq | 235.35 | -8.75 | -8.73 | 0.02
+Freq | 236.33 | -8.75 | -8.73 | 0.03
+Freq | 237.30 | -8.75 | -8.73 | 0.02
+Freq | 238.28 | -8.75 | -8.73 | 0.01
+Freq | 239.26 | -8.74 | -8.73 | 0.02
+Freq | 240.23 | -8.74 | -8.73 | 0.01
+Freq | 241.21 | -8.74 | -8.73 | 0.03
+Freq | 242.19 | -8.74 | -8.74 | 0.04
+Freq | 243.16 | -8.74 | -8.74 | 0.03
+Freq | 244.14 | -8.74 | -8.73 | 0.02
+Freq | 245.12 | -8.74 | -8.74 | 0.04
+Freq | 246.09 | -8.74 | -8.73 | 0.04
+Freq | 247.07 | -8.74 | -8.74 | 0.02
+Freq | 248.05 | -8.75 | -8.74 | 0.05
+Freq | 249.02 | -8.75 | -8.74 | 0.04
+Peaks: 0.00 0.00 0.00 0.00 0.00 
+Loop | 3
+2 Adding value -1442421146
+
+3 Adding value 1840144782
+
+4 Adding value 953483200
+
+5 Adding value 119507734
+
+6 Adding value 870070844
+
+7 Adding value -373553340
+
+8 Adding value 948294712
+
+9 Adding value 1221142432
+
+10 Adding value -540943360
+
+11 Adding value 2069086320
+
+12 Adding value 1943067867
+
+13 Adding value -1948513741
+
+14 Adding value 1925183564
+
+15 Adding value 543042164
+
+16 Adding value -401559343
+
+17 Adding value -490174492
+
+18 Adding value -623700521
+
+19 Adding value -1260007572
+
+20 Adding value -3670646
+
+21 Adding value -1343731380
+
+22 Adding value 1974366432
+
+23 Adding value 1887061607
+
+24 Adding value 808649187
+
+25 Adding value 614577462
+
+26 Adding value -1749097209
+
+27 Adding value -2013456090
+
+28 Adding value 831616019
+
+29 Adding value -935619295
+
+30 Adding value -1594942365
+
+31 Adding value -554155600
+
+32 Adding value 1606909005
+
+33 Adding value -370018182
+
+34 Adding value -1263071884
+
+35 Adding value 763584339
+
+36 Adding value -1140650090
+
+37 Adding value -1086929601
+
+38 Adding value 250440748
+
+39 Adding value 1728034887
+
+40 Adding value 366013088
+
+41 Adding value -242053143
+
+42 Adding value -1063748187
+
+43 Adding value 1718185950
+
+44 Adding value -58624172
+
+45 Adding value -550508139
+
+46 Adding value -1042562587
+
+47 Adding value 1201991684
+
+48 Adding value -89985044
+
+49 Adding value -2042045722
+
+50 Adding value -1683716887
+
+51 Adding value 566536145
+
+52 Adding value -202032923
+
+53 Adding value 402656866
+
+54 Adding value -537928352
+
+55 Adding value -994634850
+
+56 Adding value -220356364
+
+57 Adding value 1506773424
+
+58 Adding value -636956508
+
+59 Adding value -1284811259
+
+60 Adding value 1158168506
+
+61 Adding value -381645032
+
+62 Adding value -1048608671
+
+63 Adding value 1218966401
+
+64 Adding value 995042625
+
+65 Adding value 620214244
+
+66 Adding value -2031713575
+
+67 Adding value 2091095335
+
+68 Adding value -1930156961
+
+69 Adding value 1706727159
+
+70 Adding value -385524737
+
+71 Adding value 1725284925
+
+72 Adding value 1567671259
+
+73 Adding value 494881186
+
+74 Adding value 1653518481
+
+75 Adding value -320442337
+
+76 Adding value -1948443945
+
+77 Adding value -1116443027
+
+78 Adding value 1624839477
+
+79 Adding value -281155783
+
+80 Adding value 2132729277
+
+81 Adding value 453673601
+
+82 Adding value 696613131
+
+83 Adding value 897853910
+
+84 Adding value -439399358
+
+85 Adding value -242473680
+
+86 Adding value 1143409404
+
+87 Adding value -1923504224
+
+88 Adding value 296258891
+
+89 Adding value 508933565
+
+90 Adding value -913934536
+
+91 Adding value -1324668476
+
+92 Adding value -975334048
+
+93 Adding value 1824388118
+
+94 Adding value 1039776901
+
+95 Adding value 1002907938
+
+96 Adding value 1537800859
+
+97 Adding value 1186566279
+
+98 Adding value -1710426511
+
+99 Adding value -119214565
+
+100 Adding value 422054863
+
+101 Adding value -683619283
+
+102 Adding value -501064893
+
+103 Adding value -271693944
+
+104 Adding value -492285426
+
+105 Adding value 1535520166
+
+106 Adding value -1160597490
+
+107 Adding value -1453883843
+
+108 Adding value 869455800
+
+109 Adding value 360164105
+
+110 Adding value 1495696464
+
+111 Adding value -1030511548
+
+112 Adding value 1707654802
+
+113 Adding value 962487282
+
+114 Adding value -2038112163
+
+115 Adding value -561663883
+
+116 Adding value -1329987969
+
+117 Adding value -2044518202
+
+118 Adding value -1813789513
+
+119 Adding value 616008354
+
+120 Adding value -1554565377
+
+121 Adding value 1485241780
+
+122 Adding value 1549218751
+
+123 Adding value -1694496136
+
+124 Adding value 161479815
+
+125 Adding value 1057428425
+
+126 Adding value -1974484385
+
+127 Adding value 1430219376
+
+128 Adding value -1323552664
+
+129 Adding value 914255734
+
+130 Adding value 637431173
+
+131 Adding value 371451057
+
+132 Adding value 1096682307
+
+133 Adding value 115809067
+
+134 Adding value -163208872
+
+135 Adding value -1792433545
+
+136 Adding value 1823598795
+
+137 Adding value 1646168092
+
+138 Adding value 1007654377
+
+139 Adding value 1739226567
+
+140 Adding value -795361103
+
+141 Adding value -572111528
+
+142 Adding value 600534821
+
+143 Adding value -1629333279
+
+144 Adding value -92118565
+
+145 Adding value 1304972738
+
+146 Adding value 1556189421
+
+147 Adding value -1222741390
+
+148 Adding value 925512538
+
+149 Adding value 613136167
+
+150 Adding value -863108243
+
+151 Adding value -146634411
+
+152 Adding value 67890372
+
+153 Adding value 1724610396
+
+154 Adding value -999540894
+
+155 Adding value 202657
+
+156 Adding value 137641322
+
+157 Adding value 873111041
+
+158 Adding value 1052157378
+
+159 Adding value -274437290
+
+160 Adding value 1480029503
+
+161 Adding value -2089809532
+
+162 Adding value -2043244846
+
+163 Adding value 2053460935
+
+164 Adding value 567957776
+
+165 Adding value 274493383
+
+166 Adding value 430217145
+
+167 Adding value -1553064965
+
+168 Adding value 1956221082
+
+169 Adding value -1154381393
+
+170 Adding value -926776438
+
+171 Adding value -1256682170
+
+172 Adding value -1832659248
+
+173 Adding value -1071707258
+
+174 Adding value -1601219030
+
+175 Adding value 611800281
+
+176 Adding value -1325153541
+
+177 Adding value 643239656
+
+178 Adding value 1919302769
+
+179 Adding value -571725013
+
+180 Adding value -2023780307
+
+181 Adding value 615615418
+
+182 Adding value 797073495
+
+183 Adding value -988341460
+
+184 Adding value 1237988487
+
+185 Adding value 451020035
+
+186 Adding value 1838151719
+
+187 Adding value 1474829365
+
+188 Adding value 441933189
+
+189 Adding value 1816861259
+
+190 Adding value -2069052387
+
+191 Adding value -1542577511
+
+192 Adding value -1537506325
+
+193 Adding value 1720003852
+
+194 Adding value -897934720
+
+195 Adding value 219979895
+
+196 Adding value -522695525
+
+197 Adding value 1027116129
+
+198 Adding value 1379527008
+
+199 Adding value 1246583245
+
+200 Adding value 1862208504
+
+201 Adding value 230130391
+
+202 Adding value 1867066293
+
+203 Adding value -1969892422
+
+204 Adding value 148080484
+
+205 Adding value 241249337
+
+206 Adding value -1710034449
+
+207 Adding value 475499336
+
+208 Adding value 1359016763
+
+209 Adding value -1516717806
+
+210 Adding value -527871859
+
+211 Adding value -1433765635
+
+212 Adding value -51173254
+
+213 Adding value -949982899
+
+214 Adding value 1625961756
+
+215 Adding value -159085785
+
+216 Adding value 1193787710
+
+217 Adding value 1823156078
+
+218 Adding value -1585754571
+
+219 Adding value 513005881
+
+220 Adding value -758891414
+
+221 Adding value 1293656123
+
+222 Adding value 496405167
+
+223 Adding value 794483226
+
+224 Adding value 1549966771
+
+225 Adding value -1842791139
+
+226 Adding value -1655608592
+
+227 Adding value -1835473921
+
+228 Adding value 982854492
+
+229 Adding value 1315087705
+
+230 Adding value 660511052
+
+231 Adding value -339763149
+
+232 Adding value 1152570579
+
+233 Adding value -1578540864
+
+234 Adding value -162938099
+
+235 Adding value -1964841672
+
+236 Adding value 1487593102
+
+237 Adding value 1812821223
+
+238 Adding value 1208065628
+
+239 Adding value 267337492
+
+240 Adding value 347063311
+
+241 Adding value 1137071597
+
+242 Adding value -841297539
+
+243 Adding value -1681754853
+
+244 Adding value 1872183336
+
+245 Adding value 317359693
+
+246 Adding value 1566362537
+
+247 Adding value 758390317
+
+248 Adding value -1327550363
+
+249 Adding value 1301046192
+
+250 Adding value -2039654651
+
+251 Adding value -733700446
+
+252 Adding value -1378240104
+
+253 Adding value -1902574587
+
+254 Adding value 343773251
+
+255 Adding value -289730056
+
+256 Adding value 1522682133
+
+257 Adding value 1722189122
+
+258 Adding value 0
+
+259 Adding value 1722225220
+
+260 Adding value 1522666066
+
+261 Adding value -289732772
+
+262 Adding value 343763885
+
+263 Adding value -1902582408
+
+264 Adding value -1378240206
+
+265 Adding value -733697219
+
+266 Adding value -2039656003
+
+267 Adding value 1301045274
+
+268 Adding value -1327600131
+
+269 Adding value 758394396
+
+270 Adding value 1566370493
+
+271 Adding value 317340982
+
+272 Adding value 1872171473
+
+273 Adding value -1681757538
+
+274 Adding value -841295030
+
+275 Adding value 1137069040
+
+276 Adding value 347062735
+
+277 Adding value 267333696
+
+278 Adding value 1208060588
+
+279 Adding value 1812822226
+
+280 Adding value 1487596651
+
+281 Adding value -1964843935
+
+282 Adding value -162950062
+
+283 Adding value -1578542655
+
+284 Adding value 1152566129
+
+285 Adding value -339765117
+
+286 Adding value 660511871
+
+287 Adding value 1315090343
+
+288 Adding value 982856838
+
+289 Adding value -1835475106
+
+290 Adding value -1655609226
+
+291 Adding value -1842798187
+
+292 Adding value 1549964017
+
+293 Adding value 794481469
+
+294 Adding value 496407835
+
+295 Adding value 1293664095
+
+296 Adding value -758891642
+
+297 Adding value 513014458
+
+298 Adding value -1585756644
+
+299 Adding value 1823151907
+
+300 Adding value 1193789485
+
+301 Adding value -159089174
+
+302 Adding value 1625963137
+
+303 Adding value -949984325
+
+304 Adding value -51172397
+
+305 Adding value -1433765418
+
+306 Adding value -527871087
+
+307 Adding value -1516718088
+
+308 Adding value 1359015922
+
+309 Adding value 475500921
+
+310 Adding value -1710032138
+
+311 Adding value 241246276
+
+312 Adding value 148078741
+
+313 Adding value -1969892073
+
+314 Adding value 1867062567
+
+315 Adding value 230131558
+
+316 Adding value 1862210953
+
+317 Adding value 1246582388
+
+318 Adding value 1379525781
+
+319 Adding value 1027115306
+
+320 Adding value -522696289
+
+321 Adding value 219980940
+
+322 Adding value -897934008
+
+323 Adding value 1720004634
+
+324 Adding value -1537508481
+
+325 Adding value -1542576377
+
+326 Adding value -2069053928
+
+327 Adding value 1816861405
+
+328 Adding value 441934406
+
+329 Adding value 1474828224
+
+330 Adding value 1838151712
+
+331 Adding value 451018852
+
+332 Adding value 1237986571
+
+333 Adding value -988341080
+
+334 Adding value 797073319
+
+335 Adding value 615616159
+
+336 Adding value -2023782267
+
+337 Adding value -571726477
+
+338 Adding value 1919301230
+
+339 Adding value 643239622
+
+340 Adding value -1325155472
+
+341 Adding value 611801242
+
+342 Adding value -1601224409
+
+343 Adding value -1071708737
+
+344 Adding value -1832657903
+
+345 Adding value -1256681292
+
+346 Adding value -926775792
+
+347 Adding value -1154381312
+
+348 Adding value 1956219336
+
+349 Adding value -1553064466
+
+350 Adding value 430216838
+
+351 Adding value 274492945
+
+352 Adding value 567957442
+
+353 Adding value 2053459393
+
+354 Adding value -2043247023
+
+355 Adding value -2089810402
+
+356 Adding value 1480027760
+
+357 Adding value -274437298
+
+358 Adding value 1052156834
+
+359 Adding value 873111632
+
+360 Adding value 137644250
+
+361 Adding value 203184
+
+362 Adding value -999541112
+
+363 Adding value 1724610195
+
+364 Adding value 67890785
+
+365 Adding value -146634608
+
+366 Adding value -863106797
+
+367 Adding value 613136567
+
+368 Adding value 925512998
+
+369 Adding value -1222741537
+
+370 Adding value 1556189965
+
+371 Adding value 1304971714
+
+372 Adding value -92120003
+
+373 Adding value -1629333102
+
+374 Adding value 600534618
+
+375 Adding value -572111912
+
+376 Adding value -795359774
+
+377 Adding value 1739227254
+
+378 Adding value 1007654685
+
+379 Adding value 1646168279
+
+380 Adding value 1823599169
+
+381 Adding value -1792433572
+
+382 Adding value -163209150
+
+383 Adding value 115808978
+
+384 Adding value 1096682603
+
+385 Adding value 371450035
+
+386 Adding value 637431570
+
+387 Adding value 914254689
+
+388 Adding value -1323552725
+
+389 Adding value 1430219103
+
+390 Adding value -1974483828
+
+391 Adding value 1057427444
+
+392 Adding value 161479352
+
+393 Adding value -1694495361
+
+394 Adding value 1549218929
+
+395 Adding value 1485242088
+
+396 Adding value -1554564167
+
+397 Adding value 616008137
+
+398 Adding value -1813790267
+
+399 Adding value -2044516672
+
+400 Adding value -1329988095
+
+401 Adding value -561663935
+
+402 Adding value -2038112025
+
+403 Adding value 962486830
+
+404 Adding value 1707655295
+
+405 Adding value -1030511431
+
+406 Adding value 1495696742
+
+407 Adding value 360163351
+
+408 Adding value 869456227
+
+409 Adding value -1453884242
+
+410 Adding value -1160598110
+
+411 Adding value 1535520295
+
+412 Adding value -492285389
+
+413 Adding value -271693689
+
+414 Adding value -501065237
+
+415 Adding value -683619517
+
+416 Adding value 422054627
+
+417 Adding value -119214732
+
+418 Adding value -1710426599
+
+419 Adding value 1186566121
+
+420 Adding value 1537800519
+
+421 Adding value 1002907842
+
+422 Adding value 1039776938
+
+423 Adding value 1824388091
+
+424 Adding value -975334204
+
+425 Adding value -1324668259
+
+426 Adding value -913934254
+
+427 Adding value 508933486
+
+428 Adding value 296258954
+
+429 Adding value -1923504373
+
+430 Adding value 1143409449
+
+431 Adding value -242473257
+
+432 Adding value -439399385
+
+433 Adding value 897854220
+
+434 Adding value 696613063
+
+435 Adding value 453673456
+
+436 Adding value 2132729239
+
+437 Adding value -281155881
+
+438 Adding value 1624839218
+
+439 Adding value -1116442925
+
+440 Adding value -1948443490
+
+441 Adding value -320442671
+
+442 Adding value 1653518339
+
+443 Adding value 494881025
+
+444 Adding value 1567671211
+
+445 Adding value 1725284078
+
+446 Adding value -385524693
+
+447 Adding value 1706727624
+
+448 Adding value -1930156923
+
+449 Adding value 2091094007
+
+450 Adding value -2031713489
+
+451 Adding value 620214748
+
+452 Adding value 995042361
+
+453 Adding value 1218966070
+
+454 Adding value -1048608012
+
+455 Adding value -381645137
+
+456 Adding value 1158168691
+
+457 Adding value -1284810961
+
+458 Adding value -636956709
+
+459 Adding value 1506773689
+
+460 Adding value -220356125
+
+461 Adding value -994634969
+
+462 Adding value -537928373
+
+463 Adding value 402657439
+
+464 Adding value -202033030
+
+465 Adding value 566536029
+
+466 Adding value -1683716449
+
+467 Adding value -2042044991
+
+468 Adding value -89984881
+
+469 Adding value 1201991697
+
+470 Adding value -1042562417
+
+471 Adding value -550508178
+
+472 Adding value -58624070
+
+473 Adding value 1718185807
+
+474 Adding value -1063748292
+
+475 Adding value -242053130
+
+476 Adding value 366013050
+
+477 Adding value 1728034828
+
+478 Adding value 250440796
+
+479 Adding value -1086929691
+
+480 Adding value -1140650145
+
+481 Adding value 763584333
+
+482 Adding value -1263072014
+
+483 Adding value -370018125
+
+484 Adding value 1606909128
+
+485 Adding value -554155607
+
+486 Adding value -1594942412
+
+487 Adding value -935619418
+
+488 Adding value 831615949
+
+489 Adding value -2013456141
+
+490 Adding value -1749097255
+
+491 Adding value 614577345
+
+492 Adding value 808649253
+
+493 Adding value 1887061844
+
+494 Adding value 1974366362
+
+495 Adding value -1343731399
+
+496 Adding value -3670825
+
+497 Adding value -1260007641
+
+498 Adding value -623700552
+
+499 Adding value -490174544
+
+500 Adding value -401559376
+
+501 Adding value 543042125
+
+502 Adding value 1925183547
+
+503 Adding value -1948513772
+
+504 Adding value 1943067845
+
+505 Adding value 2069086222
+
+506 Adding value -540943502
+
+507 Adding value 1221142417
+
+508 Adding value 948294682
+
+509 Adding value -373553399
+
+510 Adding value 870070819
+
+511 Adding value 119507691
+
+512 Adding value 953483154
+
+513 Adding value 1840144754
+
+Freq | 0.00 | -8.76 | -8.75 | 4476.59
+Freq | 0.98 | -8.76 | -8.75 | 1.97
+Freq | 1.95 | -8.76 | -8.75 | 0.80
+Freq | 2.93 | -8.76 | -8.75 | 0.51
+Freq | 3.91 | -8.76 | -8.74 | 1.20
+Freq | 4.88 | -8.76 | -8.75 | 0.73
+Freq | 5.86 | -8.76 | -8.75 | 0.49
+Freq | 6.84 | -8.76 | -8.74 | 0.24
+Freq | 7.81 | -8.76 | -8.74 | 0.10
+Freq | 8.79 | -8.76 | -8.74 | 0.19
+Freq | 9.77 | -8.76 | -8.73 | 1.12
+Freq | 10.74 | -8.76 | -8.73 | 0.38
+Freq | 11.72 | -8.76 | -8.73 | 0.56
+Freq | 12.70 | -8.76 | -8.74 | 0.45
+Freq | 13.67 | -8.75 | -8.74 | 0.53
+Freq | 14.65 | -8.75 | -8.73 | 0.26
+Freq | 15.63 | -8.75 | -8.73 | 0.48
+Freq | 16.60 | -8.75 | -8.73 | 0.29
+Freq | 17.58 | -8.75 | -8.74 | 0.11
+Freq | 18.55 | -8.75 | -8.74 | 0.26
+Freq | 19.53 | -8.75 | -8.74 | 0.45
+Freq | 20.51 | -8.75 | -8.74 | 0.03
+Freq | 21.48 | -8.75 | -8.74 | 0.17
+Freq | 22.46 | -8.75 | -8.74 | 0.18
+Freq | 23.44 | -8.75 | -8.74 | 0.31
+Freq | 24.41 | -8.75 | -8.74 | 0.17
+Freq | 25.39 | -8.75 | -8.74 | 0.13
+Freq | 26.37 | -8.75 | -8.73 | 0.09
+Freq | 27.34 | -8.75 | -8.73 | 0.24
+Freq | 28.32 | -8.74 | -8.73 | 0.20
+Freq | 29.30 | -8.74 | -8.73 | 0.12
+Freq | 30.27 | -8.74 | -8.74 | 0.12
+Freq | 31.25 | -8.74 | -8.74 | 0.25
+Freq | 32.23 | -8.74 | -8.73 | 0.18
+Freq | 33.20 | -8.74 | -8.73 | 0.26
+Freq | 34.18 | -8.74 | -8.74 | 0.11
+Freq | 35.16 | -8.74 | -8.74 | 0.16
+Freq | 36.13 | -8.74 | -8.74 | 0.12
+Freq | 37.11 | -8.74 | -8.73 | 0.21
+Freq | 38.09 | -8.74 | -8.74 | 0.26
+Freq | 39.06 | -8.73 | -8.73 | 0.09
+Freq | 40.04 | -8.73 | -8.73 | 0.20
+Freq | 41.02 | -8.74 | -8.73 | 0.08
+Freq | 41.99 | -8.74 | -8.73 | 0.13
+Freq | 42.97 | -8.74 | -8.73 | 0.07
+Freq | 43.95 | -8.74 | -8.73 | 0.16
+Freq | 44.92 | -8.73 | -8.74 | 0.04
+Freq | 45.90 | -8.73 | -8.74 | 0.02
+Freq | 46.88 | -8.73 | -8.74 | 0.04
+Freq | 47.85 | -8.74 | -8.73 | 0.09
+Freq | 48.83 | -8.74 | -8.74 | 0.08
+Freq | 49.80 | -8.75 | -8.74 | 0.03
+Freq | 50.78 | -8.74 | -8.74 | 0.14
+Freq | 51.76 | -8.74 | -8.74 | 0.14
+Freq | 52.73 | -8.74 | -8.74 | 0.11
+Freq | 53.71 | -8.74 | -8.74 | 0.04
+Freq | 54.69 | -8.74 | -8.74 | 0.04
+Freq | 55.66 | -8.74 | -8.74 | 0.05
+Freq | 56.64 | -8.74 | -8.74 | 0.10
+Freq | 57.62 | -8.74 | -8.74 | 0.18
+Freq | 58.59 | -8.74 | -8.74 | 0.04
+Freq | 59.57 | -8.75 | -8.74 | 0.08
+Freq | 60.55 | -8.75 | -8.74 | 0.10
+Freq | 61.52 | -8.75 | -8.75 | 0.10
+Freq | 62.50 | -8.75 | -8.75 | 0.10
+Freq | 63.48 | -8.75 | -8.75 | 0.06
+Freq | 64.45 | -8.75 | -8.75 | 0.10
+Freq | 65.43 | -8.74 | -8.75 | 0.04
+Freq | 66.41 | -8.74 | -8.75 | 0.12
+Freq | 67.38 | -8.74 | -8.75 | 0.02
+Freq | 68.36 | -8.74 | -8.75 | 0.08
+Freq | 69.34 | -8.74 | -8.75 | 0.10
+Freq | 70.31 | -8.74 | -8.75 | 0.03
+Freq | 71.29 | -8.74 | -8.75 | 0.10
+Freq | 72.27 | -8.74 | -8.75 | 0.06
+Freq | 73.24 | -8.74 | -8.75 | 0.11
+Freq | 74.22 | -8.74 | -8.75 | 0.05
+Freq | 75.20 | -8.75 | -8.75 | 0.06
+Freq | 76.17 | -8.75 | -8.76 | 0.08
+Freq | 77.15 | -8.75 | -8.76 | 0.09
+Freq | 78.12 | -8.75 | -8.76 | 0.11
+Freq | 79.10 | -8.75 | -8.76 | 0.01
+Freq | 80.08 | -8.75 | -8.76 | 0.09
+Freq | 81.05 | -8.75 | -8.76 | 0.07
+Freq | 82.03 | -8.76 | -8.75 | 0.13
+Freq | 83.01 | -8.76 | -8.75 | 0.06
+Freq | 83.98 | -8.76 | -8.75 | 0.07
+Freq | 84.96 | -8.76 | -8.75 | 0.05
+Freq | 85.94 | -8.76 | -8.74 | 0.05
+Freq | 86.91 | -8.76 | -8.74 | 0.03
+Freq | 87.89 | -8.76 | -8.74 | 0.10
+Freq | 88.87 | -8.76 | -8.75 | 0.09
+Freq | 89.84 | -8.76 | -8.75 | 0.03
+Freq | 90.82 | -8.76 | -8.75 | 0.09
+Freq | 91.80 | -8.75 | -8.75 | 0.02
+Freq | 92.77 | -8.75 | -8.75 | 0.06
+Freq | 93.75 | -8.75 | -8.74 | 0.06
+Freq | 94.73 | -8.75 | -8.74 | 0.05
+Freq | 95.70 | -8.75 | -8.74 | 0.10
+Freq | 96.68 | -8.75 | -8.74 | 0.06
+Freq | 97.66 | -8.75 | -8.73 | 0.08
+Freq | 98.63 | -8.75 | -8.73 | 0.03
+Freq | 99.61 | -8.75 | -8.74 | 0.07
+Freq | 100.59 | -8.75 | -8.74 | 0.07
+Freq | 101.56 | -8.75 | -8.74 | 0.05
+Freq | 102.54 | -8.75 | -8.74 | 0.04
+Freq | 103.52 | -8.75 | -8.75 | 0.03
+Freq | 104.49 | -8.75 | -8.75 | 0.04
+Freq | 105.47 | -8.74 | -8.75 | 0.08
+Freq | 106.45 | -8.74 | -8.75 | 0.04
+Freq | 107.42 | -8.74 | -8.76 | 0.03
+Freq | 108.40 | -8.75 | -8.76 | 0.06
+Freq | 109.37 | -8.75 | -8.75 | 0.08
+Freq | 110.35 | -8.75 | -8.75 | 0.02
+Freq | 111.33 | -8.75 | -8.75 | 0.04
+Freq | 112.30 | -8.75 | -8.75 | 0.02
+Freq | 113.28 | -8.75 | -8.75 | 0.06
+Freq | 114.26 | -8.75 | -8.75 | 0.06
+Freq | 115.23 | -8.75 | -8.75 | 0.04
+Freq | 116.21 | -8.76 | -8.75 | 0.07
+Freq | 117.19 | -8.76 | -8.75 | 0.09
+Freq | 118.16 | -8.75 | -8.75 | 0.01
+Freq | 119.14 | -8.75 | -8.75 | 0.02
+Freq | 120.12 | -8.75 | -8.75 | 0.04
+Freq | 121.09 | -8.75 | -8.75 | 0.06
+Freq | 122.07 | -8.75 | -8.75 | 0.07
+Freq | 123.05 | -8.75 | -8.75 | 0.06
+Freq | 124.02 | -8.75 | -8.75 | 0.04
+Freq | 125.00 | -8.75 | -8.76 | 0.04
+Freq | 125.98 | -8.75 | -8.76 | 0.05
+Freq | 126.95 | -8.75 | -8.75 | 0.08
+Freq | 127.93 | -8.75 | -8.75 | 0.03
+Freq | 128.91 | -8.75 | -8.75 | 0.07
+Freq | 129.88 | -8.75 | -8.75 | 0.07
+Freq | 130.86 | -8.74 | -8.75 | 0.04
+Freq | 131.84 | -8.74 | -8.75 | 0.05
+Freq | 132.81 | -8.74 | -8.74 | 0.06
+Freq | 133.79 | -8.74 | -8.74 | 0.06
+Freq | 134.77 | -8.74 | -8.74 | 0.04
+Freq | 135.74 | -8.74 | -8.74 | 0.03
+Freq | 136.72 | -8.73 | -8.74 | 0.04
+Freq | 137.70 | -8.74 | -8.74 | 0.07
+Freq | 138.67 | -8.73 | -8.74 | 0.03
+Freq | 139.65 | -8.73 | -8.73 | 0.01
+Freq | 140.62 | -8.73 | -8.74 | 0.06
+Freq | 141.60 | -8.73 | -8.74 | 0.05
+Freq | 142.58 | -8.73 | -8.74 | 0.02
+Freq | 143.55 | -8.73 | -8.73 | 0.03
+Freq | 144.53 | -8.73 | -8.74 | 0.02
+Freq | 145.51 | -8.73 | -8.74 | 0.08
+Freq | 146.48 | -8.73 | -8.74 | 0.02
+Freq | 147.46 | -8.73 | -8.75 | 0.04
+Freq | 148.44 | -8.73 | -8.74 | 0.05
+Freq | 149.41 | -8.73 | -8.74 | 0.02
+Freq | 150.39 | -8.73 | -8.74 | 0.02
+Freq | 151.37 | -8.73 | -8.74 | 0.02
+Freq | 152.34 | -8.73 | -8.74 | 0.04
+Freq | 153.32 | -8.73 | -8.74 | 0.04
+Freq | 154.30 | -8.73 | -8.74 | 0.03
+Freq | 155.27 | -8.73 | -8.75 | 0.02
+Freq | 156.25 | -8.73 | -8.75 | 0.01
+Freq | 157.23 | -8.73 | -8.75 | 0.03
+Freq | 158.20 | -8.72 | -8.75 | 0.02
+Freq | 159.18 | -8.73 | -8.75 | 0.03
+Freq | 160.16 | -8.73 | -8.75 | 0.01
+Freq | 161.13 | -8.73 | -8.75 | 0.02
+Freq | 162.11 | -8.73 | -8.75 | 0.03
+Freq | 163.09 | -8.74 | -8.75 | 0.04
+Freq | 164.06 | -8.73 | -8.75 | 0.01
+Freq | 165.04 | -8.73 | -8.75 | 0.01
+Freq | 166.02 | -8.73 | -8.75 | 0.03
+Freq | 166.99 | -8.73 | -8.75 | 0.01
+Freq | 167.97 | -8.73 | -8.75 | 0.01
+Freq | 168.95 | -8.72 | -8.75 | 0.05
+Freq | 169.92 | -8.72 | -8.75 | 0.01
+Freq | 170.90 | -8.72 | -8.75 | 0.03
+Freq | 171.87 | -8.73 | -8.75 | 0.02
+Freq | 172.85 | -8.72 | -8.75 | 0.02
+Freq | 173.83 | -8.73 | -8.75 | 0.03
+Freq | 174.80 | -8.73 | -8.75 | 0.02
+Freq | 175.78 | -8.73 | -8.75 | 0.05
+Freq | 176.76 | -8.73 | -8.76 | 0.03
+Freq | 177.73 | -8.73 | -8.76 | 0.03
+Freq | 178.71 | -8.73 | -8.76 | 0.05
+Freq | 179.69 | -8.74 | -8.76 | 0.01
+Freq | 180.66 | -8.74 | -8.76 | 0.02
+Freq | 181.64 | -8.74 | -8.76 | 0.02
+Freq | 182.62 | -8.73 | -8.75 | 0.04
+Freq | 183.59 | -8.73 | -8.75 | 0.05
+Freq | 184.57 | -8.73 | -8.75 | 0.02
+Freq | 185.55 | -8.73 | -8.75 | 0.02
+Freq | 186.52 | -8.73 | -8.75 | 0.01
+Freq | 187.50 | -8.73 | -8.75 | 0.03
+Freq | 188.48 | -8.73 | -8.74 | 0.01
+Freq | 189.45 | -8.73 | -8.75 | 0.05
+Freq | 190.43 | -8.72 | -8.75 | 0.03
+Freq | 191.41 | -8.72 | -8.75 | 0.01
+Freq | 192.38 | -8.72 | -8.74 | 0.02
+Freq | 193.36 | -8.72 | -8.74 | 0.02
+Freq | 194.34 | -8.72 | -8.74 | 0.03
+Freq | 195.31 | -8.72 | -8.74 | 0.01
+Freq | 196.29 | -8.73 | -8.74 | 0.05
+Freq | 197.27 | -8.72 | -8.74 | 0.02
+Freq | 198.24 | -8.72 | -8.74 | 0.03
+Freq | 199.22 | -8.72 | -8.74 | 0.02
+Freq | 200.20 | -8.73 | -8.74 | 0.01
+Freq | 201.17 | -8.73 | -8.74 | 0.02
+Freq | 202.15 | -8.73 | -8.74 | 0.03
+Freq | 203.12 | -8.73 | -8.74 | 0.03
+Freq | 204.10 | -8.73 | -8.74 | 0.03
+Freq | 205.08 | -8.73 | -8.75 | 0.02
+Freq | 206.05 | -8.73 | -8.75 | 0.01
+Freq | 207.03 | -8.74 | -8.75 | 0.01
+Freq | 208.01 | -8.74 | -8.75 | 0.01
+Freq | 208.98 | -8.74 | -8.75 | 0.02
+Freq | 209.96 | -8.74 | -8.75 | 0.03
+Freq | 210.94 | -8.74 | -8.76 | 0.03
+Freq | 211.91 | -8.74 | -8.76 | 0.01
+Freq | 212.89 | -8.74 | -8.75 | 0.02
+Freq | 213.87 | -8.74 | -8.75 | 0.01
+Freq | 214.84 | -8.74 | -8.75 | 0.02
+Freq | 215.82 | -8.74 | -8.75 | 0.03
+Freq | 216.80 | -8.74 | -8.76 | 0.03
+Freq | 217.77 | -8.74 | -8.76 | 0.01
+Freq | 218.75 | -8.75 | -8.76 | 0.03
+Freq | 219.73 | -8.75 | -8.76 | 0.01
+Freq | 220.70 | -8.75 | -8.76 | 0.03
+Freq | 221.68 | -8.75 | -8.76 | 0.01
+Freq | 222.66 | -8.74 | -8.76 | 0.01
+Freq | 223.63 | -8.74 | -8.76 | 0.02
+Freq | 224.61 | -8.74 | -8.76 | 0.01
+Freq | 225.59 | -8.74 | -8.76 | 0.03
+Freq | 226.56 | -8.74 | -8.76 | 0.01
+Freq | 227.54 | -8.74 | -8.76 | 0.02
+Freq | 228.52 | -8.73 | -8.75 | 0.02
+Freq | 229.49 | -8.74 | -8.75 | 0.01
+Freq | 230.47 | -8.74 | -8.75 | 0.03
+Freq | 231.45 | -8.74 | -8.75 | 0.01
+Freq | 232.42 | -8.73 | -8.75 | 0.03
+Freq | 233.40 | -8.73 | -8.75 | 0.05
+Freq | 234.37 | -8.74 | -8.75 | 0.02
+Freq | 235.35 | -8.74 | -8.75 | 0.03
+Freq | 236.33 | -8.74 | -8.75 | 0.03
+Freq | 237.30 | -8.74 | -8.74 | 0.01
+Freq | 238.28 | -8.73 | -8.74 | 0.02
+Freq | 239.26 | -8.74 | -8.74 | 0.02
+Freq | 240.23 | -8.73 | -8.73 | 0.01
+Freq | 241.21 | -8.73 | -8.73 | 0.03
+Freq | 242.19 | -8.73 | -8.73 | 0.03
+Freq | 243.16 | -8.74 | -8.74 | 0.01
+Freq | 244.14 | -8.74 | -8.74 | 0.03
+Freq | 245.12 | -8.74 | -8.74 | 0.04
+Freq | 246.09 | -8.74 | -8.74 | 0.01
+Freq | 247.07 | -8.74 | -8.75 | 0.03
+Freq | 248.05 | -8.74 | -8.75 | 0.02
+Freq | 249.02 | -8.74 | -8.75 | 0.02
+Peaks: 0.00 0.00 0.00 0.00 0.00 
+Loop | 4
+2 Adding value -1116314010
+
+3 Adding value 1751582465
+
+4 Adding value -488228
+
+5 Adding value -491186355
+
+6 Adding value 1935720686
+
+7 Adding value 765680287
+
+8 Adding value -984487721
+
+9 Adding value 1216175703
+
+10 Adding value 804330596
+
+11 Adding value -1655334923
+
+12 Adding value -728853316
+
+13 Adding value 310697597
+
+14 Adding value -1546836715
+
+15 Adding value 1857266352
+
+16 Adding value -1837644814
+
+17 Adding value -347964407
+
+18 Adding value -1272883089
+
+19 Adding value -2000548748
+
+20 Adding value -1242008834
+
+21 Adding value -857984639
+
+22 Adding value 751456886
+
+23 Adding value 1329288498
+
+24 Adding value -1626041595
+
+25 Adding value 1640117206
+
+26 Adding value -1418229383
+
+27 Adding value -503282673
+
+28 Adding value 1575734426
+
+29 Adding value -1166267687
+
+30 Adding value -1727109877
+
+31 Adding value 5680389
+
+32 Adding value -1160791235
+
+33 Adding value -1329897383
+
+34 Adding value 251692572
+
+35 Adding value 779093383
+
+36 Adding value 1616151267
+
+37 Adding value 1380358533
+
+38 Adding value -449905588
+
+39 Adding value 2025904966
+
+40 Adding value -1652511725
+
+41 Adding value 618667467
+
+42 Adding value -1899532208
+
+43 Adding value 458393058
+
+44 Adding value -2128526788
+
+45 Adding value 387341103
+
+46 Adding value -1759120818
+
+47 Adding value -507580512
+
+48 Adding value -82133908
+
+49 Adding value 1094963696
+
+50 Adding value -1213115389
+
+51 Adding value 462371703
+
+52 Adding value -1714533966
+
+53 Adding value -1277023975
+
+54 Adding value -537079202
+
+55 Adding value 805074054
+
+56 Adding value -824036317
+
+57 Adding value 482134209
+
+58 Adding value 1624251316
+
+59 Adding value 1165308848
+
+60 Adding value 1095597372
+
+61 Adding value -1755678508
+
+62 Adding value 845429161
+
+63 Adding value -819629629
+
+64 Adding value 627638128
+
+65 Adding value -95577578
+
+66 Adding value 1654680409
+
+67 Adding value -158438585
+
+68 Adding value 1211966833
+
+69 Adding value -457660857
+
+70 Adding value 1779912894
+
+71 Adding value 639851074
+
+72 Adding value 485615665
+
+73 Adding value 922131269
+
+74 Adding value -542106007
+
+75 Adding value -857019761
+
+76 Adding value 1678187231
+
+77 Adding value 2039118344
+
+78 Adding value 223748274
+
+79 Adding value -1782421781
+
+80 Adding value -258067336
+
+81 Adding value 208417207
+
+82 Adding value 593749384
+
+83 Adding value -469901779
+
+84 Adding value -1391385859
+
+85 Adding value -949046378
+
+86 Adding value 346686851
+
+87 Adding value 153603185
+
+88 Adding value 299663430
+
+89 Adding value 597564387
+
+90 Adding value -751110995
+
+91 Adding value -1466445879
+
+92 Adding value -592008372
+
+93 Adding value -577179576
+
+94 Adding value 1307934973
+
+95 Adding value -1377591994
+
+96 Adding value -432956546
+
+97 Adding value 90987231
+
+98 Adding value -435428839
+
+99 Adding value 1909236720
+
+100 Adding value 394544783
+
+101 Adding value 1689087686
+
+102 Adding value 1765424416
+
+103 Adding value -82657005
+
+104 Adding value -1986645746
+
+105 Adding value -136885494
+
+106 Adding value 1335496545
+
+107 Adding value -1826442431
+
+108 Adding value -1543065024
+
+109 Adding value -1967617000
+
+110 Adding value 765414419
+
+111 Adding value 1560920752
+
+112 Adding value -1861667314
+
+113 Adding value -127625448
+
+114 Adding value -1310213472
+
+115 Adding value -1229671292
+
+116 Adding value -1899076713
+
+117 Adding value -1737306466
+
+118 Adding value -1310976155
+
+119 Adding value 2048221251
+
+120 Adding value 1694407532
+
+121 Adding value 2141794544
+
+122 Adding value 204434804
+
+123 Adding value 840984892
+
+124 Adding value 1392015673
+
+125 Adding value -2121628889
+
+126 Adding value 337774029
+
+127 Adding value -553837891
+
+128 Adding value 1915351032
+
+129 Adding value 1699261719
+
+130 Adding value 565910165
+
+131 Adding value 1200767635
+
+132 Adding value -1967581278
+
+133 Adding value 764415011
+
+134 Adding value -671896517
+
+135 Adding value 1084159698
+
+136 Adding value 460788037
+
+137 Adding value 1355253305
+
+138 Adding value 1262163322
+
+139 Adding value 1977397203
+
+140 Adding value -975977690
+
+141 Adding value -1831498481
+
+142 Adding value 289661969
+
+143 Adding value -1243076239
+
+144 Adding value -1873355597
+
+145 Adding value -1544329094
+
+146 Adding value -2040930501
+
+147 Adding value -1164554292
+
+148 Adding value -635096215
+
+149 Adding value 496466952
+
+150 Adding value 587338789
+
+151 Adding value 848756068
+
+152 Adding value -1834055200
+
+153 Adding value -859506929
+
+154 Adding value 2034767340
+
+155 Adding value -84470797
+
+156 Adding value 589185093
+
+157 Adding value -1852761636
+
+158 Adding value 516655410
+
+159 Adding value 18698555
+
+160 Adding value 1653228997
+
+161 Adding value -442940925
+
+162 Adding value -823801607
+
+163 Adding value 322565191
+
+164 Adding value -1705270001
+
+165 Adding value -397501157
+
+166 Adding value -472101552
+
+167 Adding value 204342606
+
+168 Adding value -1152628980
+
+169 Adding value -1020265568
+
+170 Adding value -1504821767
+
+171 Adding value -522987655
+
+172 Adding value 108671257
+
+173 Adding value -1335892179
+
+174 Adding value 1851310940
+
+175 Adding value -1747617826
+
+176 Adding value 1511026596
+
+177 Adding value -1284786571
+
+178 Adding value -1026959574
+
+179 Adding value -421486801
+
+180 Adding value -965727489
+
+181 Adding value 1535722100
+
+182 Adding value -280276762
+
+183 Adding value -1265703268
+
+184 Adding value 909359442
+
+185 Adding value 212920571
+
+186 Adding value -911697962
+
+187 Adding value -1729440513
+
+188 Adding value 825797342
+
+189 Adding value 886393859
+
+190 Adding value -484114348
+
+191 Adding value -2002952927
+
+192 Adding value -680003318
+
+193 Adding value -1200057420
+
+194 Adding value -1371604368
+
+195 Adding value -1128518244
+
+196 Adding value 745824788
+
+197 Adding value 265427009
+
+198 Adding value -1375346883
+
+199 Adding value -1091366659
+
+200 Adding value 1418911749
+
+201 Adding value -854691430
+
+202 Adding value 524998962
+
+203 Adding value 1396104940
+
+204 Adding value -1725297160
+
+205 Adding value -493457170
+
+206 Adding value 1031913639
+
+207 Adding value -1312312980
+
+208 Adding value -1168199931
+
+209 Adding value -956174073
+
+210 Adding value 922784056
+
+211 Adding value 476908438
+
+212 Adding value -1765136931
+
+213 Adding value -709617405
+
+214 Adding value -1634595558
+
+215 Adding value -1295034316
+
+216 Adding value -1080967706
+
+217 Adding value -839483828
+
+218 Adding value -1522919345
+
+219 Adding value -363252263
+
+220 Adding value -2145737572
+
+221 Adding value -1394954423
+
+222 Adding value 902631331
+
+223 Adding value -160417834
+
+224 Adding value -804411142
+
+225 Adding value -1511466572
+
+226 Adding value -1772321927
+
+227 Adding value 806664898
+
+228 Adding value 1257722754
+
+229 Adding value 1204851049
+
+230 Adding value 2143750355
+
+231 Adding value 1018053838
+
+232 Adding value -1279846601
+
+233 Adding value 970312823
+
+234 Adding value -428481387
+
+235 Adding value 581708559
+
+236 Adding value -1153119183
+
+237 Adding value -594896062
+
+238 Adding value -886539216
+
+239 Adding value 21248444
+
+240 Adding value -273218609
+
+241 Adding value -1468269443
+
+242 Adding value -570346939
+
+243 Adding value 1726960199
+
+244 Adding value -1356396087
+
+245 Adding value -1176819361
+
+246 Adding value 18052259
+
+247 Adding value 1216363411
+
+248 Adding value -1290878187
+
+249 Adding value -341402727
+
+250 Adding value -987676050
+
+251 Adding value 1435568905
+
+252 Adding value -1881941061
+
+253 Adding value 1924495555
+
+254 Adding value -1539017029
+
+255 Adding value -445337668
+
+256 Adding value -1987454984
+
+257 Adding value 702755403
+
+258 Adding value 0
+
+259 Adding value 702767301
+
+260 Adding value -1987453180
+
+261 Adding value -445341737
+
+262 Adding value -1539004814
+
+263 Adding value 1924528658
+
+264 Adding value -1881943492
+
+265 Adding value 1435569104
+
+266 Adding value -987669753
+
+267 Adding value -341398030
+
+268 Adding value -1290875666
+
+269 Adding value 1216373272
+
+270 Adding value 18058012
+
+271 Adding value -1176838944
+
+272 Adding value -1356412061
+
+273 Adding value 1726951756
+
+274 Adding value -570339671
+
+275 Adding value -1468271986
+
+276 Adding value -273218759
+
+277 Adding value 21246162
+
+278 Adding value -886553963
+
+279 Adding value -594900614
+
+280 Adding value -1153116476
+
+281 Adding value 581711475
+
+282 Adding value -428487596
+
+283 Adding value 970310317
+
+284 Adding value -1279846616
+
+285 Adding value 1018054193
+
+286 Adding value 2143752301
+
+287 Adding value 1204845099
+
+288 Adding value 1257726039
+
+289 Adding value 806665645
+
+290 Adding value -1772322523
+
+291 Adding value -1511456307
+
+292 Adding value -804414722
+
+293 Adding value -160414816
+
+294 Adding value 902626359
+
+295 Adding value -1394967980
+
+296 Adding value -2145737435
+
+297 Adding value -363249474
+
+298 Adding value -1522917701
+
+299 Adding value -839486801
+
+300 Adding value -1080967480
+
+301 Adding value -1295032507
+
+302 Adding value -1634596728
+
+303 Adding value -709618935
+
+304 Adding value -1765136669
+
+305 Adding value 476913408
+
+306 Adding value 922782851
+
+307 Adding value -956171693
+
+308 Adding value -1168199468
+
+309 Adding value -1312312386
+
+310 Adding value 1031912783
+
+311 Adding value -493455428
+
+312 Adding value -1725297591
+
+313 Adding value 1396105011
+
+314 Adding value 525000428
+
+315 Adding value -854692318
+
+316 Adding value 1418911137
+
+317 Adding value -1091373612
+
+318 Adding value -1375346214
+
+319 Adding value 265429457
+
+320 Adding value 745824494
+
+321 Adding value -1128519729
+
+322 Adding value -1371596192
+
+323 Adding value -1200057762
+
+324 Adding value -680002673
+
+325 Adding value -2002949653
+
+326 Adding value -484114036
+
+327 Adding value 886392284
+
+328 Adding value 825797784
+
+329 Adding value -1729440212
+
+330 Adding value -911698499
+
+331 Adding value 212918727
+
+332 Adding value 909359621
+
+333 Adding value -1265702937
+
+334 Adding value -280276718
+
+335 Adding value 1535720637
+
+336 Adding value -965724463
+
+337 Adding value -421489004
+
+338 Adding value -1026959749
+
+339 Adding value -1284786698
+
+340 Adding value 1511027044
+
+341 Adding value -1747618189
+
+342 Adding value 1851312716
+
+343 Adding value -1335892189
+
+344 Adding value 108669016
+
+345 Adding value -522986947
+
+346 Adding value -1504822528
+
+347 Adding value -1020266338
+
+348 Adding value -1152629648
+
+349 Adding value 204342690
+
+350 Adding value -472102589
+
+351 Adding value -397501591
+
+352 Adding value -1705270175
+
+353 Adding value 322565012
+
+354 Adding value -823802300
+
+355 Adding value -442940541
+
+356 Adding value 1653229095
+
+357 Adding value 18698556
+
+358 Adding value 516655654
+
+359 Adding value -1852761812
+
+360 Adding value 589185522
+
+361 Adding value -84470941
+
+362 Adding value 2034768467
+
+363 Adding value -859506263
+
+364 Adding value -1834055579
+
+365 Adding value 848754915
+
+366 Adding value 587338526
+
+367 Adding value 496466885
+
+368 Adding value -635096196
+
+369 Adding value -1164554247
+
+370 Adding value -2040930503
+
+371 Adding value -1544328309
+
+372 Adding value -1873355713
+
+373 Adding value -1243076046
+
+374 Adding value 289661438
+
+375 Adding value -1831498574
+
+376 Adding value -975976873
+
+377 Adding value 1977397369
+
+378 Adding value 1262163082
+
+379 Adding value 1355254261
+
+380 Adding value 460787895
+
+381 Adding value 1084159696
+
+382 Adding value -671896600
+
+383 Adding value 764416704
+
+384 Adding value -1967581165
+
+385 Adding value 1200767387
+
+386 Adding value 565909877
+
+387 Adding value 1699261234
+
+388 Adding value 1915352686
+
+389 Adding value -553837116
+
+390 Adding value 337773670
+
+391 Adding value -2121629711
+
+392 Adding value 1392015661
+
+393 Adding value 840982593
+
+394 Adding value 204434696
+
+395 Adding value 2141791541
+
+396 Adding value 1694407257
+
+397 Adding value 2048220194
+
+398 Adding value -1310976791
+
+399 Adding value -1737306129
+
+400 Adding value -1899077089
+
+401 Adding value -1229671484
+
+402 Adding value -1310214406
+
+403 Adding value -127625502
+
+404 Adding value -1861667304
+
+405 Adding value 1560920396
+
+406 Adding value 765414247
+
+407 Adding value -1967617018
+
+408 Adding value -1543065239
+
+409 Adding value -1826442460
+
+410 Adding value 1335496562
+
+411 Adding value -136886069
+
+412 Adding value -1986645477
+
+413 Adding value -82657047
+
+414 Adding value 1765424945
+
+415 Adding value 1689088925
+
+416 Adding value 394544690
+
+417 Adding value 1909236640
+
+418 Adding value -435429067
+
+419 Adding value 90986724
+
+420 Adding value -432956548
+
+421 Adding value -1377592300
+
+422 Adding value 1307934747
+
+423 Adding value -577179793
+
+424 Adding value -592008536
+
+425 Adding value -1466446260
+
+426 Adding value -751111294
+
+427 Adding value 597564350
+
+428 Adding value 299663337
+
+429 Adding value 153602739
+
+430 Adding value 346686914
+
+431 Adding value -949046428
+
+432 Adding value -1391385437
+
+433 Adding value -469902293
+
+434 Adding value 593749545
+
+435 Adding value 208417170
+
+436 Adding value -258067222
+
+437 Adding value -1782421839
+
+438 Adding value 223748043
+
+439 Adding value 2039118402
+
+440 Adding value 1678187499
+
+441 Adding value -857019797
+
+442 Adding value -542106183
+
+443 Adding value 922131417
+
+444 Adding value 485615864
+
+445 Adding value 639850875
+
+446 Adding value 1779913529
+
+447 Adding value -457660752
+
+448 Adding value 1211966718
+
+449 Adding value -158438484
+
+450 Adding value 1654680423
+
+451 Adding value -95577713
+
+452 Adding value 627637947
+
+453 Adding value -819628885
+
+454 Adding value 845429323
+
+455 Adding value -1755678526
+
+456 Adding value 1095597233
+
+457 Adding value 1165308234
+
+458 Adding value 1624251483
+
+459 Adding value 482134863
+
+460 Adding value -824036243
+
+461 Adding value 805074273
+
+462 Adding value -537079259
+
+463 Adding value -1277023791
+
+464 Adding value -1714533356
+
+465 Adding value 462371677
+
+466 Adding value -1213115376
+
+467 Adding value 1094963658
+
+468 Adding value -82133478
+
+469 Adding value -507580694
+
+470 Adding value -1759121052
+
+471 Adding value 387341105
+
+472 Adding value -2128527076
+
+473 Adding value 458393030
+
+474 Adding value -1899532091
+
+475 Adding value 618667547
+
+476 Adding value -1652511714
+
+477 Adding value 2025904896
+
+478 Adding value -449905625
+
+479 Adding value 1380358570
+
+480 Adding value 1616151183
+
+481 Adding value 779093397
+
+482 Adding value 251692436
+
+483 Adding value -1329897334
+
+484 Adding value -1160791244
+
+485 Adding value 5680356
+
+486 Adding value -1727109971
+
+487 Adding value -1166267715
+
+488 Adding value 1575734330
+
+489 Adding value -503282689
+
+490 Adding value -1418229431
+
+491 Adding value 1640117226
+
+492 Adding value -1626041588
+
+493 Adding value 1329288459
+
+494 Adding value 751456833
+
+495 Adding value -857984851
+
+496 Adding value -1242008912
+
+497 Adding value -2000548841
+
+498 Adding value -1272883078
+
+499 Adding value -347964484
+
+500 Adding value -1837644852
+
+501 Adding value 1857266308
+
+502 Adding value -1546836698
+
+503 Adding value 310697595
+
+504 Adding value -728853330
+
+505 Adding value -1655334949
+
+506 Adding value 804330597
+
+507 Adding value 1216175668
+
+508 Adding value -984487743
+
+509 Adding value 765680263
+
+510 Adding value 1935720669
+
+511 Adding value -491186380
+
+512 Adding value -488254
+
+513 Adding value 1751582457
+
+Freq | 0.00 | -8.74 | -8.75 | 4475.92
+Freq | 0.98 | -8.74 | -8.75 | 0.55
+Freq | 1.95 | -8.74 | -8.75 | 0.83
+Freq | 2.93 | -8.74 | -8.75 | 1.29
+Freq | 3.91 | -8.74 | -8.75 | 0.36
+Freq | 4.88 | -8.75 | -8.75 | 0.79
+Freq | 5.86 | -8.74 | -8.75 | 0.24
+Freq | 6.84 | -8.74 | -8.75 | 0.36
+Freq | 7.81 | -8.74 | -8.74 | 0.64
+Freq | 8.79 | -8.74 | -8.74 | 0.29
+Freq | 9.77 | -8.73 | -8.74 | 0.56
+Freq | 10.74 | -8.74 | -8.75 | 0.51
+Freq | 11.72 | -8.74 | -8.75 | 0.52
+Freq | 12.70 | -8.74 | -8.75 | 0.44
+Freq | 13.67 | -8.74 | -8.74 | 0.37
+Freq | 14.65 | -8.75 | -8.74 | 0.44
+Freq | 15.63 | -8.75 | -8.74 | 0.33
+Freq | 16.60 | -8.75 | -8.74 | 0.25
+Freq | 17.58 | -8.75 | -8.74 | 0.04
+Freq | 18.55 | -8.76 | -8.74 | 0.12
+Freq | 19.53 | -8.76 | -8.74 | 0.37
+Freq | 20.51 | -8.76 | -8.74 | 0.36
+Freq | 21.48 | -8.76 | -8.74 | 0.34
+Freq | 22.46 | -8.76 | -8.74 | 0.18
+Freq | 23.44 | -8.76 | -8.74 | 0.28
+Freq | 24.41 | -8.76 | -8.74 | 0.25
+Freq | 25.39 | -8.76 | -8.74 | 0.06
+Freq | 26.37 | -8.76 | -8.74 | 0.28
+Freq | 27.34 | -8.76 | -8.74 | 0.05
+Freq | 28.32 | -8.76 | -8.74 | 0.09
+Freq | 29.30 | -8.76 | -8.74 | 0.16
+Freq | 30.27 | -8.76 | -8.74 | 0.15
+Freq | 31.25 | -8.76 | -8.73 | 0.04
+Freq | 32.23 | -8.76 | -8.73 | 0.25
+Freq | 33.20 | -8.76 | -8.74 | 0.24
+Freq | 34.18 | -8.75 | -8.73 | 0.14
+Freq | 35.16 | -8.75 | -8.74 | 0.25
+Freq | 36.13 | -8.75 | -8.74 | 0.31
+Freq | 37.11 | -8.75 | -8.74 | 0.06
+Freq | 38.09 | -8.75 | -8.74 | 0.13
+Freq | 39.06 | -8.75 | -8.74 | 0.15
+Freq | 40.04 | -8.75 | -8.74 | 0.10
+Freq | 41.02 | -8.75 | -8.73 | 0.05
+Freq | 41.99 | -8.75 | -8.73 | 0.21
+Freq | 42.97 | -8.75 | -8.73 | 0.11
+Freq | 43.95 | -8.75 | -8.73 | 0.08
+Freq | 44.92 | -8.75 | -8.73 | 0.03
+Freq | 45.90 | -8.75 | -8.73 | 0.12
+Freq | 46.88 | -8.75 | -8.73 | 0.15
+Freq | 47.85 | -8.75 | -8.73 | 0.14
+Freq | 48.83 | -8.75 | -8.73 | 0.04
+Freq | 49.80 | -8.75 | -8.73 | 0.07
+Freq | 50.78 | -8.75 | -8.74 | 0.07
+Freq | 51.76 | -8.75 | -8.73 | 0.08
+Freq | 52.73 | -8.74 | -8.73 | 0.04
+Freq | 53.71 | -8.75 | -8.73 | 0.03
+Freq | 54.69 | -8.75 | -8.73 | 0.08
+Freq | 55.66 | -8.74 | -8.73 | 0.03
+Freq | 56.64 | -8.74 | -8.73 | 0.11
+Freq | 57.62 | -8.74 | -8.73 | 0.20
+Freq | 58.59 | -8.74 | -8.73 | 0.07
+Freq | 59.57 | -8.74 | -8.72 | 0.03
+Freq | 60.55 | -8.74 | -8.73 | 0.08
+Freq | 61.52 | -8.74 | -8.73 | 0.12
+Freq | 62.50 | -8.74 | -8.73 | 0.18
+Freq | 63.48 | -8.74 | -8.73 | 0.03
+Freq | 64.45 | -8.74 | -8.73 | 0.04
+Freq | 65.43 | -8.74 | -8.73 | 0.14
+Freq | 66.41 | -8.74 | -8.73 | 0.02
+Freq | 67.38 | -8.74 | -8.74 | 0.06
+Freq | 68.36 | -8.74 | -8.74 | 0.05
+Freq | 69.34 | -8.74 | -8.74 | 0.07
+Freq | 70.31 | -8.74 | -8.75 | 0.07
+Freq | 71.29 | -8.74 | -8.75 | 0.07
+Freq | 72.27 | -8.75 | -8.74 | 0.05
+Freq | 73.24 | -8.75 | -8.74 | 0.05
+Freq | 74.22 | -8.76 | -8.74 | 0.03
+Freq | 75.20 | -8.76 | -8.75 | 0.13
+Freq | 76.17 | -8.75 | -8.75 | 0.07
+Freq | 77.15 | -8.75 | -8.75 | 0.12
+Freq | 78.12 | -8.75 | -8.75 | 0.03
+Freq | 79.10 | -8.75 | -8.75 | 0.04
+Freq | 80.08 | -8.75 | -8.75 | 0.05
+Freq | 81.05 | -8.74 | -8.75 | 0.11
+Freq | 82.03 | -8.74 | -8.76 | 0.08
+Freq | 83.01 | -8.74 | -8.76 | 0.04
+Freq | 83.98 | -8.74 | -8.76 | 0.10
+Freq | 84.96 | -8.74 | -8.75 | 0.07
+Freq | 85.94 | -8.74 | -8.75 | 0.07
+Freq | 86.91 | -8.74 | -8.75 | 0.05
+Freq | 87.89 | -8.74 | -8.75 | 0.09
+Freq | 88.87 | -8.74 | -8.74 | 0.02
+Freq | 89.84 | -8.74 | -8.74 | 0.07
+Freq | 90.82 | -8.74 | -8.74 | 0.04
+Freq | 91.80 | -8.74 | -8.74 | 0.09
+Freq | 92.77 | -8.74 | -8.74 | 0.03
+Freq | 93.75 | -8.74 | -8.74 | 0.04
+Freq | 94.73 | -8.74 | -8.73 | 0.07
+Freq | 95.70 | -8.74 | -8.74 | 0.04
+Freq | 96.68 | -8.74 | -8.74 | 0.01
+Freq | 97.66 | -8.75 | -8.73 | 0.05
+Freq | 98.63 | -8.75 | -8.73 | 0.06
+Freq | 99.61 | -8.74 | -8.73 | 0.04
+Freq | 100.59 | -8.74 | -8.73 | 0.02
+Freq | 101.56 | -8.74 | -8.73 | 0.05
+Freq | 102.54 | -8.73 | -8.74 | 0.05
+Freq | 103.52 | -8.73 | -8.74 | 0.02
+Freq | 104.49 | -8.73 | -8.74 | 0.07
+Freq | 105.47 | -8.73 | -8.74 | 0.09
+Freq | 106.45 | -8.74 | -8.74 | 0.04
+Freq | 107.42 | -8.74 | -8.74 | 0.04
+Freq | 108.40 | -8.74 | -8.74 | 0.08
+Freq | 109.37 | -8.74 | -8.74 | 0.02
+Freq | 110.35 | -8.74 | -8.74 | 0.03
+Freq | 111.33 | -8.74 | -8.74 | 0.02
+Freq | 112.30 | -8.74 | -8.74 | 0.06
+Freq | 113.28 | -8.74 | -8.74 | 0.05
+Freq | 114.26 | -8.74 | -8.74 | 0.05
+Freq | 115.23 | -8.75 | -8.74 | 0.05
+Freq | 116.21 | -8.74 | -8.74 | 0.01
+Freq | 117.19 | -8.75 | -8.74 | 0.04
+Freq | 118.16 | -8.75 | -8.74 | 0.01
+Freq | 119.14 | -8.74 | -8.74 | 0.04
+Freq | 120.12 | -8.74 | -8.74 | 0.05
+Freq | 121.09 | -8.75 | -8.75 | 0.03
+Freq | 122.07 | -8.75 | -8.75 | 0.08
+Freq | 123.05 | -8.75 | -8.75 | 0.03
+Freq | 124.02 | -8.74 | -8.75 | 0.07
+Freq | 125.00 | -8.74 | -8.75 | 0.01
+Freq | 125.98 | -8.74 | -8.75 | 0.05
+Freq | 126.95 | -8.73 | -8.74 | 0.05
+Freq | 127.93 | -8.73 | -8.74 | 0.05
+Freq | 128.91 | -8.73 | -8.74 | 0.03
+Freq | 129.88 | -8.73 | -8.74 | 0.02
+Freq | 130.86 | -8.73 | -8.74 | 0.04
+Freq | 131.84 | -8.73 | -8.74 | 0.01
+Freq | 132.81 | -8.73 | -8.74 | 0.02
+Freq | 133.79 | -8.73 | -8.74 | 0.04
+Freq | 134.77 | -8.73 | -8.74 | 0.03
+Freq | 135.74 | -8.73 | -8.74 | 0.07
+Freq | 136.72 | -8.73 | -8.74 | 0.05
+Freq | 137.70 | -8.74 | -8.74 | 0.03
+Freq | 138.67 | -8.74 | -8.74 | 0.09
+Freq | 139.65 | -8.74 | -8.74 | 0.02
+Freq | 140.62 | -8.74 | -8.74 | 0.03
+Freq | 141.60 | -8.74 | -8.73 | 0.04
+Freq | 142.58 | -8.74 | -8.73 | 0.05
+Freq | 143.55 | -8.74 | -8.73 | 0.05
+Freq | 144.53 | -8.74 | -8.73 | 0.06
+Freq | 145.51 | -8.74 | -8.74 | 0.03
+Freq | 146.48 | -8.74 | -8.74 | 0.03
+Freq | 147.46 | -8.74 | -8.74 | 0.02
+Freq | 148.44 | -8.74 | -8.74 | 0.01
+Freq | 149.41 | -8.75 | -8.74 | 0.05
+Freq | 150.39 | -8.74 | -8.73 | 0.04
+Freq | 151.37 | -8.74 | -8.73 | 0.04
+Freq | 152.34 | -8.75 | -8.73 | 0.07
+Freq | 153.32 | -8.75 | -8.73 | 0.08
+Freq | 154.30 | -8.75 | -8.73 | 0.04
+Freq | 155.27 | -8.74 | -8.73 | 0.02
+Freq | 156.25 | -8.74 | -8.74 | 0.03
+Freq | 157.23 | -8.74 | -8.73 | 0.05
+Freq | 158.20 | -8.74 | -8.74 | 0.03
+Freq | 159.18 | -8.73 | -8.74 | 0.05
+Freq | 160.16 | -8.73 | -8.74 | 0.03
+Freq | 161.13 | -8.73 | -8.74 | 0.04
+Freq | 162.11 | -8.73 | -8.74 | 0.04
+Freq | 163.09 | -8.74 | -8.74 | 0.02
+Freq | 164.06 | -8.73 | -8.75 | 0.04
+Freq | 165.04 | -8.73 | -8.75 | 0.02
+Freq | 166.02 | -8.74 | -8.74 | 0.02
+Freq | 166.99 | -8.74 | -8.74 | 0.06
+Freq | 167.97 | -8.74 | -8.75 | 0.03
+Freq | 168.95 | -8.74 | -8.74 | 0.02
+Freq | 169.92 | -8.74 | -8.74 | 0.05
+Freq | 170.90 | -8.74 | -8.74 | 0.06
+Freq | 171.87 | -8.74 | -8.74 | 0.02
+Freq | 172.85 | -8.73 | -8.74 | 0.02
+Freq | 173.83 | -8.73 | -8.74 | 0.01
+Freq | 174.80 | -8.73 | -8.74 | 0.01
+Freq | 175.78 | -8.73 | -8.74 | 0.03
+Freq | 176.76 | -8.74 | -8.74 | 0.04
+Freq | 177.73 | -8.74 | -8.74 | 0.04
+Freq | 178.71 | -8.74 | -8.74 | 0.02
+Freq | 179.69 | -8.74 | -8.74 | 0.02
+Freq | 180.66 | -8.75 | -8.74 | 0.06
+Freq | 181.64 | -8.75 | -8.74 | 0.05
+Freq | 182.62 | -8.74 | -8.73 | 0.02
+Freq | 183.59 | -8.74 | -8.73 | 0.03
+Freq | 184.57 | -8.74 | -8.74 | 0.02
+Freq | 185.55 | -8.75 | -8.74 | 0.02
+Freq | 186.52 | -8.75 | -8.74 | 0.02
+Freq | 187.50 | -8.74 | -8.74 | 0.01
+Freq | 188.48 | -8.74 | -8.73 | 0.04
+Freq | 189.45 | -8.74 | -8.74 | 0.01
+Freq | 190.43 | -8.74 | -8.73 | 0.01
+Freq | 191.41 | -8.74 | -8.73 | 0.04
+Freq | 192.38 | -8.75 | -8.74 | 0.01
+Freq | 193.36 | -8.75 | -8.73 | 0.04
+Freq | 194.34 | -8.75 | -8.73 | 0.01
+Freq | 195.31 | -8.75 | -8.74 | 0.02
+Freq | 196.29 | -8.74 | -8.74 | 0.05
+Freq | 197.27 | -8.74 | -8.74 | 0.03
+Freq | 198.24 | -8.74 | -8.74 | 0.02
+Freq | 199.22 | -8.74 | -8.74 | 0.03
+Freq | 200.20 | -8.75 | -8.74 | 0.05
+Freq | 201.17 | -8.75 | -8.74 | 0.05
+Freq | 202.15 | -8.76 | -8.74 | 0.03
+Freq | 203.12 | -8.76 | -8.74 | 0.02
+Freq | 204.10 | -8.76 | -8.74 | 0.01
+Freq | 205.08 | -8.75 | -8.74 | 0.03
+Freq | 206.05 | -8.75 | -8.75 | 0.02
+Freq | 207.03 | -8.75 | -8.74 | 0.03
+Freq | 208.01 | -8.75 | -8.75 | 0.03
+Freq | 208.98 | -8.76 | -8.75 | 0.02
+Freq | 209.96 | -8.76 | -8.75 | 0.01
+Freq | 210.94 | -8.76 | -8.75 | 0.04
+Freq | 211.91 | -8.76 | -8.75 | 0.03
+Freq | 212.89 | -8.76 | -8.74 | 0.04
+Freq | 213.87 | -8.75 | -8.74 | 0.02
+Freq | 214.84 | -8.75 | -8.73 | 0.01
+Freq | 215.82 | -8.75 | -8.73 | 0.02
+Freq | 216.80 | -8.76 | -8.73 | 0.03
+Freq | 217.77 | -8.76 | -8.73 | 0.01
+Freq | 218.75 | -8.76 | -8.73 | 0.03
+Freq | 219.73 | -8.76 | -8.74 | 0.04
+Freq | 220.70 | -8.76 | -8.74 | 0.02
+Freq | 221.68 | -8.76 | -8.74 | 0.00
+Freq | 222.66 | -8.76 | -8.74 | 0.01
+Freq | 223.63 | -8.75 | -8.74 | 0.04
+Freq | 224.61 | -8.75 | -8.74 | 0.03
+Freq | 225.59 | -8.75 | -8.74 | 0.01
+Freq | 226.56 | -8.75 | -8.74 | 0.03
+Freq | 227.54 | -8.75 | -8.74 | 0.02
+Freq | 228.52 | -8.75 | -8.74 | 0.04
+Freq | 229.49 | -8.75 | -8.74 | 0.03
+Freq | 230.47 | -8.75 | -8.74 | 0.01
+Freq | 231.45 | -8.75 | -8.74 | 0.03
+Freq | 232.42 | -8.75 | -8.74 | 0.03
+Freq | 233.40 | -8.75 | -8.74 | 0.02
+Freq | 234.37 | -8.75 | -8.74 | 0.02
+Freq | 235.35 | -8.75 | -8.74 | 0.03
+Freq | 236.33 | -8.75 | -8.74 | 0.01
+Freq | 237.30 | -8.75 | -8.74 | 0.01
+Freq | 238.28 | -8.75 | -8.74 | 0.05
+Freq | 239.26 | -8.75 | -8.73 | 0.02
+Freq | 240.23 | -8.75 | -8.73 | 0.03
+Freq | 241.21 | -8.75 | -8.73 | 0.01
+Freq | 242.19 | -8.75 | -8.73 | 0.03
+Freq | 243.16 | -8.75 | -8.73 | 0.03
+Freq | 244.14 | -8.75 | -8.73 | 0.02
+Freq | 245.12 | -8.75 | -8.73 | 0.01
+Freq | 246.09 | -8.75 | -8.73 | 0.01
+Freq | 247.07 | -8.75 | -8.73 | 0.01
+Freq | 248.05 | -8.75 | -8.74 | 0.04
+Freq | 249.02 | -8.75 | -8.73 | 0.03
+Peaks: 0.00 0.00 0.00 0.00 0.00 
+Loop | 5
+2 Adding value 495347302
+
+3 Adding value -1494720229
+
+4 Adding value 453364402
+
+5 Adding value -1572758070
+
+6 Adding value 953581528
+
+7 Adding value -1461939416
+
+8 Adding value 1382189544
+
+9 Adding value 950672097
+
+10 Adding value 1842475400
+
+11 Adding value 2010655601
+
+12 Adding value 1381418308
+
+13 Adding value 1436847312
+
+14 Adding value -812914414
+
+15 Adding value -2003994137
+
+16 Adding value 2134036342
+
+17 Adding value -2085920117
+
+18 Adding value 76049122
+
+19 Adding value 433760201
+
+20 Adding value -304021890
+
+21 Adding value 972398080
+
+22 Adding value 1849135763
+
+23 Adding value -1073785833
+
+24 Adding value -1866551363
+
+25 Adding value 1223539955
+
+26 Adding value -111447200
+
+27 Adding value 1791049011
+
+28 Adding value 129265008
+
+29 Adding value -1701921089
+
+30 Adding value -691841925
+
+31 Adding value 200784232
+
+32 Adding value -1031921011
+
+33 Adding value 778026205
+
+34 Adding value -680645034
+
+35 Adding value -1777540726
+
+36 Adding value 497906600
+
+37 Adding value 1816092527
+
+38 Adding value 2102049015
+
+39 Adding value 394311408
+
+40 Adding value -207828357
+
+41 Adding value 1670759831
+
+42 Adding value -2128389693
+
+43 Adding value 2132503269
+
+44 Adding value 650234736
+
+45 Adding value 847933363
+
+46 Adding value -1701136635
+
+47 Adding value 1659989276
+
+48 Adding value -1116229674
+
+49 Adding value -1032521527
+
+50 Adding value -987043881
+
+51 Adding value 1648901304
+
+52 Adding value -1221736191
+
+53 Adding value -37329011
+
+54 Adding value -311474639
+
+55 Adding value 1960706400
+
+56 Adding value 275569108
+
+57 Adding value 843485091
+
+58 Adding value -2147015755
+
+59 Adding value -130255144
+
+60 Adding value 1877497646
+
+61 Adding value 1771831087
+
+62 Adding value 267280087
+
+63 Adding value -748076322
+
+64 Adding value -1889950334
+
+65 Adding value 1251168524
+
+66 Adding value -487696632
+
+67 Adding value -1005795604
+
+68 Adding value 757771858
+
+69 Adding value -1421028626
+
+70 Adding value 1540742597
+
+71 Adding value 308271091
+
+72 Adding value 29476854
+
+73 Adding value -1008657064
+
+74 Adding value -2142960068
+
+75 Adding value -762593904
+
+76 Adding value 936111799
+
+77 Adding value 459229825
+
+78 Adding value 471687851
+
+79 Adding value -1389082510
+
+80 Adding value -1972578508
+
+81 Adding value -1547166930
+
+82 Adding value 859972864
+
+83 Adding value 1419971353
+
+84 Adding value 398567823
+
+85 Adding value 1741304452
+
+86 Adding value 114124972
+
+87 Adding value 510742943
+
+88 Adding value 501981929
+
+89 Adding value -1798548356
+
+90 Adding value -1552735004
+
+91 Adding value 1346709654
+
+92 Adding value 1614073353
+
+93 Adding value -1151550734
+
+94 Adding value -1269423598
+
+95 Adding value 789484427
+
+96 Adding value -145021509
+
+97 Adding value -965399798
+
+98 Adding value 1937658329
+
+99 Adding value 279082532
+
+100 Adding value -1478843902
+
+101 Adding value -976021631
+
+102 Adding value -46562260
+
+103 Adding value 1901292160
+
+104 Adding value 901373311
+
+105 Adding value -569783172
+
+106 Adding value -1797896043
+
+107 Adding value 666782779
+
+108 Adding value -1070547875
+
+109 Adding value 1550878530
+
+110 Adding value -1533598582
+
+111 Adding value 1054203850
+
+112 Adding value 1058187733
+
+113 Adding value 855519831
+
+114 Adding value -1785397
+
+115 Adding value -1100043166
+
+116 Adding value 1244253764
+
+117 Adding value 78714172
+
+118 Adding value -1259011653
+
+119 Adding value -715331396
+
+120 Adding value 555286578
+
+121 Adding value -754324106
+
+122 Adding value -573263951
+
+123 Adding value -547653398
+
+124 Adding value 461018254
+
+125 Adding value 1266369506
+
+126 Adding value -2106955122
+
+127 Adding value 2108465702
+
+128 Adding value -1037811386
+
+129 Adding value 240158176
+
+130 Adding value 491517779
+
+131 Adding value -1044991147
+
+132 Adding value -1550384521
+
+133 Adding value 760957606
+
+134 Adding value -1001148369
+
+135 Adding value -572372670
+
+136 Adding value -1184110672
+
+137 Adding value 914825373
+
+138 Adding value 1628384531
+
+139 Adding value 1741547068
+
+140 Adding value 1385438601
+
+141 Adding value 179968322
+
+142 Adding value -864417120
+
+143 Adding value -1057958700
+
+144 Adding value 56920544
+
+145 Adding value 478261950
+
+146 Adding value -814941375
+
+147 Adding value -583856574
+
+148 Adding value 916653263
+
+149 Adding value -995808819
+
+150 Adding value 2084268308
+
+151 Adding value -449118364
+
+152 Adding value -1281326582
+
+153 Adding value -795701373
+
+154 Adding value 314171579
+
+155 Adding value -1035699672
+
+156 Adding value -410588044
+
+157 Adding value 2057734230
+
+158 Adding value 507681707
+
+159 Adding value -1472487921
+
+160 Adding value 221458974
+
+161 Adding value -807000681
+
+162 Adding value -533254209
+
+163 Adding value -1526633122
+
+164 Adding value -1882759053
+
+165 Adding value -1958627121
+
+166 Adding value 2085391736
+
+167 Adding value -788311178
+
+168 Adding value -1277381900
+
+169 Adding value 143336585
+
+170 Adding value -376399861
+
+171 Adding value 2075554608
+
+172 Adding value 296374436
+
+173 Adding value -2018417878
+
+174 Adding value -290688253
+
+175 Adding value -569534960
+
+176 Adding value 1363383319
+
+177 Adding value -1831808261
+
+178 Adding value -771160031
+
+179 Adding value -966938372
+
+180 Adding value -1689257626
+
+181 Adding value -1984472028
+
+182 Adding value 960497143
+
+183 Adding value -635987817
+
+184 Adding value -1889988685
+
+185 Adding value -1629888834
+
+186 Adding value -456090172
+
+187 Adding value -777293551
+
+188 Adding value -1572637006
+
+189 Adding value 386871927
+
+190 Adding value -2094811646
+
+191 Adding value -1843370893
+
+192 Adding value -719971907
+
+193 Adding value 993198856
+
+194 Adding value -781645924
+
+195 Adding value 59836740
+
+196 Adding value 1575092546
+
+197 Adding value 1407317417
+
+198 Adding value -634121227
+
+199 Adding value -532002743
+
+200 Adding value -2086765997
+
+201 Adding value 372354071
+
+202 Adding value 1803799254
+
+203 Adding value -1079518642
+
+204 Adding value -390904752
+
+205 Adding value 294422599
+
+206 Adding value -1906337194
+
+207 Adding value 905066005
+
+208 Adding value -1614575246
+
+209 Adding value 476097691
+
+210 Adding value 1025662773
+
+211 Adding value -1864012697
+
+212 Adding value 252711474
+
+213 Adding value -1292915598
+
+214 Adding value 1842475889
+
+215 Adding value -1766492897
+
+216 Adding value -548688630
+
+217 Adding value -1796841397
+
+218 Adding value -1216340413
+
+219 Adding value -764436395
+
+220 Adding value 132038766
+
+221 Adding value -1052922669
+
+222 Adding value 1689275800
+
+223 Adding value 1002223474
+
+224 Adding value -717256299
+
+225 Adding value 1132769087
+
+226 Adding value -466055689
+
+227 Adding value 256259973
+
+228 Adding value 799588248
+
+229 Adding value -1579173443
+
+230 Adding value -1983246001
+
+231 Adding value -859940506
+
+232 Adding value -2031746072
+
+233 Adding value 1977219662
+
+234 Adding value 1350261446
+
+235 Adding value -1939122304
+
+236 Adding value -340044260
+
+237 Adding value -850716622
+
+238 Adding value -752016953
+
+239 Adding value 1939923356
+
+240 Adding value -488661411
+
+241 Adding value -1053405821
+
+242 Adding value -1366200216
+
+243 Adding value -1513145814
+
+244 Adding value -1368290262
+
+245 Adding value 1675559325
+
+246 Adding value 1197539255
+
+247 Adding value -1947452190
+
+248 Adding value -2094194092
+
+249 Adding value -595503760
+
+250 Adding value 868613924
+
+251 Adding value -861649193
+
+252 Adding value 1917533681
+
+253 Adding value 681084290
+
+254 Adding value -1707598850
+
+255 Adding value 1444581070
+
+256 Adding value 1946208073
+
+257 Adding value 522501130
+
+258 Adding value 0
+
+259 Adding value 522507652
+
+260 Adding value 1946211786
+
+261 Adding value 1444560748
+
+262 Adding value -1707600071
+
+263 Adding value 681055347
+
+264 Adding value 1917533680
+
+265 Adding value -861656253
+
+266 Adding value 868607821
+
+267 Adding value -595515991
+
+268 Adding value -2094192249
+
+269 Adding value -1947451957
+
+270 Adding value 1197537260
+
+271 Adding value 1675587009
+
+272 Adding value -1368265255
+
+273 Adding value -1513137128
+
+274 Adding value -1366194586
+
+275 Adding value -1053417700
+
+276 Adding value -488658589
+
+277 Adding value 1939925882
+
+278 Adding value -752013693
+
+279 Adding value -850709166
+
+280 Adding value -340042876
+
+281 Adding value -1939120408
+
+282 Adding value 1350268125
+
+283 Adding value 1977217847
+
+284 Adding value -2031741875
+
+285 Adding value -859938788
+
+286 Adding value -1983244537
+
+287 Adding value -1579169124
+
+288 Adding value 799590084
+
+289 Adding value 256258919
+
+290 Adding value -466053570
+
+291 Adding value 1132767137
+
+292 Adding value -717255805
+
+293 Adding value 1002223433
+
+294 Adding value 1689275600
+
+295 Adding value -1052911411
+
+296 Adding value 132035021
+
+297 Adding value -764434427
+
+298 Adding value -1216339226
+
+299 Adding value -1796836921
+
+300 Adding value -548687493
+
+301 Adding value -1766495959
+
+302 Adding value 1842476607
+
+303 Adding value -1292905582
+
+304 Adding value 252715695
+
+305 Adding value -1864013408
+
+306 Adding value 1025665166
+
+307 Adding value 476088745
+
+308 Adding value -1614575508
+
+309 Adding value 905066843
+
+310 Adding value -1906339415
+
+311 Adding value 294417424
+
+312 Adding value -390904668
+
+313 Adding value -1079519878
+
+314 Adding value 1803803070
+
+315 Adding value 372353198
+
+316 Adding value -2086767229
+
+317 Adding value -532002634
+
+318 Adding value -634122057
+
+319 Adding value 1407317248
+
+320 Adding value 1575092582
+
+321 Adding value 59836669
+
+322 Adding value -781650882
+
+323 Adding value 993199854
+
+324 Adding value -719973432
+
+325 Adding value -1843372799
+
+326 Adding value -2094814752
+
+327 Adding value 386876839
+
+328 Adding value -1572636876
+
+329 Adding value -777293196
+
+330 Adding value -456091695
+
+331 Adding value -1629888746
+
+332 Adding value -1889986540
+
+333 Adding value -635987959
+
+334 Adding value 960499388
+
+335 Adding value -1984472431
+
+336 Adding value -1689257717
+
+337 Adding value -966941839
+
+338 Adding value -771158559
+
+339 Adding value -1831808381
+
+340 Adding value 1363382217
+
+341 Adding value -569535304
+
+342 Adding value -290688107
+
+343 Adding value -2018418656
+
+344 Adding value 296368640
+
+345 Adding value 2075554108
+
+346 Adding value -376399869
+
+347 Adding value 143337519
+
+348 Adding value -1277381695
+
+349 Adding value -788311149
+
+350 Adding value 2085399846
+
+351 Adding value -1958627813
+
+352 Adding value -1882760287
+
+353 Adding value -1526632908
+
+354 Adding value -533253953
+
+355 Adding value -807000619
+
+356 Adding value 221459043
+
+357 Adding value -1472488337
+
+358 Adding value 507682291
+
+359 Adding value 2057735002
+
+360 Adding value -410587376
+
+361 Adding value -1035700077
+
+362 Adding value 314171584
+
+363 Adding value -795701301
+
+364 Adding value -1281327253
+
+365 Adding value -449118492
+
+366 Adding value 2084268776
+
+367 Adding value -995809339
+
+368 Adding value 916653683
+
+369 Adding value -583869254
+
+370 Adding value -814941293
+
+371 Adding value 478262144
+
+372 Adding value 56921761
+
+373 Adding value -1057956455
+
+374 Adding value -864416426
+
+375 Adding value 179968511
+
+376 Adding value 1385438786
+
+377 Adding value 1741547973
+
+378 Adding value 1628383854
+
+379 Adding value 914825588
+
+380 Adding value -1184110862
+
+381 Adding value -572373277
+
+382 Adding value -1001148574
+
+383 Adding value 760957022
+
+384 Adding value -1550383841
+
+385 Adding value -1044992207
+
+386 Adding value 491517753
+
+387 Adding value 240157820
+
+388 Adding value -1037811467
+
+389 Adding value 2108464815
+
+390 Adding value -2106955885
+
+391 Adding value 1266368980
+
+392 Adding value 461017715
+
+393 Adding value -547653416
+
+394 Adding value -573263843
+
+395 Adding value -754324331
+
+396 Adding value 555286524
+
+397 Adding value -715332729
+
+398 Adding value -1259010843
+
+399 Adding value 78714111
+
+400 Adding value 1244253295
+
+401 Adding value -1100042761
+
+402 Adding value -1785258
+
+403 Adding value 855519946
+
+404 Adding value 1058187733
+
+405 Adding value 1054203487
+
+406 Adding value -1533598205
+
+407 Adding value 1550878246
+
+408 Adding value -1070548327
+
+409 Adding value 666782913
+
+410 Adding value -1797895227
+
+411 Adding value -569783335
+
+412 Adding value 901373515
+
+413 Adding value 1901292259
+
+414 Adding value -46562163
+
+415 Adding value -976022145
+
+416 Adding value -1478843861
+
+417 Adding value 279082475
+
+418 Adding value 1937660903
+
+419 Adding value -965399543
+
+420 Adding value -145021653
+
+421 Adding value 789484192
+
+422 Adding value -1269423463
+
+423 Adding value -1151552915
+
+424 Adding value 1614074178
+
+425 Adding value 1346709651
+
+426 Adding value -1552734971
+
+427 Adding value -1798549052
+
+428 Adding value 501981895
+
+429 Adding value 510742793
+
+430 Adding value 114124861
+
+431 Adding value 1741304359
+
+432 Adding value 398567691
+
+433 Adding value 1419971310
+
+434 Adding value 859972927
+
+435 Adding value -1547166898
+
+436 Adding value -1972579079
+
+437 Adding value -1389082577
+
+438 Adding value 471687996
+
+439 Adding value 459229969
+
+440 Adding value 936111999
+
+441 Adding value -762594460
+
+442 Adding value -2142960037
+
+443 Adding value -1008656945
+
+444 Adding value 29476710
+
+445 Adding value 308270950
+
+446 Adding value 1540742414
+
+447 Adding value -1421028578
+
+448 Adding value 757771500
+
+449 Adding value -1005795007
+
+450 Adding value -487696671
+
+451 Adding value 1251168524
+
+452 Adding value -1889950752
+
+453 Adding value -748077902
+
+454 Adding value 267279913
+
+455 Adding value 1771831330
+
+456 Adding value 1877497206
+
+457 Adding value -130255059
+
+458 Adding value -2147015674
+
+459 Adding value 843484760
+
+460 Adding value 275568987
+
+461 Adding value 1960706283
+
+462 Adding value -311474687
+
+463 Adding value -37329025
+
+464 Adding value -1221736161
+
+465 Adding value 1648901252
+
+466 Adding value -987043855
+
+467 Adding value -1032521583
+
+468 Adding value -1116229672
+
+469 Adding value 1659989276
+
+470 Adding value -1701136612
+
+471 Adding value 847933135
+
+472 Adding value 650234799
+
+473 Adding value 2132503242
+
+474 Adding value -2128389474
+
+475 Adding value 1670759810
+
+476 Adding value -207828415
+
+477 Adding value 394311420
+
+478 Adding value 2102048902
+
+479 Adding value 1816092697
+
+480 Adding value 497906729
+
+481 Adding value -1777540796
+
+482 Adding value -680644988
+
+483 Adding value 778025986
+
+484 Adding value -1031920902
+
+485 Adding value 200784214
+
+486 Adding value -691841861
+
+487 Adding value -1701921093
+
+488 Adding value 129264988
+
+489 Adding value 1791048963
+
+490 Adding value -111447192
+
+491 Adding value 1223539968
+
+492 Adding value -1866551288
+
+493 Adding value -1073785862
+
+494 Adding value 1849135767
+
+495 Adding value 972398032
+
+496 Adding value -304021748
+
+497 Adding value 433760167
+
+498 Adding value 76049148
+
+499 Adding value -2085920105
+
+500 Adding value 2134036332
+
+501 Adding value -2003994170
+
+502 Adding value -812914535
+
+503 Adding value 1436847281
+
+504 Adding value 1381418270
+
+505 Adding value 2010655564
+
+506 Adding value 1842475399
+
+507 Adding value 950672039
+
+508 Adding value 1382189515
+
+509 Adding value -1461939440
+
+510 Adding value 953581465
+
+511 Adding value -1572758129
+
+512 Adding value 453364370
+
+513 Adding value -1494720241
+
+Freq | 0.00 | -8.76 | -8.73 | 4477.41
+Freq | 0.98 | -8.76 | -8.73 | 0.54
+Freq | 1.95 | -8.75 | -8.73 | 0.83
+Freq | 2.93 | -8.76 | -8.72 | 0.98
+Freq | 3.91 | -8.75 | -8.73 | 0.22
+Freq | 4.88 | -8.75 | -8.73 | 0.43
+Freq | 5.86 | -8.75 | -8.73 | 0.63
+Freq | 6.84 | -8.75 | -8.73 | 0.46
+Freq | 7.81 | -8.75 | -8.73 | 0.11
+Freq | 8.79 | -8.76 | -8.73 | 1.27
+Freq | 9.77 | -8.75 | -8.73 | 0.43
+Freq | 10.74 | -8.76 | -8.73 | 0.56
+Freq | 11.72 | -8.76 | -8.73 | 0.18
+Freq | 12.70 | -8.75 | -8.73 | 0.32
+Freq | 13.67 | -8.75 | -8.73 | 0.62
+Freq | 14.65 | -8.74 | -8.74 | 0.43
+Freq | 15.63 | -8.74 | -8.74 | 0.25
+Freq | 16.60 | -8.73 | -8.74 | 0.28
+Freq | 17.58 | -8.74 | -8.74 | 0.03
+Freq | 18.55 | -8.73 | -8.74 | 0.24
+Freq | 19.53 | -8.73 | -8.74 | 0.26
+Freq | 20.51 | -8.73 | -8.73 | 0.18
+Freq | 21.48 | -8.74 | -8.74 | 0.08
+Freq | 22.46 | -8.74 | -8.74 | 0.10
+Freq | 23.44 | -8.74 | -8.74 | 0.20
+Freq | 24.41 | -8.74 | -8.74 | 0.26
+Freq | 25.39 | -8.74 | -8.74 | 0.19
+Freq | 26.37 | -8.74 | -8.74 | 0.20
+Freq | 27.34 | -8.74 | -8.74 | 0.15
+Freq | 28.32 | -8.74 | -8.75 | 0.30
+Freq | 29.30 | -8.75 | -8.74 | 0.16
+Freq | 30.27 | -8.75 | -8.74 | 0.11
+Freq | 31.25 | -8.75 | -8.74 | 0.23
+Freq | 32.23 | -8.75 | -8.74 | 0.11
+Freq | 33.20 | -8.74 | -8.74 | 0.03
+Freq | 34.18 | -8.74 | -8.74 | 0.01
+Freq | 35.16 | -8.74 | -8.74 | 0.05
+Freq | 36.13 | -8.74 | -8.74 | 0.12
+Freq | 37.11 | -8.75 | -8.74 | 0.21
+Freq | 38.09 | -8.75 | -8.75 | 0.18
+Freq | 39.06 | -8.75 | -8.74 | 0.12
+Freq | 40.04 | -8.76 | -8.74 | 0.24
+Freq | 41.02 | -8.75 | -8.74 | 0.12
+Freq | 41.99 | -8.75 | -8.74 | 0.10
+Freq | 42.97 | -8.75 | -8.74 | 0.17
+Freq | 43.95 | -8.75 | -8.74 | 0.06
+Freq | 44.92 | -8.75 | -8.74 | 0.23
+Freq | 45.90 | -8.75 | -8.74 | 0.14
+Freq | 46.88 | -8.75 | -8.74 | 0.11
+Freq | 47.85 | -8.75 | -8.74 | 0.10
+Freq | 48.83 | -8.75 | -8.74 | 0.08
+Freq | 49.80 | -8.75 | -8.74 | 0.14
+Freq | 50.78 | -8.75 | -8.74 | 0.11
+Freq | 51.76 | -8.74 | -8.74 | 0.21
+Freq | 52.73 | -8.74 | -8.73 | 0.05
+Freq | 53.71 | -8.74 | -8.73 | 0.15
+Freq | 54.69 | -8.74 | -8.73 | 0.17
+Freq | 55.66 | -8.74 | -8.73 | 0.11
+Freq | 56.64 | -8.75 | -8.73 | 0.05
+Freq | 57.62 | -8.75 | -8.73 | 0.05
+Freq | 58.59 | -8.75 | -8.73 | 0.04
+Freq | 59.57 | -8.76 | -8.73 | 0.02
+Freq | 60.55 | -8.76 | -8.73 | 0.05
+Freq | 61.52 | -8.76 | -8.74 | 0.05
+Freq | 62.50 | -8.75 | -8.75 | 0.07
+Freq | 63.48 | -8.76 | -8.75 | 0.05
+Freq | 64.45 | -8.76 | -8.75 | 0.10
+Freq | 65.43 | -8.76 | -8.75 | 0.16
+Freq | 66.41 | -8.76 | -8.75 | 0.05
+Freq | 67.38 | -8.75 | -8.75 | 0.10
+Freq | 68.36 | -8.75 | -8.75 | 0.03
+Freq | 69.34 | -8.75 | -8.75 | 0.10
+Freq | 70.31 | -8.75 | -8.75 | 0.11
+Freq | 71.29 | -8.75 | -8.75 | 0.04
+Freq | 72.27 | -8.75 | -8.75 | 0.09
+Freq | 73.24 | -8.75 | -8.75 | 0.04
+Freq | 74.22 | -8.75 | -8.75 | 0.05
+Freq | 75.20 | -8.76 | -8.75 | 0.08
+Freq | 76.17 | -8.75 | -8.75 | 0.03
+Freq | 77.15 | -8.75 | -8.75 | 0.11
+Freq | 78.12 | -8.76 | -8.75 | 0.08
+Freq | 79.10 | -8.75 | -8.75 | 0.03
+Freq | 80.08 | -8.75 | -8.75 | 0.14
+Freq | 81.05 | -8.75 | -8.75 | 0.04
+Freq | 82.03 | -8.75 | -8.75 | 0.06
+Freq | 83.01 | -8.75 | -8.75 | 0.12
+Freq | 83.98 | -8.75 | -8.75 | 0.09
+Freq | 84.96 | -8.74 | -8.75 | 0.03
+Freq | 85.94 | -8.74 | -8.75 | 0.08
+Freq | 86.91 | -8.74 | -8.76 | 0.05
+Freq | 87.89 | -8.74 | -8.75 | 0.02
+Freq | 88.87 | -8.73 | -8.75 | 0.01
+Freq | 89.84 | -8.74 | -8.75 | 0.02
+Freq | 90.82 | -8.74 | -8.75 | 0.06
+Freq | 91.80 | -8.74 | -8.75 | 0.08
+Freq | 92.77 | -8.75 | -8.74 | 0.04
+Freq | 93.75 | -8.75 | -8.74 | 0.02
+Freq | 94.73 | -8.74 | -8.73 | 0.07
+Freq | 95.70 | -8.74 | -8.74 | 0.07
+Freq | 96.68 | -8.75 | -8.74 | 0.04
+Freq | 97.66 | -8.75 | -8.74 | 0.04
+Freq | 98.63 | -8.75 | -8.74 | 0.05
+Freq | 99.61 | -8.75 | -8.74 | 0.07
+Freq | 100.59 | -8.75 | -8.74 | 0.06
+Freq | 101.56 | -8.75 | -8.74 | 0.02
+Freq | 102.54 | -8.75 | -8.74 | 0.06
+Freq | 103.52 | -8.76 | -8.74 | 0.06
+Freq | 104.49 | -8.76 | -8.74 | 0.06
+Freq | 105.47 | -8.76 | -8.74 | 0.02
+Freq | 106.45 | -8.75 | -8.74 | 0.04
+Freq | 107.42 | -8.75 | -8.74 | 0.07
+Freq | 108.40 | -8.75 | -8.74 | 0.06
+Freq | 109.37 | -8.75 | -8.75 | 0.04
+Freq | 110.35 | -8.75 | -8.75 | 0.05
+Freq | 111.33 | -8.75 | -8.75 | 0.03
+Freq | 112.30 | -8.75 | -8.75 | 0.03
+Freq | 113.28 | -8.76 | -8.75 | 0.02
+Freq | 114.26 | -8.75 | -8.75 | 0.02
+Freq | 115.23 | -8.75 | -8.75 | 0.06
+Freq | 116.21 | -8.75 | -8.75 | 0.05
+Freq | 117.19 | -8.75 | -8.75 | 0.05
+Freq | 118.16 | -8.75 | -8.75 | 0.03
+Freq | 119.14 | -8.75 | -8.75 | 0.02
+Freq | 120.12 | -8.75 | -8.75 | 0.04
+Freq | 121.09 | -8.74 | -8.75 | 0.03
+Freq | 122.07 | -8.74 | -8.75 | 0.04
+Freq | 123.05 | -8.74 | -8.76 | 0.05
+Freq | 124.02 | -8.74 | -8.76 | 0.03
+Freq | 125.00 | -8.73 | -8.76 | 0.05
+Freq | 125.98 | -8.73 | -8.76 | 0.02
+Freq | 126.95 | -8.74 | -8.76 | 0.03
+Freq | 127.93 | -8.74 | -8.76 | 0.06
+Freq | 128.91 | -8.74 | -8.76 | 0.07
+Freq | 129.88 | -8.74 | -8.75 | 0.06
+Freq | 130.86 | -8.74 | -8.75 | 0.04
+Freq | 131.84 | -8.74 | -8.75 | 0.09
+Freq | 132.81 | -8.74 | -8.75 | 0.02
+Freq | 133.79 | -8.74 | -8.76 | 0.03
+Freq | 134.77 | -8.74 | -8.76 | 0.05
+Freq | 135.74 | -8.74 | -8.76 | 0.03
+Freq | 136.72 | -8.74 | -8.76 | 0.02
+Freq | 137.70 | -8.74 | -8.76 | 0.00
+Freq | 138.67 | -8.74 | -8.76 | 0.00
+Freq | 139.65 | -8.74 | -8.76 | 0.04
+Freq | 140.62 | -8.74 | -8.76 | 0.02
+Freq | 141.60 | -8.74 | -8.76 | 0.00
+Freq | 142.58 | -8.75 | -8.76 | 0.00
+Freq | 143.55 | -8.75 | -8.76 | 0.03
+Freq | 144.53 | -8.75 | -8.76 | 0.03
+Freq | 145.51 | -8.74 | -8.76 | 0.03
+Freq | 146.48 | -8.74 | -8.76 | 0.04
+Freq | 147.46 | -8.74 | -8.76 | 0.06
+Freq | 148.44 | -8.74 | -8.76 | 0.05
+Freq | 149.41 | -8.74 | -8.75 | 0.04
+Freq | 150.39 | -8.74 | -8.75 | 0.05
+Freq | 151.37 | -8.74 | -8.75 | 0.02
+Freq | 152.34 | -8.74 | -8.75 | 0.02
+Freq | 153.32 | -8.74 | -8.75 | 0.03
+Freq | 154.30 | -8.75 | -8.75 | 0.05
+Freq | 155.27 | -8.75 | -8.75 | 0.02
+Freq | 156.25 | -8.75 | -8.75 | 0.04
+Freq | 157.23 | -8.75 | -8.75 | 0.05
+Freq | 158.20 | -8.74 | -8.75 | 0.02
+Freq | 159.18 | -8.75 | -8.75 | 0.03
+Freq | 160.16 | -8.75 | -8.74 | 0.00
+Freq | 161.13 | -8.75 | -8.74 | 0.04
+Freq | 162.11 | -8.75 | -8.74 | 0.05
+Freq | 163.09 | -8.75 | -8.75 | 0.02
+Freq | 164.06 | -8.75 | -8.75 | 0.03
+Freq | 165.04 | -8.75 | -8.75 | 0.05
+Freq | 166.02 | -8.75 | -8.75 | 0.01
+Freq | 166.99 | -8.75 | -8.75 | 0.04
+Freq | 167.97 | -8.75 | -8.74 | 0.03
+Freq | 168.95 | -8.74 | -8.74 | 0.02
+Freq | 169.92 | -8.75 | -8.74 | 0.04
+Freq | 170.90 | -8.75 | -8.74 | 0.03
+Freq | 171.87 | -8.75 | -8.74 | 0.02
+Freq | 172.85 | -8.75 | -8.74 | 0.02
+Freq | 173.83 | -8.75 | -8.74 | 0.02
+Freq | 174.80 | -8.74 | -8.74 | 0.04
+Freq | 175.78 | -8.74 | -8.74 | 0.01
+Freq | 176.76 | -8.74 | -8.74 | 0.02
+Freq | 177.73 | -8.75 | -8.74 | 0.02
+Freq | 178.71 | -8.75 | -8.74 | 0.04
+Freq | 179.69 | -8.75 | -8.74 | 0.01
+Freq | 180.66 | -8.75 | -8.74 | 0.01
+Freq | 181.64 | -8.75 | -8.74 | 0.04
+Freq | 182.62 | -8.75 | -8.74 | 0.01
+Freq | 183.59 | -8.75 | -8.74 | 0.01
+Freq | 184.57 | -8.75 | -8.74 | 0.03
+Freq | 185.55 | -8.75 | -8.74 | 0.03
+Freq | 186.52 | -8.74 | -8.75 | 0.03
+Freq | 187.50 | -8.74 | -8.75 | 0.01
+Freq | 188.48 | -8.74 | -8.75 | 0.04
+Freq | 189.45 | -8.74 | -8.75 | 0.02
+Freq | 190.43 | -8.74 | -8.74 | 0.04
+Freq | 191.41 | -8.74 | -8.75 | 0.01
+Freq | 192.38 | -8.74 | -8.74 | 0.04
+Freq | 193.36 | -8.74 | -8.74 | 0.03
+Freq | 194.34 | -8.73 | -8.74 | 0.03
+Freq | 195.31 | -8.74 | -8.74 | 0.03
+Freq | 196.29 | -8.74 | -8.74 | 0.05
+Freq | 197.27 | -8.74 | -8.74 | 0.03
+Freq | 198.24 | -8.74 | -8.74 | 0.01
+Freq | 199.22 | -8.74 | -8.74 | 0.02
+Freq | 200.20 | -8.74 | -8.74 | 0.05
+Freq | 201.17 | -8.74 | -8.74 | 0.04
+Freq | 202.15 | -8.74 | -8.74 | 0.01
+Freq | 203.12 | -8.74 | -8.74 | 0.02
+Freq | 204.10 | -8.74 | -8.74 | 0.02
+Freq | 205.08 | -8.74 | -8.74 | 0.02
+Freq | 206.05 | -8.74 | -8.74 | 0.00
+Freq | 207.03 | -8.74 | -8.74 | 0.04
+Freq | 208.01 | -8.74 | -8.74 | 0.01
+Freq | 208.98 | -8.74 | -8.75 | 0.03
+Freq | 209.96 | -8.75 | -8.75 | 0.01
+Freq | 210.94 | -8.75 | -8.75 | 0.04
+Freq | 211.91 | -8.75 | -8.74 | 0.01
+Freq | 212.89 | -8.75 | -8.74 | 0.01
+Freq | 213.87 | -8.75 | -8.74 | 0.00
+Freq | 214.84 | -8.75 | -8.74 | 0.01
+Freq | 215.82 | -8.75 | -8.74 | 0.03
+Freq | 216.80 | -8.75 | -8.74 | 0.01
+Freq | 217.77 | -8.75 | -8.74 | 0.01
+Freq | 218.75 | -8.76 | -8.74 | 0.03
+Freq | 219.73 | -8.76 | -8.74 | 0.03
+Freq | 220.70 | -8.76 | -8.74 | 0.04
+Freq | 221.68 | -8.76 | -8.74 | 0.02
+Freq | 222.66 | -8.75 | -8.74 | 0.04
+Freq | 223.63 | -8.75 | -8.74 | 0.02
+Freq | 224.61 | -8.75 | -8.75 | 0.02
+Freq | 225.59 | -8.75 | -8.74 | 0.03
+Freq | 226.56 | -8.75 | -8.74 | 0.01
+Freq | 227.54 | -8.75 | -8.74 | 0.02
+Freq | 228.52 | -8.75 | -8.74 | 0.02
+Freq | 229.49 | -8.75 | -8.74 | 0.02
+Freq | 230.47 | -8.75 | -8.74 | 0.03
+Freq | 231.45 | -8.76 | -8.74 | 0.01
+Freq | 232.42 | -8.76 | -8.74 | 0.00
+Freq | 233.40 | -8.76 | -8.74 | 0.01
+Freq | 234.37 | -8.76 | -8.74 | 0.03
+Freq | 235.35 | -8.75 | -8.74 | 0.03
+Freq | 236.33 | -8.75 | -8.74 | 0.01
+Freq | 237.30 | -8.75 | -8.73 | 0.01
+Freq | 238.28 | -8.75 | -8.74 | 0.04
+Freq | 239.26 | -8.74 | -8.74 | 0.03
+Freq | 240.23 | -8.74 | -8.73 | 0.03
+Freq | 241.21 | -8.74 | -8.74 | 0.03
+Freq | 242.19 | -8.74 | -8.74 | 0.01
+Freq | 243.16 | -8.74 | -8.74 | 0.03
+Freq | 244.14 | -8.74 | -8.75 | 0.04
+Freq | 245.12 | -8.74 | -8.75 | 0.01
+Freq | 246.09 | -8.74 | -8.75 | 0.04
+Freq | 247.07 | -8.73 | -8.75 | 0.02
+Freq | 248.05 | -8.73 | -8.75 | 0.01
+Freq | 249.02 | -8.73 | -8.75 | 0.02
+Peaks: 0.00 0.00 0.00 0.00 0.00 
+Loop | 6
+2 Adding value -146381210
+
+3 Adding value 1281277662
+
+4 Adding value -897722984
+
+5 Adding value -1009709873
+
+6 Adding value 1415756192
+
+7 Adding value 1100407891
+
+8 Adding value 1815567057
+
+9 Adding value 1119704220
+
+10 Adding value 30215639
+
+11 Adding value -601191551
+
+12 Adding value 2113193167
+
+13 Adding value 711824027
+
+14 Adding value 417731199
+
+15 Adding value -781710508
+
+16 Adding value 1613168762
+
+17 Adding value -173436147
+
+18 Adding value -138784876
+
+19 Adding value 832578034
+
+20 Adding value -1844880786
+
+21 Adding value 1119688393
+
+22 Adding value -1882183730
+
+23 Adding value -1955156840
+
+24 Adding value -655794450
+
+25 Adding value -148679007
+
+26 Adding value -1360622511
+
+27 Adding value 1534126981
+
+28 Adding value 1568375195
+
+29 Adding value 329407721
+
+30 Adding value 1038778172
+
+31 Adding value 626694152
+
+32 Adding value -1852698957
+
+33 Adding value 1919074374
+
+34 Adding value -1219080332
+
+35 Adding value -1103172901
+
+36 Adding value -1585188800
+
+37 Adding value 616365113
+
+38 Adding value -1192034245
+
+39 Adding value 949737974
+
+40 Adding value -1876290043
+
+41 Adding value 1416419823
+
+42 Adding value 23590367
+
+43 Adding value 1041388659
+
+44 Adding value 2141368151
+
+45 Adding value 58594803
+
+46 Adding value 539214003
+
+47 Adding value -984378056
+
+48 Adding value 1183478085
+
+49 Adding value 31744183
+
+50 Adding value 1059907834
+
+51 Adding value 384514734
+
+52 Adding value 1915660755
+
+53 Adding value -2036989237
+
+54 Adding value 825367266
+
+55 Adding value -202504592
+
+56 Adding value -437541579
+
+57 Adding value 169595640
+
+58 Adding value -160877557
+
+59 Adding value 202128282
+
+60 Adding value 178336776
+
+61 Adding value -796937769
+
+62 Adding value -216787859
+
+63 Adding value -178653386
+
+64 Adding value 1112031679
+
+65 Adding value 19453098
+
+66 Adding value -1771485443
+
+67 Adding value 1731011951
+
+68 Adding value 1473803839
+
+69 Adding value 1968481928
+
+70 Adding value 682937060
+
+71 Adding value -1293732039
+
+72 Adding value 114357156
+
+73 Adding value 1839558799
+
+74 Adding value 637750972
+
+75 Adding value 1110870597
+
+76 Adding value 42524438
+
+77 Adding value -167013825
+
+78 Adding value -1269582052
+
+79 Adding value -1980634693
+
+80 Adding value -2115275808
+
+81 Adding value -576795162
+
+82 Adding value -1533409574
+
+83 Adding value 952754944
+
+84 Adding value -2031703632
+
+85 Adding value -541112168
+
+86 Adding value -1670467251
+
+87 Adding value -1345505748
+
+88 Adding value 2131222821
+
+89 Adding value 483260610
+
+90 Adding value -1583101656
+
+91 Adding value 2080031090
+
+92 Adding value 1761686425
+
+93 Adding value 1002972611
+
+94 Adding value 1928502363
+
+95 Adding value 1608476440
+
+96 Adding value 1872488225
+
+97 Adding value 1479606258
+
+98 Adding value 1185330223
+
+99 Adding value 1814825127
+
+100 Adding value 1129334892
+
+101 Adding value -357152743
+
+102 Adding value -413097507
+
+103 Adding value -702435934
+
+104 Adding value 229234488
+
+105 Adding value 310103282
+
+106 Adding value -1569240864
+
+107 Adding value 107785075
+
+108 Adding value 1720311959
+
+109 Adding value 807680428
+
+110 Adding value -42242040
+
+111 Adding value -1390595719
+
+112 Adding value 2088176605
+
+113 Adding value -1171688116
+
+114 Adding value 745988476
+
+115 Adding value 27944721
+
+116 Adding value -801525023
+
+117 Adding value -317665438
+
+118 Adding value -739463678
+
+119 Adding value 526148358
+
+120 Adding value 449965881
+
+121 Adding value 52171716
+
+122 Adding value 1226349732
+
+123 Adding value 1732116889
+
+124 Adding value 1679134065
+
+125 Adding value 662974198
+
+126 Adding value 2080240080
+
+127 Adding value -1406729191
+
+128 Adding value 179478422
+
+129 Adding value -322240497
+
+130 Adding value -1635833595
+
+131 Adding value 221940389
+
+132 Adding value 1674982999
+
+133 Adding value 1915832684
+
+134 Adding value -642743695
+
+135 Adding value 1304487345
+
+136 Adding value 1955164684
+
+137 Adding value 1755985549
+
+138 Adding value 1834887110
+
+139 Adding value -1470701095
+
+140 Adding value 1840409738
+
+141 Adding value -842822978
+
+142 Adding value 707812912
+
+143 Adding value -1000194685
+
+144 Adding value -1857087567
+
+145 Adding value -806553695
+
+146 Adding value -2012137409
+
+147 Adding value -1194674972
+
+148 Adding value 957548344
+
+149 Adding value -704266149
+
+150 Adding value -656366216
+
+151 Adding value -239181643
+
+152 Adding value 1590889911
+
+153 Adding value 1510986795
+
+154 Adding value -2091046370
+
+155 Adding value -1380770552
+
+156 Adding value -1133110393
+
+157 Adding value 1971065855
+
+158 Adding value 897374450
+
+159 Adding value -834745460
+
+160 Adding value 1284720513
+
+161 Adding value -686195173
+
+162 Adding value 1948941039
+
+163 Adding value 2145625626
+
+164 Adding value -1238319735
+
+165 Adding value -398605670
+
+166 Adding value 622966136
+
+167 Adding value 294005112
+
+168 Adding value -1495555831
+
+169 Adding value -1459999834
+
+170 Adding value -79761291
+
+171 Adding value 1086752110
+
+172 Adding value 1806184198
+
+173 Adding value -971854833
+
+174 Adding value -1400400943
+
+175 Adding value -1339234489
+
+176 Adding value -376488058
+
+177 Adding value -1787094370
+
+178 Adding value -159107305
+
+179 Adding value 1647082721
+
+180 Adding value -1798059279
+
+181 Adding value 185455285
+
+182 Adding value -260127157
+
+183 Adding value -1425051491
+
+184 Adding value 1997496660
+
+185 Adding value -1216673496
+
+186 Adding value 2002719206
+
+187 Adding value -2070521139
+
+188 Adding value 1442865062
+
+189 Adding value 1973243750
+
+190 Adding value 1132157199
+
+191 Adding value -1885038710
+
+192 Adding value 1740318310
+
+193 Adding value 819381447
+
+194 Adding value 1890290859
+
+195 Adding value 851645879
+
+196 Adding value -542420976
+
+197 Adding value 1904515526
+
+198 Adding value -1363601677
+
+199 Adding value 1787480257
+
+200 Adding value 1461992553
+
+201 Adding value -1802888974
+
+202 Adding value 1995447505
+
+203 Adding value 479083632
+
+204 Adding value 1098359146
+
+205 Adding value -123750124
+
+206 Adding value -602377357
+
+207 Adding value 1829273605
+
+208 Adding value -1399595913
+
+209 Adding value 1300087029
+
+210 Adding value 1454612302
+
+211 Adding value 1406429209
+
+212 Adding value 2082023751
+
+213 Adding value 1629196370
+
+214 Adding value 985885456
+
+215 Adding value -1393646746
+
+216 Adding value 55189360
+
+217 Adding value -1620765512
+
+218 Adding value -997728285
+
+219 Adding value -1814216824
+
+220 Adding value -1693378313
+
+221 Adding value -720058348
+
+222 Adding value 1315241638
+
+223 Adding value 1892136289
+
+224 Adding value -141554843
+
+225 Adding value -661306746
+
+226 Adding value -1256709389
+
+227 Adding value -1559628260
+
+228 Adding value -2070858089
+
+229 Adding value -390347454
+
+230 Adding value -1995168297
+
+231 Adding value -460578796
+
+232 Adding value -2095288044
+
+233 Adding value 1740461611
+
+234 Adding value 696418655
+
+235 Adding value 431245645
+
+236 Adding value -1221111077
+
+237 Adding value -662951687
+
+238 Adding value 562139158
+
+239 Adding value 896746249
+
+240 Adding value -1449652603
+
+241 Adding value -1477716263
+
+242 Adding value -1702730695
+
+243 Adding value -1952937001
+
+244 Adding value -1154210145
+
+245 Adding value -816404848
+
+246 Adding value 1350690244
+
+247 Adding value -1743191916
+
+248 Adding value -598897235
+
+249 Adding value 1502538445
+
+250 Adding value -1319618567
+
+251 Adding value -1754411992
+
+252 Adding value 1046347063
+
+253 Adding value 309813652
+
+254 Adding value 1758779373
+
+255 Adding value 575733817
+
+256 Adding value 1834598253
+
+257 Adding value 630209577
+
+258 Adding value 0
+
+259 Adding value 630195162
+
+260 Adding value 1834584390
+
+261 Adding value 575741117
+
+262 Adding value 1758781988
+
+263 Adding value 309813310
+
+264 Adding value 1046345005
+
+265 Adding value -1754418592
+
+266 Adding value -1319637829
+
+267 Adding value 1502538841
+
+268 Adding value -598899091
+
+269 Adding value -1743195269
+
+270 Adding value 1350680156
+
+271 Adding value -816403335
+
+272 Adding value -1154212427
+
+273 Adding value -1952939489
+
+274 Adding value -1702718938
+
+275 Adding value -1477718684
+
+276 Adding value -1449650561
+
+277 Adding value 896743708
+
+278 Adding value 562140533
+
+279 Adding value -662952498
+
+280 Adding value -1221114463
+
+281 Adding value 431246377
+
+282 Adding value 696417592
+
+283 Adding value 1740459008
+
+284 Adding value -2095288121
+
+285 Adding value -460574210
+
+286 Adding value -1995175347
+
+287 Adding value -390355161
+
+288 Adding value -2070861989
+
+289 Adding value -1559629593
+
+290 Adding value -1256710391
+
+291 Adding value -661311490
+
+292 Adding value -141552669
+
+293 Adding value 1892136258
+
+294 Adding value 1315234907
+
+295 Adding value -720054739
+
+296 Adding value -1693378493
+
+297 Adding value -1814215057
+
+298 Adding value -997729731
+
+299 Adding value -1620765655
+
+300 Adding value 55188432
+
+301 Adding value -1393647781
+
+302 Adding value 985887591
+
+303 Adding value 1629190817
+
+304 Adding value 2082024515
+
+305 Adding value 1406427573
+
+306 Adding value 1454613813
+
+307 Adding value 1300086485
+
+308 Adding value -1399591312
+
+309 Adding value 1829277626
+
+310 Adding value -602377770
+
+311 Adding value -123749166
+
+312 Adding value 1098359232
+
+313 Adding value 479084676
+
+314 Adding value 1995447174
+
+315 Adding value -1802887148
+
+316 Adding value 1461993150
+
+317 Adding value 1787479826
+
+318 Adding value -1363599684
+
+319 Adding value 1904513859
+
+320 Adding value -542420807
+
+321 Adding value 851646932
+
+322 Adding value 1890289139
+
+323 Adding value 819382045
+
+324 Adding value 1740318811
+
+325 Adding value -1885039673
+
+326 Adding value 1132155352
+
+327 Adding value 1973244876
+
+328 Adding value 1442864559
+
+329 Adding value -2070516879
+
+330 Adding value 2002718355
+
+331 Adding value -1216672551
+
+332 Adding value 1997496890
+
+333 Adding value -1425051577
+
+334 Adding value -260126329
+
+335 Adding value 185454457
+
+336 Adding value -1798059322
+
+337 Adding value 1647081145
+
+338 Adding value -159107357
+
+339 Adding value -1787094144
+
+340 Adding value -376487079
+
+341 Adding value -1339235368
+
+342 Adding value -1400399979
+
+343 Adding value -971855615
+
+344 Adding value 1806184175
+
+345 Adding value 1086753426
+
+346 Adding value -79760769
+
+347 Adding value -1459999703
+
+348 Adding value -1495555669
+
+349 Adding value 294003908
+
+350 Adding value 622966254
+
+351 Adding value -398605634
+
+352 Adding value -1238319238
+
+353 Adding value 2145625741
+
+354 Adding value 1948940657
+
+355 Adding value -686192441
+
+356 Adding value 1284721879
+
+357 Adding value -834745339
+
+358 Adding value 897373722
+
+359 Adding value 1971064818
+
+360 Adding value -1133110292
+
+361 Adding value -1380770585
+
+362 Adding value -2091046603
+
+363 Adding value 1510987977
+
+364 Adding value 1590891506
+
+365 Adding value -239181883
+
+366 Adding value -656363240
+
+367 Adding value -704266612
+
+368 Adding value 957548552
+
+369 Adding value -1194672980
+
+370 Adding value -2012139081
+
+371 Adding value -806554593
+
+372 Adding value -1857088735
+
+373 Adding value -1000195250
+
+374 Adding value 707812670
+
+375 Adding value -842824224
+
+376 Adding value 1840409926
+
+377 Adding value -1470701245
+
+378 Adding value 1834887012
+
+379 Adding value 1755985118
+
+380 Adding value 1955164701
+
+381 Adding value 1304487005
+
+382 Adding value -642741880
+
+383 Adding value 1915833059
+
+384 Adding value 1674985377
+
+385 Adding value 221940963
+
+386 Adding value -1635833436
+
+387 Adding value -322238842
+
+388 Adding value 179479724
+
+389 Adding value -1406729360
+
+390 Adding value 2080240668
+
+391 Adding value 662974569
+
+392 Adding value 1679133417
+
+393 Adding value 1732117100
+
+394 Adding value 1226350129
+
+395 Adding value 52171496
+
+396 Adding value 449966036
+
+397 Adding value 526148255
+
+398 Adding value -739463528
+
+399 Adding value -317665784
+
+400 Adding value -801523425
+
+401 Adding value 27944456
+
+402 Adding value 745988387
+
+403 Adding value -1171688117
+
+404 Adding value 2088176674
+
+405 Adding value -1390596220
+
+406 Adding value -42241752
+
+407 Adding value 807679750
+
+408 Adding value 1720311887
+
+409 Adding value 107785383
+
+410 Adding value -1569241007
+
+411 Adding value 310103351
+
+412 Adding value 229235070
+
+413 Adding value -702436250
+
+414 Adding value -413097628
+
+415 Adding value -357153210
+
+416 Adding value 1129335199
+
+417 Adding value 1814825209
+
+418 Adding value 1185329580
+
+419 Adding value 1479606516
+
+420 Adding value 1872488688
+
+421 Adding value 1608476507
+
+422 Adding value 1928503698
+
+423 Adding value 1002972166
+
+424 Adding value 1761686690
+
+425 Adding value 2080031211
+
+426 Adding value -1583101459
+
+427 Adding value 483260620
+
+428 Adding value 2131253604
+
+429 Adding value -1345505965
+
+430 Adding value -1670466949
+
+431 Adding value -541112559
+
+432 Adding value -2031703475
+
+433 Adding value 952754922
+
+434 Adding value -1533410748
+
+435 Adding value -576795416
+
+436 Adding value -2115276699
+
+437 Adding value -1980634947
+
+438 Adding value -1269581180
+
+439 Adding value -167014132
+
+440 Adding value 42525343
+
+441 Adding value 1110870803
+
+442 Adding value 637750838
+
+443 Adding value 1839558820
+
+444 Adding value 114356890
+
+445 Adding value -1293731808
+
+446 Adding value 682936975
+
+447 Adding value 1968481967
+
+448 Adding value 1473804020
+
+449 Adding value 1731011548
+
+450 Adding value -1771485614
+
+451 Adding value 19453757
+
+452 Adding value 1112031714
+
+453 Adding value -178653799
+
+454 Adding value -216787782
+
+455 Adding value -796939831
+
+456 Adding value 178337289
+
+457 Adding value 202128482
+
+458 Adding value -160878046
+
+459 Adding value 169595841
+
+460 Adding value -437541631
+
+461 Adding value -202504670
+
+462 Adding value 825367291
+
+463 Adding value -2036989235
+
+464 Adding value 1915660901
+
+465 Adding value 384514423
+
+466 Adding value 1059907788
+
+467 Adding value 31744111
+
+468 Adding value 1183478200
+
+469 Adding value -984378141
+
+470 Adding value 539214084
+
+471 Adding value 58594680
+
+472 Adding value 2141368038
+
+473 Adding value 1041388649
+
+474 Adding value 23590161
+
+475 Adding value 1416419875
+
+476 Adding value -1876290068
+
+477 Adding value 949737925
+
+478 Adding value -1192034259
+
+479 Adding value 616365216
+
+480 Adding value -1585188621
+
+481 Adding value -1103172932
+
+482 Adding value -1219080391
+
+483 Adding value 1919074246
+
+484 Adding value -1852699018
+
+485 Adding value 626694086
+
+486 Adding value 1038778146
+
+487 Adding value 329407734
+
+488 Adding value 1568374534
+
+489 Adding value 1534126922
+
+490 Adding value -1360622597
+
+491 Adding value -148678853
+
+492 Adding value -655794550
+
+493 Adding value -1955157140
+
+494 Adding value -1882183743
+
+495 Adding value 1119688189
+
+496 Adding value -1844880711
+
+497 Adding value 832577953
+
+498 Adding value -138784913
+
+499 Adding value -173436180
+
+500 Adding value 1613168751
+
+501 Adding value -781710489
+
+502 Adding value 417731179
+
+503 Adding value 711823989
+
+504 Adding value 2113193043
+
+505 Adding value -601191500
+
+506 Adding value 30215592
+
+507 Adding value 1119704187
+
+508 Adding value 1815567024
+
+509 Adding value 1100407867
+
+510 Adding value 1415756196
+
+511 Adding value -1009709880
+
+512 Adding value -897723013
+
+513 Adding value 1281277617
+
+Freq | 0.00 | -8.74 | -8.75 | 4476.37
+Freq | 0.98 | -8.74 | -8.75 | 1.69
+Freq | 1.95 | -8.74 | -8.75 | 1.26
+Freq | 2.93 | -8.75 | -8.75 | 0.66
+Freq | 3.91 | -8.74 | -8.75 | 0.49
+Freq | 4.88 | -8.74 | -8.75 | 0.74
+Freq | 5.86 | -8.74 | -8.74 | 0.52
+Freq | 6.84 | -8.74 | -8.74 | 0.29
+Freq | 7.81 | -8.74 | -8.74 | 0.44
+Freq | 8.79 | -8.75 | -8.75 | 0.11
+Freq | 9.77 | -8.75 | -8.75 | 0.19
+Freq | 10.74 | -8.75 | -8.75 | 0.41
+Freq | 11.72 | -8.76 | -8.75 | 0.51
+Freq | 12.70 | -8.76 | -8.75 | 0.32
+Freq | 13.67 | -8.75 | -8.75 | 0.63
+Freq | 14.65 | -8.75 | -8.75 | 0.18
+Freq | 15.63 | -8.75 | -8.74 | 0.24
+Freq | 16.60 | -8.76 | -8.74 | 0.26
+Freq | 17.58 | -8.76 | -8.74 | 0.09
+Freq | 18.55 | -8.75 | -8.74 | 0.09
+Freq | 19.53 | -8.75 | -8.74 | 0.25
+Freq | 20.51 | -8.75 | -8.74 | 0.07
+Freq | 21.48 | -8.74 | -8.74 | 0.16
+Freq | 22.46 | -8.74 | -8.74 | 0.12
+Freq | 23.44 | -8.74 | -8.74 | 0.14
+Freq | 24.41 | -8.73 | -8.74 | 0.22
+Freq | 25.39 | -8.74 | -8.74 | 0.03
+Freq | 26.37 | -8.74 | -8.75 | 0.22
+Freq | 27.34 | -8.74 | -8.75 | 0.20
+Freq | 28.32 | -8.73 | -8.74 | 0.37
+Freq | 29.30 | -8.74 | -8.74 | 0.18
+Freq | 30.27 | -8.74 | -8.74 | 0.11
+Freq | 31.25 | -8.74 | -8.74 | 0.31
+Freq | 32.23 | -8.74 | -8.75 | 0.08
+Freq | 33.20 | -8.74 | -8.75 | 0.09
+Freq | 34.18 | -8.74 | -8.76 | 0.02
+Freq | 35.16 | -8.74 | -8.75 | 0.17
+Freq | 36.13 | -8.74 | -8.75 | 0.09
+Freq | 37.11 | -8.74 | -8.75 | 0.18
+Freq | 38.09 | -8.74 | -8.75 | 0.10
+Freq | 39.06 | -8.73 | -8.75 | 0.05
+Freq | 40.04 | -8.74 | -8.75 | 0.08
+Freq | 41.02 | -8.74 | -8.75 | 0.13
+Freq | 41.99 | -8.74 | -8.76 | 0.16
+Freq | 42.97 | -8.74 | -8.75 | 0.20
+Freq | 43.95 | -8.74 | -8.76 | 0.22
+Freq | 44.92 | -8.74 | -8.76 | 0.05
+Freq | 45.90 | -8.74 | -8.76 | 0.13
+Freq | 46.88 | -8.75 | -8.76 | 0.09
+Freq | 47.85 | -8.75 | -8.76 | 0.04
+Freq | 48.83 | -8.75 | -8.76 | 0.20
+Freq | 49.80 | -8.75 | -8.75 | 0.10
+Freq | 50.78 | -8.74 | -8.75 | 0.11
+Freq | 51.76 | -8.74 | -8.75 | 0.12
+Freq | 52.73 | -8.74 | -8.75 | 0.09
+Freq | 53.71 | -8.74 | -8.76 | 0.04
+Freq | 54.69 | -8.74 | -8.76 | 0.04
+Freq | 55.66 | -8.74 | -8.76 | 0.07
+Freq | 56.64 | -8.74 | -8.76 | 0.05
+Freq | 57.62 | -8.74 | -8.76 | 0.01
+Freq | 58.59 | -8.74 | -8.76 | 0.09
+Freq | 59.57 | -8.74 | -8.76 | 0.11
+Freq | 60.55 | -8.73 | -8.76 | 0.14
+Freq | 61.52 | -8.73 | -8.75 | 0.09
+Freq | 62.50 | -8.73 | -8.75 | 0.08
+Freq | 63.48 | -8.73 | -8.75 | 0.08
+Freq | 64.45 | -8.72 | -8.75 | 0.12
+Freq | 65.43 | -8.73 | -8.75 | 0.04
+Freq | 66.41 | -8.73 | -8.75 | 0.17
+Freq | 67.38 | -8.73 | -8.75 | 0.12
+Freq | 68.36 | -8.73 | -8.75 | 0.08
+Freq | 69.34 | -8.73 | -8.75 | 0.11
+Freq | 70.31 | -8.73 | -8.75 | 0.10
+Freq | 71.29 | -8.73 | -8.75 | 0.06
+Freq | 72.27 | -8.73 | -8.75 | 0.01
+Freq | 73.24 | -8.73 | -8.76 | 0.04
+Freq | 74.22 | -8.73 | -8.76 | 0.02
+Freq | 75.20 | -8.73 | -8.76 | 0.09
+Freq | 76.17 | -8.74 | -8.76 | 0.02
+Freq | 77.15 | -8.74 | -8.76 | 0.06
+Freq | 78.12 | -8.74 | -8.76 | 0.01
+Freq | 79.10 | -8.74 | -8.75 | 0.12
+Freq | 80.08 | -8.74 | -8.75 | 0.09
+Freq | 81.05 | -8.74 | -8.75 | 0.05
+Freq | 82.03 | -8.74 | -8.76 | 0.04
+Freq | 83.01 | -8.74 | -8.76 | 0.05
+Freq | 83.98 | -8.74 | -8.76 | 0.00
+Freq | 84.96 | -8.75 | -8.76 | 0.07
+Freq | 85.94 | -8.74 | -8.76 | 0.04
+Freq | 86.91 | -8.74 | -8.76 | 0.03
+Freq | 87.89 | -8.74 | -8.76 | 0.06
+Freq | 88.87 | -8.74 | -8.76 | 0.06
+Freq | 89.84 | -8.74 | -8.76 | 0.01
+Freq | 90.82 | -8.74 | -8.76 | 0.07
+Freq | 91.80 | -8.74 | -8.76 | 0.05
+Freq | 92.77 | -8.74 | -8.76 | 0.02
+Freq | 93.75 | -8.74 | -8.76 | 0.04
+Freq | 94.73 | -8.74 | -8.76 | 0.05
+Freq | 95.70 | -8.74 | -8.75 | 0.05
+Freq | 96.68 | -8.74 | -8.75 | 0.02
+Freq | 97.66 | -8.74 | -8.75 | 0.09
+Freq | 98.63 | -8.74 | -8.76 | 0.06
+Freq | 99.61 | -8.74 | -8.75 | 0.03
+Freq | 100.59 | -8.74 | -8.75 | 0.04
+Freq | 101.56 | -8.74 | -8.75 | 0.03
+Freq | 102.54 | -8.74 | -8.75 | 0.04
+Freq | 103.52 | -8.74 | -8.75 | 0.12
+Freq | 104.49 | -8.75 | -8.75 | 0.06
+Freq | 105.47 | -8.74 | -8.75 | 0.05
+Freq | 106.45 | -8.74 | -8.75 | 0.05
+Freq | 107.42 | -8.74 | -8.75 | 0.03
+Freq | 108.40 | -8.74 | -8.75 | 0.07
+Freq | 109.37 | -8.74 | -8.75 | 0.03
+Freq | 110.35 | -8.74 | -8.75 | 0.03
+Freq | 111.33 | -8.74 | -8.75 | 0.01
+Freq | 112.30 | -8.74 | -8.75 | 0.03
+Freq | 113.28 | -8.74 | -8.75 | 0.06
+Freq | 114.26 | -8.74 | -8.75 | 0.06
+Freq | 115.23 | -8.75 | -8.75 | 0.05
+Freq | 116.21 | -8.75 | -8.75 | 0.03
+Freq | 117.19 | -8.74 | -8.75 | 0.01
+Freq | 118.16 | -8.74 | -8.74 | 0.05
+Freq | 119.14 | -8.74 | -8.75 | 0.04
+Freq | 120.12 | -8.74 | -8.75 | 0.05
+Freq | 121.09 | -8.74 | -8.75 | 0.06
+Freq | 122.07 | -8.74 | -8.75 | 0.09
+Freq | 123.05 | -8.75 | -8.75 | 0.03
+Freq | 124.02 | -8.75 | -8.76 | 0.04
+Freq | 125.00 | -8.75 | -8.76 | 0.05
+Freq | 125.98 | -8.75 | -8.76 | 0.05
+Freq | 126.95 | -8.75 | -8.76 | 0.03
+Freq | 127.93 | -8.75 | -8.75 | 0.01
+Freq | 128.91 | -8.75 | -8.75 | 0.03
+Freq | 129.88 | -8.74 | -8.74 | 0.05
+Freq | 130.86 | -8.75 | -8.74 | 0.02
+Freq | 131.84 | -8.74 | -8.75 | 0.02
+Freq | 132.81 | -8.74 | -8.75 | 0.04
+Freq | 133.79 | -8.74 | -8.75 | 0.05
+Freq | 134.77 | -8.74 | -8.75 | 0.02
+Freq | 135.74 | -8.74 | -8.75 | 0.02
+Freq | 136.72 | -8.74 | -8.74 | 0.05
+Freq | 137.70 | -8.74 | -8.74 | 0.04
+Freq | 138.67 | -8.74 | -8.75 | 0.02
+Freq | 139.65 | -8.73 | -8.74 | 0.02
+Freq | 140.62 | -8.73 | -8.74 | 0.01
+Freq | 141.60 | -8.73 | -8.74 | 0.00
+Freq | 142.58 | -8.73 | -8.74 | 0.04
+Freq | 143.55 | -8.74 | -8.74 | 0.05
+Freq | 144.53 | -8.74 | -8.74 | 0.01
+Freq | 145.51 | -8.73 | -8.74 | 0.10
+Freq | 146.48 | -8.73 | -8.74 | 0.01
+Freq | 147.46 | -8.73 | -8.74 | 0.02
+Freq | 148.44 | -8.73 | -8.74 | 0.03
+Freq | 149.41 | -8.73 | -8.74 | 0.04
+Freq | 150.39 | -8.73 | -8.74 | 0.04
+Freq | 151.37 | -8.74 | -8.74 | 0.02
+Freq | 152.34 | -8.74 | -8.74 | 0.03
+Freq | 153.32 | -8.74 | -8.75 | 0.00
+Freq | 154.30 | -8.74 | -8.74 | 0.03
+Freq | 155.27 | -8.74 | -8.75 | 0.01
+Freq | 156.25 | -8.74 | -8.74 | 0.05
+Freq | 157.23 | -8.74 | -8.75 | 0.04
+Freq | 158.20 | -8.74 | -8.75 | 0.03
+Freq | 159.18 | -8.74 | -8.74 | 0.03
+Freq | 160.16 | -8.74 | -8.74 | 0.02
+Freq | 161.13 | -8.74 | -8.74 | 0.03
+Freq | 162.11 | -8.74 | -8.75 | 0.07
+Freq | 163.09 | -8.74 | -8.75 | 0.03
+Freq | 164.06 | -8.74 | -8.75 | 0.03
+Freq | 165.04 | -8.74 | -8.75 | 0.02
+Freq | 166.02 | -8.74 | -8.75 | 0.03
+Freq | 166.99 | -8.74 | -8.75 | 0.03
+Freq | 167.97 | -8.74 | -8.75 | 0.03
+Freq | 168.95 | -8.74 | -8.75 | 0.02
+Freq | 169.92 | -8.74 | -8.75 | 0.04
+Freq | 170.90 | -8.74 | -8.75 | 0.04
+Freq | 171.87 | -8.73 | -8.74 | 0.05
+Freq | 172.85 | -8.73 | -8.75 | 0.01
+Freq | 173.83 | -8.74 | -8.75 | 0.03
+Freq | 174.80 | -8.73 | -8.75 | 0.03
+Freq | 175.78 | -8.73 | -8.75 | 0.02
+Freq | 176.76 | -8.73 | -8.75 | 0.04
+Freq | 177.73 | -8.73 | -8.75 | 0.02
+Freq | 178.71 | -8.73 | -8.75 | 0.02
+Freq | 179.69 | -8.73 | -8.75 | 0.04
+Freq | 180.66 | -8.74 | -8.75 | 0.01
+Freq | 181.64 | -8.73 | -8.75 | 0.05
+Freq | 182.62 | -8.73 | -8.75 | 0.04
+Freq | 183.59 | -8.73 | -8.75 | 0.02
+Freq | 184.57 | -8.73 | -8.74 | 0.03
+Freq | 185.55 | -8.73 | -8.74 | 0.04
+Freq | 186.52 | -8.73 | -8.74 | 0.03
+Freq | 187.50 | -8.72 | -8.74 | 0.03
+Freq | 188.48 | -8.72 | -8.75 | 0.04
+Freq | 189.45 | -8.72 | -8.74 | 0.02
+Freq | 190.43 | -8.72 | -8.74 | 0.03
+Freq | 191.41 | -8.73 | -8.74 | 0.02
+Freq | 192.38 | -8.73 | -8.75 | 0.01
+Freq | 193.36 | -8.73 | -8.74 | 0.03
+Freq | 194.34 | -8.73 | -8.74 | 0.02
+Freq | 195.31 | -8.73 | -8.75 | 0.03
+Freq | 196.29 | -8.73 | -8.74 | 0.02
+Freq | 197.27 | -8.74 | -8.74 | 0.02
+Freq | 198.24 | -8.73 | -8.74 | 0.02
+Freq | 199.22 | -8.74 | -8.74 | 0.03
+Freq | 200.20 | -8.74 | -8.74 | 0.01
+Freq | 201.17 | -8.74 | -8.73 | 0.03
+Freq | 202.15 | -8.73 | -8.74 | 0.03
+Freq | 203.12 | -8.73 | -8.73 | 0.02
+Freq | 204.10 | -8.73 | -8.74 | 0.02
+Freq | 205.08 | -8.74 | -8.73 | 0.02
+Freq | 206.05 | -8.74 | -8.73 | 0.02
+Freq | 207.03 | -8.74 | -8.73 | 0.05
+Freq | 208.01 | -8.73 | -8.73 | 0.04
+Freq | 208.98 | -8.73 | -8.73 | 0.04
+Freq | 209.96 | -8.73 | -8.73 | 0.03
+Freq | 210.94 | -8.73 | -8.74 | 0.01
+Freq | 211.91 | -8.72 | -8.74 | 0.03
+Freq | 212.89 | -8.72 | -8.74 | 0.03
+Freq | 213.87 | -8.73 | -8.74 | 0.01
+Freq | 214.84 | -8.73 | -8.74 | 0.01
+Freq | 215.82 | -8.73 | -8.74 | 0.03
+Freq | 216.80 | -8.74 | -8.73 | 0.02
+Freq | 217.77 | -8.73 | -8.73 | 0.01
+Freq | 218.75 | -8.73 | -8.73 | 0.03
+Freq | 219.73 | -8.73 | -8.73 | 0.02
+Freq | 220.70 | -8.73 | -8.73 | 0.02
+Freq | 221.68 | -8.74 | -8.73 | 0.02
+Freq | 222.66 | -8.73 | -8.74 | 0.01
+Freq | 223.63 | -8.73 | -8.73 | 0.02
+Freq | 224.61 | -8.74 | -8.74 | 0.03
+Freq | 225.59 | -8.74 | -8.74 | 0.02
+Freq | 226.56 | -8.74 | -8.74 | 0.04
+Freq | 227.54 | -8.74 | -8.74 | 0.04
+Freq | 228.52 | -8.74 | -8.74 | 0.02
+Freq | 229.49 | -8.74 | -8.75 | 0.04
+Freq | 230.47 | -8.74 | -8.75 | 0.02
+Freq | 231.45 | -8.74 | -8.75 | 0.01
+Freq | 232.42 | -8.74 | -8.75 | 0.02
+Freq | 233.40 | -8.74 | -8.74 | 0.04
+Freq | 234.37 | -8.74 | -8.75 | 0.01
+Freq | 235.35 | -8.74 | -8.75 | 0.01
+Freq | 236.33 | -8.74 | -8.74 | 0.01
+Freq | 237.30 | -8.75 | -8.74 | 0.05
+Freq | 238.28 | -8.75 | -8.74 | 0.02
+Freq | 239.26 | -8.75 | -8.74 | 0.02
+Freq | 240.23 | -8.75 | -8.73 | 0.04
+Freq | 241.21 | -8.75 | -8.73 | 0.04
+Freq | 242.19 | -8.75 | -8.73 | 0.01
+Freq | 243.16 | -8.74 | -8.74 | 0.02
+Freq | 244.14 | -8.75 | -8.74 | 0.04
+Freq | 245.12 | -8.75 | -8.74 | 0.04
+Freq | 246.09 | -8.75 | -8.74 | 0.03
+Freq | 247.07 | -8.75 | -8.75 | 0.04
+Freq | 248.05 | -8.75 | -8.75 | 0.02
+Freq | 249.02 | -8.75 | -8.75 | 0.05
+Peaks: 0.00 0.00 0.00 0.00 0.00 
+Loop | 7

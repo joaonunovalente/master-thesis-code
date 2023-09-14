@@ -1,0 +1,264 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+6.20
+Loop | 2
+3.83
+Loop | 3
+7.66
+Loop | 4
+5.68
+Loop | 5
+11.09
+Loop | 6
+13.16
+Loop | 7
+4.33
+Loop | 8
+9.79
+Loop | 9
+9.99
+Loop | 10
+15.68
+Loop | 11
+17.57
+Loop | 12
+5.87
+Loop | 13
+5.84
+Loop | 14
+6.21
+Loop | 15
+3.60
+Loop | 16
+4.54
+Loop | 17
+8.83
+Loop | 18
+3.57
+Loop | 19
+11.89
+Loop | 20
+5.24
+Loop | 21
+4.10
+Loop | 22
+8.15
+Loop | 23
+11.16
+Loop | 24
+12.10
+Loop | 25
+6.72
+Loop | 26
+4.39
+Loop | 27
+13.63
+Loop | 28
+18.86
+Loop | 29
+9.64
+Loop | 30
+3.49
+Loop | 31
+6.88
+Loop | 32
+13.21
+Loop | 33
+4.08
+Loop | 34
+4.50
+Loop | 35
+3.87
+Loop | 36
+6.62
+Loop | 37
+11.65
+Loop | 38
+11.88
+Loop | 39
+17.28
+Loop | 40
+9.83
+Loop | 41
+6.56
+Loop | 42
+19.62
+Loop | 43
+5.55
+Loop | 44
+8.28
+Loop | 45
+9.98
+Loop | 46
+3.78
+Loop | 47
+3.43
+Loop | 48
+7.06
+Loop | 49
+2.96
+Loop | 50
+7.94
+Loop | 51
+12.24
+Loop | 52
+9.81
+Loop | 53
+11.86
+Loop | 54
+6.18
+Loop | 55
+5.66
+Loop | 56
+9.80
+Loop | 57
+8.20
+Loop | 58
+6.40
+Loop | 59
+12.57
+Loop | 60
+8.13
+Loop | 61
+10.20
+Loop | 62
+19.72
+Loop | 63
+6.11
+Loop | 64
+7.82
+Loop | 65
+8.71
+Loop | 66
+5.17
+Loop | 67
+9.21
+Loop | 68
+16.05
+Loop | 69
+13.90
+Loop | 70
+11.78
+Loop | 71
+17.89
+Loop | 72
+13.25
+Loop | 73
+17.54
+Loop | 74
+8.06
+Loop | 75
+7.91
+Loop | 76
+7.86
+Loop | 77
+3.05
+Loop | 78
+5.32
+Loop | 79
+7.72
+Loop | 80
+5.65
+Loop | 81
+9.87
+Loop | 82
+7.11
+Loop | 83
+4.10
+Loop | 84
+15.41
+Loop | 85
+5.94
+Loop | 86
+13.75
+Loop | 87
+10.08
+Loop | 88
+5.94
+Loop | 89
+19.65
+Loop | 90
+3.75
+Loop | 91
+7.57
+Loop | 92
+9.94
+Loop | 93
+5.86
+Loop | 94
+11.33
+Loop | 95
+7.94
+Loop | 96
+15.78
+Loop | 97
+17.14
+Loop | 98
+15.20
+Loop | 99
+13.72
+Loop | 100
+5.87
+Loop | 101
+6.27
+Loop | 102
+13.83
+Loop | 103
+5.75
+Loop | 104
+4.87
+Loop | 105
+9.84
+Loop | 106
+4.35
+Loop | 107
+7.72
+Loop | 108
+19.72
+Loop | 109
+6.06
+Loop | 110
+3.99
+Loop | 111
+5.54
+Loop | 112
+17.49
+Loop | 113
+17.49
+Loop | 114
+5.86
+Loop | 115
+6.17
+Loop | 116
+7.02
+Loop | 117
+15.60
+Loop | 118
+4.38
+Loop | 119
+15.63
+Loop | 120
+15.91
+Loop | 121
+5.94
+Loop | 122
+10.06
+Loop | 123
+7.99
+Loop | 124
+12.84
+Loop | 125
+5.67
+Loop | 126
+4.05
+Loop | 127
+7.75

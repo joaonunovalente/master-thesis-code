@@ -1,0 +1,54 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Target value 1.79 is between frequencies 0.98 and 1.95
+Loop | 2
+Target value 16.65 is between frequencies 16.60 and 17.58
+Loop | 3
+Target value 10.53 is between frequencies 9.77 and 10.74
+Loop | 4
+Target value 10.50 is between frequencies 9.77 and 10.74
+Loop | 5
+Target value 10.00 is between frequencies 9.77 and 10.74
+Loop | 6
+Target value 2.73 is between frequencies 1.95 and 2.93
+Loop | 7
+Target value 1.61 is between frequencies 0.98 and 1.95
+Loop | 8
+Target value 4.75 is between frequencies 3.91 and 4.88
+Loop | 9
+Target value 5.35 is between frequencies 4.88 and 5.86
+Loop | 10
+Target value 10.88 is between frequencies 10.74 and 11.72
+Loop | 11
+Target value 8.72 is between frequencies 7.81 and 8.79
+Loop | 12
+Target value 11.83 is between frequencies 11.72 and 12.70
+Loop | 13
+Target value 1.92 is between frequencies 0.98 and 1.95
+Loop | 14
+Target value 3.56 is between frequencies 2.93 and 3.91
+Loop | 15
+Target value 10.78 is between frequencies 10.74 and 11.72
+Loop | 16
+Target value 3.87 is between frequencies 2.93 and 3.91
+Loop | 17
+Target value 3.36 is between frequencies 2.93 and 3.91
+Loop | 18
+Target value 8.95 is between frequencies 8.79 and 9.77
+Loop | 19
+Target value 10.47 is between frequencies 9.77 and 10.74
+Loop | 20
+Target value 6.99 is between frequencies 6.84 and 7.81
+Loop | 21
+Target value 10.82 is between frequencies 10.74 and 11.72
+Loop | 22
+Target value 10.69 is between frequencies 9.77 and 10.74

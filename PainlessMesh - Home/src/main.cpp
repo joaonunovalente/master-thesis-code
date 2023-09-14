@@ -4,7 +4,7 @@
 // painlessMesh library - basic.ino
 //
 // 1. Reads the messages without any repetition
-// 2. 
+// 2.
 //
 //************************************************************
 #include "painlessMesh.h"
@@ -20,7 +20,7 @@ painlessMesh mesh;
 // Needed for painless library
 void receivedCallback(uint32_t from, String &msg)
 {
-  Serial.printf(" %u | %s", from, msg.c_str());
+  Serial.printf("%u || %s", from, msg.c_str());
   Serial.println("");
 }
 

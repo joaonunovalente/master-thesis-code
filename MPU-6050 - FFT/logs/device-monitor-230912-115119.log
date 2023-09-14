@@ -1,0 +1,463 @@
+x�␀�␀␀���x␀�x�␀�x��x␀�␀��x␀�␀��x␀x��␀␀�xx␀����␀�␀�␀�␀␀���x␀�x�␀��r¢j�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop: 1
+Sample 1 | Z = 0.69
+Sample 2 | Z = 1.53
+Sample 3 | Z = 2.04
+Sample 4 | Z = 2.75
+Sample 5 | Z = 3.40
+Sample 6 | Z = 3.80
+Sample 7 | Z = 4.35
+Sample 8 | Z = 4.69
+Sample 9 | Z = 5.16
+Sample 10 | Z = 5.58
+Sample 11 | Z = 5.84
+Sample 12 | Z = 6.21
+Sample 13 | Z = 6.43
+Sample 14 | Z = 6.74
+Sample 15 | Z = 6.93
+Sample 16 | Z = 7.19
+Sample 17 | Z = 7.44
+Sample 18 | Z = 7.59
+Sample 19 | Z = 7.80
+Sample 20 | Z = 7.92
+Sample 21 | Z = 8.09
+Sample 22 | Z = 8.20
+Sample 23 | Z = 8.35
+Sample 24 | Z = 8.49
+Sample 25 | Z = 8.57
+Sample 26 | Z = 8.68
+Sample 27 | Z = 8.76
+Sample 28 | Z = 8.85
+Sample 29 | Z = 8.92
+Sample 30 | Z = 9.00
+Sample 31 | Z = 9.08
+Sample 32 | Z = 9.13
+Sample 33 | Z = 9.19
+Sample 34 | Z = 9.23
+Sample 35 | Z = 9.28
+Sample 36 | Z = 9.33
+Sample 37 | Z = 9.36
+Sample 38 | Z = 9.40
+Sample 39 | Z = 9.42
+Sample 40 | Z = 9.46
+Sample 41 | Z = 9.48
+Sample 42 | Z = 9.52
+Sample 43 | Z = 9.55
+Sample 44 | Z = 9.57
+Sample 45 | Z = 9.59
+Sample 46 | Z = 9.61
+Sample 47 | Z = 9.63
+Sample 48 | Z = 9.64
+Sample 49 | Z = 9.66
+Sample 50 | Z = 9.68
+Sample 51 | Z = 9.69
+Sample 52 | Z = 9.70
+Sample 53 | Z = 9.71
+Sample 54 | Z = 9.73
+Sample 55 | Z = 9.74
+Sample 56 | Z = 9.75
+Sample 57 | Z = 9.75
+Sample 58 | Z = 9.76
+Sample 59 | Z = 9.76
+Sample 60 | Z = 9.76
+Sample 61 | Z = 9.77
+Sample 62 | Z = 9.78
+Sample 63 | Z = 9.78
+Sample 64 | Z = 9.79
+Sample 65 | Z = 9.79
+Sample 66 | Z = 9.80
+Sample 67 | Z = 9.80
+Sample 68 | Z = 9.80
+Sample 69 | Z = 9.81
+Sample 70 | Z = 9.81
+Sample 71 | Z = 9.82
+Sample 72 | Z = 9.82
+Sample 73 | Z = 9.82
+Sample 74 | Z = 9.82
+Sample 75 | Z = 9.83
+Sample 76 | Z = 9.83
+Sample 77 | Z = 9.83
+Sample 78 | Z = 9.83
+Sample 79 | Z = 9.83
+Sample 80 | Z = 9.83
+Sample 81 | Z = 9.83
+Sample 82 | Z = 9.83
+Sample 83 | Z = 9.83
+Sample 84 | Z = 9.84
+Sample 85 | Z = 9.84
+Sample 86 | Z = 9.83
+Sample 87 | Z = 9.83
+Sample 88 | Z = 9.83
+Sample 89 | Z = 9.83
+Sample 90 | Z = 9.83
+Sample 91 | Z = 9.82
+Sample 92 | Z = 9.82
+Sample 93 | Z = 9.82
+Sample 94 | Z = 9.82
+Sample 95 | Z = 9.82
+Sample 96 | Z = 9.83
+Sample 97 | Z = 9.82
+Sample 98 | Z = 9.82
+Sample 99 | Z = 9.82
+Sample 100 | Z = 9.82
+Sample 101 | Z = 9.82
+Sample 102 | Z = 9.82
+Sample 103 | Z = 9.82
+Sample 104 | Z = 9.82
+Sample 105 | Z = 9.82
+Sample 106 | Z = 9.82
+Sample 107 | Z = 9.82
+Sample 108 | Z = 9.82
+Sample 109 | Z = 9.83
+Sample 110 | Z = 9.83
+Sample 111 | Z = 9.83
+Sample 112 | Z = 9.83
+Sample 113 | Z = 9.84
+Sample 114 | Z = 9.84
+Sample 115 | Z = 9.83
+Sample 116 | Z = 9.83
+Sample 117 | Z = 9.83
+Sample 118 | Z = 9.84
+Sample 119 | Z = 9.84
+Sample 120 | Z = 9.84
+Sample 121 | Z = 9.84
+Sample 122 | Z = 9.84
+Sample 123 | Z = 9.84
+Sample 124 | Z = 9.84
+Sample 125 | Z = 9.84
+Sample 126 | Z = 9.84
+Sample 127 | Z = 9.84
+Sample 128 | Z = 9.84
+Sample 129 | Z = 9.85
+Sample 130 | Z = 9.85
+Sample 131 | Z = 9.85
+Sample 132 | Z = 9.85
+Sample 133 | Z = 9.86
+Sample 134 | Z = 9.85
+Sample 135 | Z = 9.85
+Sample 136 | Z = 9.85
+Sample 137 | Z = 9.85
+Sample 138 | Z = 9.85
+Sample 139 | Z = 9.85
+Sample 140 | Z = 9.85
+Sample 141 | Z = 9.84
+Sample 142 | Z = 9.84
+Sample 143 | Z = 9.84
+Sample 144 | Z = 9.84
+Sample 145 | Z = 9.85
+Sample 146 | Z = 9.84
+Sample 147 | Z = 9.84
+Sample 148 | Z = 9.84
+Sample 149 | Z = 9.84
+Sample 150 | Z = 9.84
+Sample 151 | Z = 9.84
+Sample 152 | Z = 9.84
+Sample 153 | Z = 9.84
+Sample 154 | Z = 9.85
+Sample 155 | Z = 9.84
+Sample 156 | Z = 9.84
+Sample 157 | Z = 9.84
+Sample 158 | Z = 9.83
+Sample 159 | Z = 9.83
+Sample 160 | Z = 9.83
+Sample 161 | Z = 9.83
+Sample 162 | Z = 9.84
+Sample 163 | Z = 9.83
+Sample 164 | Z = 9.83
+Sample 165 | Z = 9.83
+Sample 166 | Z = 9.83
+Sample 167 | Z = 9.83
+Sample 168 | Z = 9.83
+Sample 169 | Z = 9.83
+Sample 170 | Z = 9.84
+Sample 171 | Z = 9.84
+Sample 172 | Z = 9.84
+Sample 173 | Z = 9.84
+Sample 174 | Z = 9.84
+Sample 175 | Z = 9.84
+Sample 176 | Z = 9.84
+Sample 177 | Z = 9.83
+Sample 178 | Z = 9.83
+Sample 179 | Z = 9.83
+Sample 180 | Z = 9.83
+Sample 181 | Z = 9.83
+Sample 182 | Z = 9.83
+Sample 183 | Z = 9.83
+Sample 184 | Z = 9.83
+Sample 185 | Z = 9.83
+Sample 186 | Z = 9.83
+Sample 187 | Z = 9.83
+Sample 188 | Z = 9.83
+Sample 189 | Z = 9.83
+Sample 190 | Z = 9.83
+Sample 191 | Z = 9.83
+Sample 192 | Z = 9.83
+Sample 193 | Z = 9.83
+Sample 194 | Z = 9.83
+Sample 195 | Z = 9.83
+Sample 196 | Z = 9.83
+Sample 197 | Z = 9.83
+Sample 198 | Z = 9.83
+Sample 199 | Z = 9.83
+Sample 200 | Z = 9.83
+Sample 201 | Z = 9.83
+Sample 202 | Z = 9.83
+Sample 203 | Z = 9.84
+Sample 204 | Z = 9.83
+Sample 205 | Z = 9.83
+Sample 206 | Z = 9.84
+Sample 207 | Z = 9.84
+Sample 208 | Z = 9.84
+Sample 209 | Z = 9.83
+Sample 210 | Z = 9.83
+Sample 211 | Z = 9.83
+Sample 212 | Z = 9.83
+Sample 213 | Z = 9.83
+Sample 214 | Z = 9.83
+Sample 215 | Z = 9.83
+Sample 216 | Z = 9.83
+Sample 217 | Z = 9.83
+Sample 218 | Z = 9.83
+Sample 219 | Z = 9.83
+Sample 220 | Z = 9.84
+Sample 221 | Z = 9.84
+Sample 222 | Z = 9.85
+Sample 223 | Z = 9.85
+Sample 224 | Z = 9.85
+Sample 225 | Z = 9.85
+Sample 226 | Z = 9.85
+Sample 227 | Z = 9.84
+Sample 228 | Z = 9.84
+Sample 229 | Z = 9.85
+Sample 230 | Z = 9.84
+Sample 231 | Z = 9.84
+Sample 232 | Z = 9.84
+Sample 233 | Z = 9.84
+Sample 234 | Z = 9.84
+Sample 235 | Z = 9.84
+Sample 236 | Z = 9.84
+Sample 237 | Z = 9.84
+Sample 238 | Z = 9.84
+Sample 239 | Z = 9.85
+Sample 240 | Z = 9.85
+Sample 241 | Z = 9.85
+Sample 242 | Z = 9.84
+Sample 243 | Z = 9.84
+Sample 244 | Z = 9.84
+Sample 245 | Z = 9.84
+Sample 246 | Z = 9.85
+Sample 247 | Z = 9.85
+Sample 248 | Z = 9.85
+Sample 249 | Z = 9.85
+Sample 250 | Z = 9.85
+Sample 251 | Z = 9.84
+Sample 252 | Z = 9.84
+Sample 253 | Z = 9.84
+Sample 254 | Z = 9.84
+Sample 255 | Z = 9.84
+Sample 256 | Z = 9.84
+0.00 Hz: 0.00 vreal: 0.00
+1.95 Hz: 0.00 vreal: 0.00
+3.91 Hz: 0.00 vreal: 0.00
+5.86 Hz: 0.00 vreal: 0.00
+7.81 Hz: 0.00 vreal: 0.00
+9.77 Hz: 0.00 vreal: 0.00
+11.72 Hz: 0.00 vreal: 0.00
+13.67 Hz: 0.00 vreal: 0.00
+15.63 Hz: 0.00 vreal: 0.00
+17.58 Hz: 0.00 vreal: 0.00
+19.53 Hz: 0.00 vreal: 0.00
+21.48 Hz: 0.00 vreal: 0.00
+23.44 Hz: 0.00 vreal: 0.00
+25.39 Hz: 0.00 vreal: 0.00
+27.34 Hz: 0.00 vreal: 0.00
+29.30 Hz: 0.00 vreal: 0.00
+31.25 Hz: 0.00 vreal: 0.00
+33.20 Hz: 0.00 vreal: 0.00
+35.16 Hz: 0.00 vreal: 0.00
+37.11 Hz: 0.00 vreal: 0.00
+39.06 Hz: 0.00 vreal: 0.00
+41.02 Hz: 0.00 vreal: 0.00
+42.97 Hz: 0.00 vreal: 0.00
+44.92 Hz: 0.00 vreal: 0.00
+46.88 Hz: 0.00 vreal: 0.00
+48.83 Hz: 0.00 vreal: 0.00
+50.78 Hz: 0.00 vreal: 0.00
+52.73 Hz: 0.00 vreal: 0.00
+54.69 Hz: 0.00 vreal: 0.00
+56.64 Hz: 0.00 vreal: 0.00
+58.59 Hz: 0.00 vreal: 0.00
+60.55 Hz: 0.00 vreal: 0.00
+62.50 Hz: 0.00 vreal: 0.00
+64.45 Hz: 0.00 vreal: 0.00
+66.41 Hz: 0.00 vreal: 0.00
+68.36 Hz: 0.00 vreal: 0.00
+70.31 Hz: 0.00 vreal: 0.00
+72.27 Hz: 0.00 vreal: 0.00
+74.22 Hz: 0.00 vreal: 0.00
+76.17 Hz: 0.00 vreal: 0.00
+78.12 Hz: 0.00 vreal: 0.00
+80.08 Hz: 0.00 vreal: 0.00
+82.03 Hz: 0.00 vreal: 0.00
+83.98 Hz: 0.00 vreal: 0.00
+85.94 Hz: 0.00 vreal: 0.00
+87.89 Hz: 0.00 vreal: 0.00
+89.84 Hz: 0.00 vreal: 0.00
+91.80 Hz: 0.00 vreal: 0.00
+93.75 Hz: 0.00 vreal: 0.00
+95.70 Hz: 0.00 vreal: 0.00
+97.66 Hz: 0.00 vreal: 0.00
+99.61 Hz: 0.00 vreal: 0.00
+101.56 Hz: 0.00 vreal: 0.00
+103.52 Hz: 0.00 vreal: 0.00
+105.47 Hz: 0.00 vreal: 0.00
+107.42 Hz: 0.00 vreal: 0.00
+109.37 Hz: 0.00 vreal: 0.00
+111.33 Hz: 0.00 vreal: 0.00
+113.28 Hz: 0.00 vreal: 0.00
+115.23 Hz: 0.00 vreal: 0.00
+117.19 Hz: 0.00 vreal: 0.00
+119.14 Hz: 0.00 vreal: 0.00
+121.09 Hz: 0.00 vreal: 0.00
+123.05 Hz: 0.00 vreal: 0.00
+125.00 Hz: 0.00 vreal: 0.00
+126.95 Hz: 0.00 vreal: 0.00
+128.91 Hz: 0.00 vreal: 0.00
+130.86 Hz: 0.00 vreal: 0.00
+132.81 Hz: 0.00 vreal: 0.00
+134.77 Hz: 0.00 vreal: 0.00
+136.72 Hz: 0.00 vreal: 0.00
+138.67 Hz: 0.00 vreal: 0.00
+140.62 Hz: 0.00 vreal: 0.00
+142.58 Hz: 0.00 vreal: 0.00
+144.53 Hz: 0.00 vreal: 0.00
+146.48 Hz: 0.00 vreal: 0.00
+148.44 Hz: 0.00 vreal: 0.00
+150.39 Hz: 0.00 vreal: 0.00
+152.34 Hz: 0.00 vreal: 0.00
+154.30 Hz: 0.00 vreal: 0.00
+156.25 Hz: 0.00 vreal: 0.00
+158.20 Hz: 0.00 vreal: 0.00
+160.16 Hz: 0.00 vreal: 0.00
+162.11 Hz: 0.00 vreal: 0.00
+164.06 Hz: 0.00 vreal: 0.00
+166.02 Hz: 0.00 vreal: 0.00
+167.97 Hz: 0.00 vreal: 0.00
+169.92 Hz: 0.00 vreal: 0.00
+171.87 Hz: 0.00 vreal: 0.00
+173.83 Hz: 0.00 vreal: 0.00
+175.78 Hz: 0.00 vreal: 0.00
+177.73 Hz: 0.00 vreal: 0.00
+179.69 Hz: 0.00 vreal: 0.00
+181.64 Hz: 0.00 vreal: 0.00
+183.59 Hz: 0.00 vreal: 0.00
+185.55 Hz: 0.00 vreal: 0.00
+187.50 Hz: 0.00 vreal: 0.00
+189.45 Hz: 0.00 vreal: 0.00
+191.41 Hz: 0.00 vreal: 0.00
+193.36 Hz: 0.00 vreal: 0.00
+195.31 Hz: 0.00 vreal: 0.00
+197.27 Hz: 0.00 vreal: 0.00
+199.22 Hz: 0.00 vreal: 0.00
+201.17 Hz: 0.00 vreal: 0.00
+203.12 Hz: 0.00 vreal: 0.00
+205.08 Hz: 0.00 vreal: 0.00
+207.03 Hz: 0.00 vreal: 0.00
+208.98 Hz: 0.00 vreal: 0.00
+210.94 Hz: 0.00 vreal: 0.00
+212.89 Hz: 0.00 vreal: 0.00
+214.84 Hz: 0.00 vreal: 0.00
+216.80 Hz: 0.00 vreal: 0.00
+218.75 Hz: 0.00 vreal: 0.00
+220.70 Hz: 0.00 vreal: 0.00
+222.66 Hz: 0.00 vreal: 0.00
+224.61 Hz: 0.00 vreal: 0.00
+226.56 Hz: 0.00 vreal: 0.00
+228.52 Hz: 0.00 vreal: 0.00
+230.47 Hz: 0.00 vreal: 0.00
+232.42 Hz: 0.00 vreal: 0.00
+234.37 Hz: 0.00 vreal: 0.00
+236.33 Hz: 0.00 vreal: 0.00
+238.28 Hz: 0.00 vreal: 0.00
+240.23 Hz: 0.00 vreal: 0.00
+242.19 Hz: 0.00 vreal: 0.00
+244.14 Hz: 0.00 vreal: 0.00
+246.09 Hz: 0.00 vreal: 0.00
+248.05 Hz: 0.00 vreal: 0.00
+Loop: 2
+Sample 1 | Z = 9.85
+Sample 2 | Z = 9.85
+Sample 3 | Z = 9.85
+Sample 4 | Z = 9.85
+Sample 5 | Z = 9.85
+Sample 6 | Z = 9.86
+Sample 7 | Z = 9.85
+Sample 8 | Z = 9.86
+Sample 9 | Z = 9.85
+Sample 10 | Z = 9.85
+Sample 11 | Z = 9.85
+Sample 12 | Z = 9.85
+Sample 13 | Z = 9.85
+Sample 14 | Z = 9.85
+Sample 15 | Z = 9.85
+Sample 16 | Z = 9.85
+Sample 17 | Z = 9.85
+Sample 18 | Z = 9.85
+Sample 19 | Z = 9.85
+Sample 20 | Z = 9.85
+Sample 21 | Z = 9.85
+Sample 22 | Z = 9.84
+Sample 23 | Z = 9.84
+Sample 24 | Z = 9.84
+Sample 25 | Z = 9.83
+Sample 26 | Z = 9.83
+Sample 27 | Z = 9.83
+Sample 28 | Z = 9.83
+Sample 29 | Z = 9.83
+Sample 30 | Z = 9.82
+Sample 31 | Z = 9.83
+Sample 32 | Z = 9.83
+Sample 33 | Z = 9.83
+Sample 34 | Z = 9.83
+Sample 35 | Z = 9.84
+Sample 36 | Z = 9.84
+Sample 37 | Z = 9.85
+Sample 38 | Z = 9.85
+Sample 39 | Z = 9.85
+Sample 40 | Z = 9.84
+Sample 41 | Z = 9.84
+Sample 42 | Z = 9.84
+Sample 43 | Z = 9.85
+Sample 44 | Z = 9.85
+Sample 45 | Z = 9.85
+Sample 46 | Z = 9.85
+Sample 47 | Z = 9.85
+Sample 48 | Z = 9.85
+Sample 49 | Z = 9.85
+Sample 50 | Z = 9.85
+Sample 51 | Z = 9.85
+Sample 52 | Z = 9.85
+Sample 53 | Z = 9.85
+Sample 54 | Z = 9.86
+Sample 55 | Z = 9.85
+Sample 56 | Z = 9.85
+Sample 57 | Z = 9.85
+Sample 58 | Z = 9.85
+Sample 59 | Z = 9.85
+Sample 60 | Z = 9.85
+Sample 61 | Z = 9.85
+Sample 62 | Z = 9.85
+Sample 63 | Z = 9.84
+Sample 64 | Z = 9.84
+Sample 65 | Z = 9.85
+Sample 66 | Z = 9.85
+Sample 67 | Z = 9.8

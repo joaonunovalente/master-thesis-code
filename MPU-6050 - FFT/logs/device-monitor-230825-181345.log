@@ -1,0 +1,341 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (esp_timer) 
+Core  0 register dump:
+PC      : 0x400d2690  PS      : 0x00060b36  A0      : 0x800d29c2  A1      : 0x3ffb96b0  
+A2      : 0x3ffba6c8  A3      : 0x000001ec  A4      : 0x3ffbb6c0  A5      : 0x00000f60  
+A6      : 0x3ffba6c0  A7      : 0x00000000  A8      : 0x800d2690  A9      : 0x3ffb96a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0xa5a5a5a5  A13     : 0xa5a5a5a5  
+A14     : 0x7ff00000  A15     : 0x0000025a  SAR     : 0x00000014  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400d13e1  LEND    : 0x400d13f0  LCOUNT  : 0x00000000  
+
+
+Backtrace:0x400d268d:0x3ffb96b00x400d29bf:0x3ffb9730 0x400d13fe:0x3ffb9750 0x400d1530:0x3ffbb780 0x400e0292:0x3ffbb810 
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (esp_timer) 
+Core  0 register dump:
+PC      : 0x400d2690  PS      : 0x00060b36  A0      : 0x800d29c2  A1      : 0x3ffb96b0  
+A2      : 0x3ffba6c8  A3      : 0x000001ec  A4      : 0x3ffbb6c0  A5      : 0x00000f60  
+A6      : 0x3ffba6c0  A7      : 0x00000000  A8      : 0x800d2690  A9      : 0x3ffb96a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0xa5a5a5a5  A13     : 0xa5a5a5a5  
+A14     : 0x7ff00000  A15     : 0x0000025a  SAR     : 0x00000014  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400d13e1  LEND    : 0x400d13f0  LCOUNT  : 0x00000000  
+
+
+Backtrace:0x400d268d:0x3ffb96b00x400d29bf:0x3ffb9730 0x400d13fe:0x3ffb9750 0x400d1530:0x3ffbb780 0x400e0292:0x3ffbb810 
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (esp_timer) 
+Core  0 register dump:
+PC      : 0x400d2690  PS      : 0x00060b36  A0      : 0x800d29c2  A1      : 0x3ffb96b0  
+A2      : 0x3ffba6c8  A3      : 0x000001ec  A4      : 0x3ffbb6c0  A5      : 0x00000f60  
+A6      : 0x3ffba6c0  A7      : 0x00000000  A8      : 0x800d2690  A9      : 0x3ffb96a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0xa5a5a5a5  A13     : 0xa5a5a5a5  
+A14     : 0x7ff00000  A15     : 0x0000025a  SAR     : 0x00000014  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400d13e1  LEND    : 0x400d13f0  LCOUNT  : 0x00000000  
+
+
+Backtrace:0x400d268d:0x3ffb96b00x400d29bf:0x3ffb9730 0x400d13fe:0x3ffb9750 0x400d1530:0x3ffbb780 0x400e0292:0x3ffbb810 
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (esp_timer) 
+Core  0 register dump:
+PC      : 0x400d2690  PS      : 0x00060b36  A0      : 0x800d29c2  A1      : 0x3ffb96b0  
+A2      : 0x3ffba6c8  A3      : 0x000001ec  A4      : 0x3ffbb6c0  A5      : 0x00000f60  
+A6      : 0x3ffba6c0  A7      : 0x00000000  A8      : 0x800d2690  A9      : 0x3ffb96a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0xa5a5a5a5  A13     : 0xa5a5a5a5  
+A14     : 0x7ff00000  A15     : 0x0000025a  SAR     : 0x00000016  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400d13e1  LEND    : 0x400d13f0  LCOUNT  : 0x00000000  
+
+
+Backtrace:0x400d268d:0x3ffb96b00x400d29bf:0x3ffb9730 0x400d13fe:0x3ffb9750 0x400d1530:0x3ffbb780 0x400e0292:0x3ffbb810 
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (esp_timer) 
+Core  0 register dump:
+PC      : 0x400d2690  PS      : 0x00060b36  A0      : 0x800d29c2  A1      : 0x3ffb96b0  
+A2      : 0x3ffba6c8  A3      : 0x000001ec  A4      : 0x3ffbb6c0  A5      : 0x00000f60  
+A6      : 0x3ffba6c0  A7      : 0x00000000  A8      : 0x800d2690  A9      : 0x3ffb96a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0xa5a5a5a5  A13     : 0xa5a5a5a5  
+A14     : 0x7ff00000  A15     : 0x0000025a  SAR     : 0x00000015  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400d13e1  LEND    : 0x400d13f0  LCOUNT  : 0x00000000  
+
+
+Backtrace:0x400d268d:0x3ffb96b00x400d29bf:0x3ffb9730 0x400d13fe:0x3ffb9750 0x400d1530:0x3ffbb780 0x400e0292:0x3ffbb810 
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (esp_timer) 
+Core  0 register dump:
+PC      : 0x400d2690  PS      : 0x00060b36  A0      : 0x800d29c2  A1      : 0x3ffb96b0  
+A2      : 0x3ffba6c8  A3      : 0x000001ec  A4      : 0x3ffbb6c0  A5      : 0x00000f60  
+A6      : 0x3ffba6c0  A7      : 0x00000000  A8      : 0x800d2690  A9      : 0x3ffb96a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0xa5a5a5a5  A13     : 0xa5a5a5a5  
+A14     : 0x7ff00000  A15     : 0x0000025a  SAR     : 0x00000013  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400d13e1  LEND    : 0x400d13f0  LCOUNT  : 0x00000000  
+
+
+Backtrace:0x400d268d:0x3ffb96b00x400d29bf:0x3ffb9730 0x400d13fe:0x3ffb9750 0x400d1530:0x3ffbb780 0x400e0292:0x3ffbb810 
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (esp_timer) 
+Core  0 register dump:
+PC      : 0x400d2690  PS      : 0x00060b36  A0      : 0x800d29c2  A1      : 0x3ffb96b0  
+A2      : 0x3ffba6c8  A3      : 0x000001ec  A4      : 0x3ffbb6c0  A5      : 0x00000f60  
+A6      : 0x3ffba6c0  A7      : 0x00000000  A8      : 0x800d2690  A9      : 0x3ffb96a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0xa5a5a5a5  A13     : 0xa5a5a5a5  
+A14     : 0x7ff00000  A15     : 0x0000025a  SAR     : 0x00000017  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400d13e1  LEND    : 0x400d13f0  LCOUNT  : 0x00000000  
+
+
+Backtrace:0x400d268d:0x3ffb96b00x400d29bf:0x3ffb9730 0x400d13fe:0x3ffb9750 0x400d1530:0x3ffbb780 0x400e0292:0x3ffbb810 
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (esp_timer) 
+Core  0 register dump:
+PC      : 0x400d2690  PS      : 0x00060b36  A0      : 0x800d29c2  A1      : 0x3ffb96b0  
+A2      : 0x3ffba6c8  A3      : 0x000001ec  A4      : 0x3ffbb6c0  A5      : 0x00000f60  
+A6      : 0x3ffba6c0  A7      : 0x00000000  A8      : 0x800d2690  A9      : 0x3ffb96a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0xa5a5a5a5  A13     : 0xa5a5a5a5  
+A14     : 0x7ff00000  A15     : 0x0000025a  SAR     : 0x00000013  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400d13e1  LEND    : 0x400d13f0  LCOUNT  : 0x00000000  
+
+
+Backtrace:0x400d268d:0x3ffb96b00x400d29bf:0x3ffb9730 0x400d13fe:0x3ffb9750 0x400d1530:0x3ffbb780 0x400e0292:0x3ffbb810 
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (esp_timer) 
+Core  0 register dump:
+PC      : 0x400d2690  PS      : 0x00060536  A0      : 0x800d29c2  A1      : 0x3ffb96b0  
+A2      : 0x3ffba6c8  A3      : 0x000001ec  A4      : 0x3ffbb6c0  A5      : 0x00000f60  
+A6      : 0x3ffba6c0  A7      : 0x00000000  A8      : 0x800d2690  A9      : 0x3ffb96a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0xa5a5a5a5  A13     : 0xa5a5a5a5  
+A14     : 0x7ff00000  A15     : 0x0000025a  SAR     : 0x00000016  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400d13e1  LEND    : 0x400d13f0  LCOUNT  : 0x00000000  
+
+
+Backtrace:0x400d268d:0x3ffb96b00x400d29bf:0x3ffb9730 0x400d13fe:0x3ffb9750 0x400d1530:0x3ffbb780 0x400e0292:0x3ffbb810 
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (esp_timer) 
+Core  0 register dump:
+PC      : 0x400d2690  PS      : 0x00060536  A0      : 0x800d29c2  A1      : 0x3ffb96b0  
+A2      : 0x3ffba6c8  A3      : 0x000001ec  A4      : 0x3ffbb6c0  A5      : 0x00000f60  
+A6      : 0x3ffba6c0  A7      : 0x00000000  A8      : 0x800d2690  A9      : 0x3ffb96a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0xa5a5a5a5  A13     : 0xa5a5a5a5  
+A14     : 0x7ff00000  A15     : 0x0000025a  SAR     : 0x00000014  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400d13e1  LEND    : 0x400d13f0  LCOUNT  : 0x00000000  
+
+
+Backtrace:0x400d268d:0x3ffb96b00x400d29bf:0x3ffb9730 0x400d13fe:0x3ffb9750 0x400d1530:0x3ffbb780 0x400e0292:0x3ffbb810 
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 1
+Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (esp_timer) 
+Core  0 register dump:
+PC      : 0x400d2690  PS      : 0x00060b36  A0      : 0x800d29c2  A1      : 0x3ffb96b0  
+A2      : 0x3ffba6c8  A3      : 0x000001ec  A4      : 0x3ffbb6c0  A5      : 0x00000f60  
+A6      : 0x3ffba6c0  A7      : 0x00000000  A8      : 0x800d2690  A9      : 0x3ffb96a0  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0xa5a5a5a5  A13     : 0xa5a5a5a5  
+A14     : 0x7ff00000  A15     : 0x0000025a  SAR     : 0x00000015  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400d13e1  LEND    : 0x400d13f0  LCOUNT  : 0x00000000  
+
+
+Backtrace:0x400d268d:0x3ffb96b00x400d29bf:0x3ffb9730 0x400d13fe:0x3ffb9750 0x400d1530:0x3ffbb780 0x400e0292:0x3ffbb810 
+
+
+
+
+ELF file SHA256: 0000000000000000
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Loop | 

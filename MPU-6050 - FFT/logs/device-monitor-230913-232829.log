@@ -1,0 +1,777 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+9.94
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Average: 0.80
+Peak index: 1 | Frequency: 0.49
+Peak index: 2 | Frequency: 1.46
+Peak index: 3 | Frequency: 2.44
+Peak index: 4 | Frequency: 3.42
+Peak index: 5 | Frequency: 4.39
+Peak index: 6 | Frequency: 5.37
+Peak index: 7 | Frequency: 6.35
+Peak index: 8 | Frequency: 7.32
+Peak index: 9 | Frequency: 8.30
+Peak index: 10 | Frequency: 9.28
+Peak index: 11 | Frequency: 10.25
+Peak index: 12 | Frequency: 11.23
+Peak index: 13 | Frequency: 12.21
+Peak index: 14 | Frequency: 13.18
+Peak index: 15 | Frequency: 14.16
+Peak index: 16 | Frequency: 15.14
+Peak index: 17 | Frequency: 16.11
+Peak index: 18 | Frequency: 17.09
+Peak index: 19 | Frequency: 18.07
+Peak index: 20 | Frequency: 19.04
+Peak index: 21 | Frequency: 20.02
+Peak index: 22 | Frequency: 21.00
+Peak index: 23 | Frequency: 21.97
+Peak index: 24 | Frequency: 22.95
+Peak index: 25 | Frequency: 23.93
+Peak index: 26 | Frequency: 24.90
+Peak index: 27 | Frequency: 25.88
+Peak index: 28 | Frequency: 26.86
+Peak index: 29 | Frequency: 27.83
+Peak index: 30 | Frequency: 28.81
+Peak index: 31 | Frequency: 29.79
+Peak index: 32 | Frequency: 30.76
+Peak index: 33 | Frequency: 31.74
+Peak index: 34 | Frequency: 32.71
+Peak index: 35 | Frequency: 33.69
+Peak index: 36 | Frequency: 34.67
+Peak index: 37 | Frequency: 35.64
+Peak index: 38 | Frequency: 36.62
+Peak index: 39 | Frequency: 37.60
+Peak index: 40 | Frequency: 38.57
+Peak index: 41 | Frequency: 39.55
+Peak index: 42 | Frequency: 40.53
+Peak index: 43 | Frequency: 41.50
+Peak index: 44 | Frequency: 42.48
+Peak index: 45 | Frequency: 43.46
+Peak index: 46 | Frequency: 44.43
+Peak index: 47 | Frequency: 45.41
+Peak index: 48 | Frequency: 46.39
+Peak index: 49 | Frequency: 47.36
+Peak index: 50 | Frequency: 48.34
+Peak index: 51 | Frequency: 49.32
+Peak index: 52 | Frequency: 50.29
+Peak index: 53 | Frequency: 51.27
+Peak index: 54 | Frequency: 52.25
+Peak index: 55 | Frequency: 53.22
+Peak index: 56 | Frequency: 54.20
+Peak index: 57 | Frequency: 55.18
+Peak index: 58 | Frequency: 56.15
+Peak index: 59 | Frequency: 57.13
+Peak index: 60 | Frequency: 58.11
+Peak index: 61 | Frequency: 59.08
+Peak index: 62 | Frequency: 60.06
+Peak index: 63 | Frequency: 61.04
+Peak index: 64 | Frequency: 62.01
+Peak index: 65 | Frequency: 62.99
+Peak index: 66 | Frequency: 63.96
+Peak index: 67 | Frequency: 64.94
+Peak index: 68 | Frequency: 65.92
+Peak index: 69 | Frequency: 66.89
+Peak index: 70 | Frequency: 67.87
+Peak index: 71 | Frequency: 68.85
+Peak index: 72 | Frequency: 69.82
+Peak index: 73 | Frequency: 70.80
+Peak index: 74 | Frequency: 71.78
+Peak index: 75 | Frequency: 72.75
+Peak index: 76 | Frequency: 73.73
+Peak index: 77 | Frequency: 74.71
+Peak index: 78 | Frequency: 75.68
+Peak index: 79 | Frequency: 76.66
+Peak index: 80 | Frequency: 77.64
+Peak index: 81 | Frequency: 78.61
+Peak index: 82 | Frequency: 79.59
+Peak index: 83 | Frequency: 80.57
+Peak index: 84 | Frequency: 81.54
+Peak index: 85 | Frequency: 82.52
+Peak index: 86 | Frequency: 83.50
+Peak index: 87 | Frequency: 84.47
+Peak index: 88 | Frequency: 85.45
+Peak index: 89 | Frequency: 86.43
+Peak index: 90 | Frequency: 87.40
+Peak index: 91 | Frequency: 88.38
+Peak index: 92 | Frequency: 89.36
+Peak index: 93 | Frequency: 90.33
+Peak index: 94 | Frequency: 91.31
+Peak index: 95 | Frequency: 92.29
+Peak index: 96 | Frequency: 93.26
+Peak index: 97 | Frequency: 94.24
+Peak index: 98 | Frequency: 95.21
+Peak index: 99 | Frequency: 96.19
+Peak index: 100 | Frequency: 97.17
+Peak index: 101 | Frequency: 98.14
+Peak index: 102 | Frequency: 99.12
+Peak index: 103 | Frequency: 100.10
+Peak index: 104 | Frequency: 101.07
+Peak index: 105 | Frequency: 102.05
+Peak index: 106 | Frequency: 103.03
+Peak index: 107 | Frequency: 104.00
+Peak index: 108 | Frequency: 104.98
+Peak index: 109 | Frequency: 105.96
+Peak index: 110 | Frequency: 106.93
+Peak index: 111 | Frequency: 107.91
+Peak index: 112 | Frequency: 108.89
+Peak index: 113 | Frequency: 109.86
+Peak index: 114 | Frequency: 110.84
+Peak index: 115 | Frequency: 111.82
+Peak index: 116 | Frequency: 112.79
+Peak index: 117 | Frequency: 113.77
+Peak index: 118 | Frequency: 114.75
+Peak index: 119 | Frequency: 115.72
+Peak index: 120 | Frequency: 116.70
+Peak index: 121 | Frequency: 117.68
+Peak index: 122 | Frequency: 118.65
+Peak index: 123 | Frequency: 119.63
+Peak index: 124 | Frequency: 120.61
+Peak index: 125 | Frequency: 121.58
+Peak index: 126 | Frequency: 122.56
+Peak index: 127 | Frequency: 123.54
+Peak index: 128 | Frequency: 124.51
+Peak index: 129 | Frequency: 125.49
+Peak index: 130 | Frequency: 126.46
+Peak index: 131 | Frequency: 127.44
+Peak index: 132 | Frequency: 128.42
+Peak index: 133 | Frequency: 129.39
+Peak index: 134 | Frequency: 130.37
+Peak index: 135 | Frequency: 131.35
+Peak index: 136 | Frequency: 132.32
+Peak index: 137 | Frequency: 133.30
+Peak index: 138 | Frequency: 134.28
+Peak index: 139 | Frequency: 135.25
+Peak index: 140 | Frequency: 136.23
+Peak index: 141 | Frequency: 137.21
+Peak index: 142 | Frequency: 138.18
+Peak index: 143 | Frequency: 139.16
+Peak index: 144 | Frequency: 140.14
+Peak index: 145 | Frequency: 141.11
+Peak index: 146 | Frequency: 142.09
+Peak index: 147 | Frequency: 143.07
+Peak index: 148 | Frequency: 144.04
+Peak index: 149 | Frequency: 145.02
+Peak index: 150 | Frequency: 146.00
+Peak index: 151 | Frequency: 146.97
+Peak index: 152 | Frequency: 147.95
+Peak index: 153 | Frequency: 148.93
+Peak index: 154 | Frequency: 149.90
+Peak index: 155 | Frequency: 150.88
+Peak index: 156 | Frequency: 151.86
+Peak index: 157 | Frequency: 152.83
+Peak index: 158 | Frequency: 153.81
+Peak index: 159 | Frequency: 154.79
+Peak index: 160 | Frequency: 155.76
+Peak index: 161 | Frequency: 156.74
+Peak index: 162 | Frequency: 157.71
+Peak index: 163 | Frequency: 158.69
+Peak index: 164 | Frequency: 159.67
+Peak index: 165 | Frequency: 160.64
+Peak index: 166 | Frequency: 161.62
+Peak index: 167 | Frequency: 162.60
+Peak index: 168 | Frequency: 163.57
+Peak index: 169 | Frequency: 164.55
+Peak index: 170 | Frequency: 165.53
+Peak index: 171 | Frequency: 166.50
+Peak index: 172 | Frequency: 167.48
+Peak index: 173 | Frequency: 168.46
+Peak index: 174 | Frequency: 169.43
+Peak index: 175 | Frequency: 170.41
+Peak index: 176 | Frequency: 171.39
+Peak index: 177 | Frequency: 172.36
+Peak index: 178 | Frequency: 173.34
+Peak index: 179 | Frequency: 174.32
+Peak index: 180 | Frequency: 175.29
+Peak index: 181 | Frequency: 176.27
+Peak index: 182 | Frequency: 177.25
+Peak index: 183 | Frequency: 178.22
+Peak index: 184 | Frequency: 179.20
+Peak index: 185 | Frequency: 180.18
+Peak index: 186 | Frequency: 181.15
+Peak index: 187 | Frequency: 182.13
+Peak index: 188 | Frequency: 183.11
+Peak index: 189 | Frequency: 184.08
+Peak index: 190 | Frequency: 185.06
+Peak index: 191 | Frequency: 186.04
+Peak index: 192 | Frequency: 187.01
+Peak index: 193 | Frequency: 187.99
+Peak index: 194 | Frequency: 188.96
+Peak index: 195 | Frequency: 189.94
+Peak index: 196 | Frequency: 190.92
+Peak index: 197 | Frequency: 191.89
+Peak index: 198 | Frequency: 192.87
+Peak index: 199 | Frequency: 193.85
+Peak index: 200 | Frequency: 194.82
+Peak index: 201 | Frequency: 195.80
+Peak index: 202 | Frequency: 196.78
+Peak index: 203 | Frequency: 197.75
+Peak index: 204 | Frequency: 198.73
+Peak index: 205 | Frequency: 199.71
+Peak index: 206 | Frequency: 200.68
+Peak index: 207 | Frequency: 201.66
+Peak index: 208 | Frequency: 202.64
+Peak index: 209 | Frequency: 203.61
+Peak index: 210 | Frequency: 204.59
+Peak index: 211 | Frequency: 205.57
+Peak index: 212 | Frequency: 206.54
+Peak index: 213 | Frequency: 207.52
+Peak index: 214 | Frequency: 208.50
+Peak index: 215 | Frequency: 209.47
+Peak index: 216 | Frequency: 210.45
+Peak index: 217 | Frequency: 211.43
+Peak index: 218 | Frequency: 212.40
+Peak index: 219 | Frequency: 213.38
+Peak index: 220 | Frequency: 214.36
+Peak index: 221 | Frequency: 215.33
+Peak index: 222 | Frequency: 216.31
+Peak index: 223 | Frequency: 217.29
+Peak index: 224 | Frequency: 218.26
+Peak index: 225 | Frequency: 219.24
+Peak index: 226 | Frequency: 220.21
+Peak index: 227 | Frequency: 221.19
+Peak index: 228 | Frequency: 222.17
+Peak index: 229 | Frequency: 223.14
+Peak index: 230 | Frequency: 224.12
+Peak index: 231 | Frequency: 225.10
+Peak index: 232 | Frequency: 226.07
+Peak index: 233 | Frequency: 227.05
+Peak index: 234 | Frequency: 228.03
+Peak index: 235 | Frequency: 229.00
+Peak index: 236 | Frequency: 229.98
+Peak index: 237 | Frequency: 230.96
+Peak index: 238 | Frequency: 231.93
+Peak index: 239 | Frequency: 232.91
+Peak index: 240 | Frequency: 233.89
+Peak index: 241 | Frequency: 234.86
+Peak index: 242 | Frequency: 235.84
+Peak index: 243 | Frequency: 236.82
+Peak index: 244 | Frequency: 237.79
+Peak index: 245 | Frequency: 238.77
+Peak index: 246 | Frequency: 239.75
+Peak index: 247 | Frequency: 240.72
+Peak index: 248 | Frequency: 241.70
+Peak index: 249 | Frequency: 242.68
+Peak index: 250 | Frequency: 243.65
+Peak index: 251 | Frequency: 244.63
+Peak index: 252 | Frequency: 245.61
+Peak index: 253 | Frequency: 246.58
+Peak index: 254 | Frequency: 247.56
