@@ -1,5 +1,12 @@
-// Libraries
+//************************************************************
+//
+//
+//
+//************************************************************
 #include <Arduino.h>
+// Libraries for painlessMesh
+#include "painlessMesh.h"
+#include "WiFi.h"
 // Libraies for accelerometer
 #include <Adafruit_MPU6050.h>
 #include <Adafruit_Sensor.h>
@@ -11,17 +18,25 @@
 #include <math.h>
 
 // <------ METHODS ------>
+// ------> painlessMesh
+#define MESH_PREFIX "myNetwork"
+#define MESH_PASSWORD "myPassword"
+#define MESH_PORT 5555
+
+Scheduler userScheduler; // to control your personal task
+painlessMesh mesh;
+
 // ------> Accelerometer
 Ticker timer;         // Ticker object to control the measurement interval
 Adafruit_MPU6050 mpu; // Create an instance of the MPU6050 class
 
-const int numSamples = 512;                // Number of samples to collect
+const int numSamples = 256;                // Number of samples to collect
 float accelerometerSamples[numSamples][3]; // Array to store accelerometer samples
 int sampleCount = 0;                       // Counter for the current sample
 int loopCounter = 1;                       // Counter for the current loop
 
 // -------> FFT
-#define SAMPLES 512       // Number of samples
+#define SAMPLES 256       // Number of samples
 #define SAMPLING_FREQ 500 // Sampling frequency in Hz
 
 arduinoFFT FFT = arduinoFFT();
@@ -31,12 +46,13 @@ std::vector<double> magnitude(SAMPLES);
 std::vector<double> vReal(SAMPLES);
 std::vector<double> vImag(SAMPLES);
 std::vector<double> accelerations(SAMPLES);
+std::vector<double> peakValues;
 // <----------------->
 
-// Initialization of functions so that PlatformIO doesn't complain
-void accelerationsMeasurements();
-void computeFFT();
-// Funcção Auxiliar
+double peakValueArray[5];
+double indexValueArray[5];
+
+// Auxiliar Function
 std::vector<std::pair<double, int>> findPeaks(const std::vector<double> &data, const std::vector<double> &frequencies)
 {
   double sum = 0.0;
@@ -44,13 +60,10 @@ std::vector<std::pair<double, int>> findPeaks(const std::vector<double> &data, c
   {
     sum += element;
   }
-
   // Calculate the average
   double average = sum / data.size();
   Serial.println("Average: " + String(average));
-
   std::vector<std::pair<double, int>> peaks; // Initialize a vector to store peak frequency and index pairs
-
   for (int i = 1; i < data.size() - 1; i++)
   {
     if (data[i] >= data[i - 1] && data[i] >= data[i + 1] && data[i] >= average * 10)
@@ -60,37 +73,78 @@ std::vector<std::pair<double, int>> findPeaks(const std::vector<double> &data, c
       peaks.push_back(std::make_pair(interpolatedFrequency, i));
     }
   }
-
   return peaks;
+}
+
+// Prototype so PlatformIO doesn't complain
+void sendAccelerometerSamples();
+void sampleAccelerometer();
+void computeFFT();
+void measureAccelerations();
+Task taskMeasureAccelerations(TASK_SECOND * 10, TASK_FOREVER, &measureAccelerations);
+
+// Needed for painless library
+void receivedCallback(uint32_t from, String &msg)
+{
+  Serial.printf("%u | %s\n", from, msg.c_str());
+}
+
+void newConnectionCallback(uint32_t nodeId)
+{
+  Serial.printf("--> startHere: New Connection, nodeId = %u\n", nodeId);
+}
+
+void changedConnectionCallback()
+{
+  Serial.printf("Changed connections %s\n", mesh.subConnectionJson().c_str());
+}
+
+void nodeTimeAdjustedCallback(int32_t offset)
+{
+  Serial.printf("Adjusted time %u. Offset = %d\n", mesh.getNodeTime(), offset);
 }
 
 void setup()
 {
   Serial.begin(115200);
 
+  // mesh.setDebugMsgTypes( ERROR | MESH_STATUS | CONNECTION | SYNC | COMMUNICATION | GENERAL | MSG_TYPES | REMOTE ); // all types on
+  mesh.setDebugMsgTypes(ERROR | STARTUP); // set before init() so that you can see startup messages
+
+  mesh.init(MESH_PREFIX, MESH_PASSWORD, &userScheduler, MESH_PORT);
+  mesh.onReceive(&receivedCallback);
+  mesh.onNewConnection(&newConnectionCallback);
+  mesh.onChangedConnections(&changedConnectionCallback);
+  mesh.onNodeTimeAdjusted(&nodeTimeAdjustedCallback);
+
   // Initialize the MPU6050
   mpu.begin();
 
+  // <--Accelerometer-->
   // Configure the accelerometer range, gyro range, and filter bandwidth
   mpu.setAccelerometerRange(MPU6050_RANGE_4_G);
   mpu.setGyroRange(MPU6050_RANGE_500_DEG);
   mpu.setFilterBandwidth(MPU6050_BAND_5_HZ);
+  // <----------------->
+
+  userScheduler.addTask(taskMeasureAccelerations);
+  taskMeasureAccelerations.enable();
 }
 
 void loop()
 {
-  // Print loop number
-  Serial.print("Loop: ");
-  Serial.println(loopCounter);
-  loopCounter++;
-
-  sampleCount = 0;
-  // In miliseconds
-  timer.attach_ms(1 / SAMPLING_FREQ, accelerationsMeasurements);
-
-  delay(5000);
+  // it will run the user scheduler as well
+  mesh.update();
 }
-void accelerationsMeasurements()
+
+void measureAccelerations()
+{
+  // Attach the timer interrupt to call the sampleAccelerometer function every 1 millisecond (1ms)
+  sampleCount = 0;
+  timer.attach_ms(1, sampleAccelerometer);
+}
+
+void sampleAccelerometer()
 {
   // Reset values of vReal, vImag, magnitude
   for (int i = 0; i < SAMPLES; i++)
@@ -104,9 +158,9 @@ void accelerationsMeasurements()
   mpu.getEvent(&a, &g, &temp);
 
   /* Store the values in the array */
-  accelerometerSamples[sampleCount][0] = a.acceleration.x - 0.29;
-  accelerometerSamples[sampleCount][1] = a.acceleration.y + 0.36;
-  accelerometerSamples[sampleCount][2] = a.acceleration.z + 1.07 - 0.52;
+  accelerometerSamples[sampleCount][0] = a.acceleration.x;
+  accelerometerSamples[sampleCount][1] = a.acceleration.y;
+  accelerometerSamples[sampleCount][2] = a.acceleration.z;
 
   sampleCount++;
 
@@ -154,7 +208,7 @@ void computeFFT()
   std::vector<double> magnitudeHalf = std::vector<double>(magnitude.begin(), magnitude.begin() + SAMPLES / 2);
   std::vector<std::pair<double, int>> peakInfo = findPeaks(magnitudeHalf, frequency);
   Serial.println("------------ THE PEAKS -----------");
-
+  peakValues.clear();
   // Shows peaks
   if (peakInfo.empty())
   {
@@ -165,17 +219,38 @@ void computeFFT()
   {
     for (const auto &peak : peakInfo)
     {
+
       double peakValue = peak.first;
+      peakValues.push_back(peakValue);
       int peakIndex = peak.second;
-
-      // Print the peak index
-      Serial.print("Peak index: ");
-      Serial.print(peakIndex);
-
-      // Print the peak value
-      Serial.print(" | Frequency: ");
-      Serial.println(peakValue);
     }
   }
   Serial.println("------------ The values -----------");
+  sendAccelerometerSamples();
+}
+
+void sendAccelerometerSamples()
+{
+  String msg = "";
+  // Iterate through the collected samples
+  for (int i = 0; i < SAMPLES; i++)
+  {
+    msg += accelerometerSamples[i][0];
+    msg += " | ";
+    msg += accelerometerSamples[i][1];
+    msg += " | ";
+    msg += accelerometerSamples[i][2];
+    msg += " | ";
+  }
+  msg += "| Peak: ";
+  for (int i = 0; i < peakValues.size(); i++)
+  {
+    msg += peakValues[i];
+    msg += " ; ";
+  }
+
+  msg += "||";
+  // Broadcast the accelerometer samples
+  mesh.sendBroadcast(msg);
+  std::vector<double> peakValues;
 }
