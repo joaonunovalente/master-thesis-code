@@ -52,6 +52,13 @@
 		{
 			"name": "painlessMesh - FTT",
 			"path": "painlessMesh - FTT"
+		},
+		{
+			"name": "Experiment 1 - Accelerometer comparison",
+			"path": "Experiment 1 - Accelerometer comparison"
+		},
+		{
+			"path": "Experiment 2 - PainlessMesh"
 		}
 	],
 	"settings": {
