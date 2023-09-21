@@ -59,6 +59,10 @@
 		},
 		{
 			"path": "Experiment 2 - PainlessMesh"
+		},
+		{
+			"name": "painlessMesh - frequencies",
+			"path": "painlessMesh - frequencies"
 		}
 	],
 	"settings": {
