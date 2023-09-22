@@ -6,7 +6,7 @@
 This code performs the following tasks:
 
 - Includes necessary libraries for various functionalities.
-- Sets up an accelerometer (MPU6050) for data collection.
+- Sets up an accelerometer (ADXL337) for data collection.
 - Collects accelerometer data samples at a specific sampling frequency.
 - Computes the Fast Fourier Transform (FFT) of the collected accelerometer data.
 - Identifies peaks in the FFT spectrum, representing significant frequencies.

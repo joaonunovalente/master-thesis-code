@@ -165,7 +165,7 @@ void computeFFT()
         }
 
         // Find peaks in the FFT magnitude spectrum
-        std::vector<double> magnitudeHalf = std::vector<double>(magnitudeArray[j].begin(), magnitude.begin() + SAMPLES / 2);
+        std::vector<double> magnitudeHalf = std::vector<double>(magnitude.begin(), magnitude.begin() + SAMPLES / 2);
         std::vector<std::pair<double, int>> peakInfo = findPeaks(magnitudeHalf, frequency);
 
         if (peakInfo.empty())

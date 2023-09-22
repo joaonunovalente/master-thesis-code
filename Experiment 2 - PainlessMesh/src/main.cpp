@@ -203,12 +203,12 @@ void computeFFT()
     for (int i = 0; i < numSamples; i++)
     {
 
-      float t = i / sampleRate; // Time in seconds
-      F1[i] = amplitude * sin(2 * PI * f1 * t);
-      F2[i] = amplitude * sin(2 * PI * f2 * t);
-      F3[i] = amplitude * sin(2 * PI * f3 * t);
-      F4[i] = amplitude * sin(2 * PI * f4 * t);
-      F5[i] = amplitude * sin(2 * PI * f5 * t);
+      // float t = i / sampleRate; // Time in seconds
+      // F1[i] = amplitude * sin(2 * PI * f1 * t);
+      // F2[i] = amplitude * sin(2 * PI * f2 * t);
+      // F3[i] = amplitude * sin(2 * PI * f3 * t);
+      // F4[i] = amplitude * sin(2 * PI * f4 * t);
+      // F5[i] = amplitude * sin(2 * PI * f5 * t);
       if (j == 0)
       {
         accelerations[i] = accelerometerSamples[i][j];
