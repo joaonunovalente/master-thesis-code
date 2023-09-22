@@ -211,15 +211,15 @@ void computeFFT()
       F5[i] = amplitude * sin(2 * PI * f5 * t);
       if (j == 0)
       {
-        accelerations[i] = F1[i] + F2[i] + F3[i] + F4[i] + F5[i];
+        accelerations[i] = accelerometerSamples[i][j];
       }
       else if (j == 1)
       {
-        accelerations[i] = F1[i] + F2[i];
+        accelerations[i] = accelerometerSamples[i][j];
       }
       else if (j == 2)
       {
-        accelerations[i] = F4[i] + F5[i];
+        accelerations[i] = accelerometerSamples[i][j];
       }
     }
     for (int i = 0; i < SAMPLES / 2; i++)

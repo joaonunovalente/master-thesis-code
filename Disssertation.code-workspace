@@ -63,6 +63,10 @@
 		{
 			"name": "painlessMesh - frequencies",
 			"path": "painlessMesh - frequencies"
+		},
+		{
+			"name": "Experiment 3 - Accelerometer ADXL337",
+			"path": "Experiment 3 - Accelerometer ADXL337"
 		}
 	],
 	"settings": {
