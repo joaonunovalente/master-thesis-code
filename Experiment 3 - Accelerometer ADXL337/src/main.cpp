@@ -6,7 +6,7 @@
 This code performs the following tasks:
 
 - Includes necessary libraries for various functionalities.
-- Sets up an accelerometer (ADXL337) for data collection.
+- Sets up an accelerometer (ADXL337 and ADXL335) for data collection.
 - Collects accelerometer data samples at a specific sampling frequency.
 - Computes the Fast Fourier Transform (FFT) of the collected accelerometer data.
 - Identifies peaks in the FFT spectrum, representing significant frequencies.
@@ -28,8 +28,8 @@ Date:     September, 2023
 
 Ticker timer; // Create a timer object for periodic measurements
 
-#define SAMPLES 512       // Number of samples for FFT
-#define SAMPLING_FREQ 500 // Sampling frequency in Hz
+#define SAMPLES 2048       // Number of samples for FFT
+#define SAMPLING_FREQ 1000 // Sampling frequency in Hz
 
 float accelerometerSamples[SAMPLES][3]; // Array to store accelerometer samples
 int sampleCount = 0;                    // Counter to keep track of collected samples
@@ -65,7 +65,7 @@ std::vector<std::pair<double, int>> findPeaks(const std::vector<double> &data, c
   }
 
   // Calculate the average value of the data and multiply by 10
-  double average10 = (sum / data.size()) * 10;
+  double average10 = (sum / data.size()) * 50;
   Serial.println("Average10: " + String(average10));
 
   std::vector<std::pair<double, int>> peaks; // Initialize a vector to store peak frequency and index pairs
@@ -100,9 +100,9 @@ void loop()
   Serial.println(loopCounter);
   loopCounter++;
 
-  sampleCount = 0;                                               // Reset sample count
-  timer.attach_ms(1 / SAMPLING_FREQ, accelerationsMeasurements); // Set up timer to collect accelerometer data
-  delay(5000);                                                   // Delay for 5 seconds between measurements
+  sampleCount = 0;                                                  // Reset sample count
+  timer.attach_ms(1000 / SAMPLING_FREQ, accelerationsMeasurements); // Set up timer to collect accelerometer data
+  delay(10000);                                                     // Delay for 5 seconds between measurements
 }
 
 void accelerationsMeasurements()
@@ -193,8 +193,8 @@ void computeFFT()
   // Print FFT results
   for (int i = 0; i < SAMPLES / 2; i++)
   {
-    Serial.print("Sample: ");
-    Serial.print(i + 1);
+    Serial.print("Freq: ");
+    Serial.print(frequency[i]);
     Serial.print(" | ");
     Serial.print(accelerometerSamples[i][2]);
     Serial.print(" | ");

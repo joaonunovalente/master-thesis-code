@@ -1,41 +1,58 @@
-// Home/main.cpp
+/*
+============================================================================
+                 ESP32 Mesh Network Data Transmission
+============================================================================
 
-//************************************************************
-// painlessMesh library - basic.ino
-//
-// 1. Reads the messages without any repetition
-// 2.
-//
-//************************************************************
+This code initializes a mesh network using ESP32 modules, enabling data
+transmission between nodes.
+
+Functionalities and Tasks:
+
+- Defines the mesh network credentials and sets up painlessMesh and WiFi
+  libraries for communication.
+- Defines callback functions for handling received messages, new connections,
+  changed connections, and adjusted node time.
+- Initializes the mesh network and sets up callbacks for network events.
+- Manages the update of the mesh network functionality in the main loop.
+
+Author:   João Nuno Valente
+Email:    jnvalente@ua.pt
+Date:     September, 2023
+
+========================================================================
+*/
 #include "painlessMesh.h"
 #include "WiFi.h"
 
-#define MESH_PREFIX "myNetwork"
-#define MESH_PASSWORD "myPassword"
-#define MESH_PORT 5555
+#define MESH_PREFIX "myNetwork"    // Network name
+#define MESH_PASSWORD "myPassword" // Network password
+#define MESH_PORT 5555             // Communication port
 
-Scheduler userScheduler; // to control your personal task
-painlessMesh mesh;
+Scheduler userScheduler; // Scheduler for personal tasks
+painlessMesh mesh;       // PainlessMesh object for mesh networking
 
-// Needed for painless library
+// Callback function when a message is received
 void receivedCallback(uint32_t from, String &msg)
 {
-  Serial.printf("%u || %s", from, msg.c_str());
+  Serial.printf("%u || %s", from, msg.c_str()); // Print sender's ID and message
   Serial.println("");
 }
 
+// Callback function when a new connection is established
 void newConnectionCallback(uint32_t nodeId)
 {
   Serial.printf("--> startHere: New Connection, nodeId = %u", nodeId);
   Serial.println("");
 }
 
+// Callback function when the connections in the mesh network change
 void changedConnectionCallback()
 {
   Serial.printf("Changed connections %s", mesh.subConnectionJson().c_str());
   Serial.println("");
 }
 
+// Callback function when the node's time is adjusted
 void nodeTimeAdjustedCallback(int32_t offset)
 {
   Serial.printf("Adjusted time %u. Offset = %d", mesh.getNodeTime(), offset);
@@ -44,11 +61,11 @@ void nodeTimeAdjustedCallback(int32_t offset)
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(115200); // Initialize serial communication
 
-  // mesh.setDebugMsgTypes( ERROR | MESH_STATUS | CONNECTION | SYNC | COMMUNICATION | GENERAL | MSG_TYPES | REMOTE ); // all types on
-  mesh.setDebugMsgTypes(ERROR | STARTUP); // set before init() so that you can see startup messages
+  mesh.setDebugMsgTypes(ERROR | STARTUP); // Set debug message types
 
+  // Initialize the mesh network with given credentials and settings
   mesh.init(MESH_PREFIX, MESH_PASSWORD, &userScheduler, MESH_PORT);
   mesh.onReceive(&receivedCallback);
   mesh.onNewConnection(&newConnectionCallback);
@@ -58,6 +75,5 @@ void setup()
 
 void loop()
 {
-  // it will run the user scheduler as well
-  mesh.update();
+  mesh.update(); // Update mesh networking functionality
 }

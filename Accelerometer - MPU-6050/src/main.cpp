@@ -1,3 +1,26 @@
+/*
+========================================================================
+               Accelerometer Sampling with MPU6050 Sensor
+========================================================================
+
+This code utilizes the Adafruit MPU6050 library to sample accelerometer
+data from the MPU6050 sensor.
+
+Functionalities and Tasks:
+
+- Sets up the MPU6050 sensor for data collection.
+- Samples accelerometer data and stores it in an array.
+- Prints collected accelerometer samples with X, Y, Z values.
+- Configures the accelerometer range, gyro range, and filter bandwidth.
+- Uses a Ticker object to control the sampling interval.
+
+Author:   João Nuno Valente
+Email:    jnvalente@ua.pt
+Date:     September, 2023
+
+========================================================================
+*/
+
 #include <Arduino.h>
 #include <Adafruit_MPU6050.h>
 #include <Adafruit_Sensor.h>
@@ -7,7 +30,7 @@
 Ticker timer;         // Ticker object to control the measurement interval
 Adafruit_MPU6050 mpu; // Create an instance of the MPU6050 class
 
-const int samplyingFrequency = 500;
+const int samplingFrequency = 500;
 const int numSamples = 600;                // Number of samples to collect
 float accelerometerSamples[numSamples][3]; // Array to store accelerometer samples
 int sampleCount = 0;                       // Counter for the current sample
@@ -37,9 +60,9 @@ void sampleAccelerometer()
   mpu.getEvent(&a, &g, &temp);
 
   /* Store the values in the array */
-  accelerometerSamples[sampleCount][0] = a.acceleration.x - 0.29;
-  accelerometerSamples[sampleCount][1] = a.acceleration.y + 0.36;
-  accelerometerSamples[sampleCount][2] = a.acceleration.z + 1.07 - 0.52;
+  accelerometerSamples[sampleCount][0] = a.acceleration.x;
+  accelerometerSamples[sampleCount][1] = a.acceleration.y;
+  accelerometerSamples[sampleCount][2] = a.acceleration.z;
 
   sampleCount++;
 
@@ -56,15 +79,15 @@ void sampleAccelerometer()
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(115200); // Initialize serial communication
 
-  // Initialize the MPU6050
+  // Initialize the MPU6050 sensor
   mpu.begin();
 
-  // Configure the accelerometer range, gyro range, and filter bandwidth
-  mpu.setAccelerometerRange(MPU6050_RANGE_4_G);
-  mpu.setGyroRange(MPU6050_RANGE_500_DEG);
-  mpu.setFilterBandwidth(MPU6050_BAND_5_HZ);
+  // Configure the sensor settings
+  mpu.setAccelerometerRange(MPU6050_RANGE_4_G); // Set accelerometer range to +/- 4g
+  mpu.setGyroRange(MPU6050_RANGE_500_DEG);      // Set gyro range to +/- 500 degrees/second
+  mpu.setFilterBandwidth(MPU6050_BAND_5_HZ);    // Set filter bandwidth to 5Hz
 }
 
 void loop()
@@ -75,8 +98,8 @@ void loop()
   loopCounter++;
 
   sampleCount = 0;
-  // In miliseconds
-  timer.attach_ms(1 / samplyingFrequency, sampleAccelerometer);
+  // In milliseconds, attach the timer interrupt for sampling
+  timer.attach_ms(1 / samplingFrequency, sampleAccelerometer);
 
-  delay(2000);
+  delay(2000); // Delay before the next loop
 }

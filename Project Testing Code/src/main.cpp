@@ -1,6 +1,6 @@
 /*
 ========================================================================
-                  ESP32 Accelerometer Data Analysis Code
+                ESP32 Accelerometer Data Analysis Code
 ========================================================================
 
 This code performs the following tasks:
@@ -46,6 +46,7 @@ std::vector<double> vReal(SAMPLES);         // Vector to store real part of FFT
 std::vector<double> vImag(SAMPLES);         // Vector to store imaginary part of FFT
 std::vector<double> accelerations(SAMPLES); // Vector to store accelerations
 double magnitudeArray[SAMPLES][3];
+std::vector<double> peakValues[3];
 
 // Function prototypes
 void accelerationsMeasurements();
@@ -63,7 +64,7 @@ std::vector<std::pair<double, int>> findPeaks(const std::vector<double> &data, c
     }
 
     // Calculate the average value of the data and multiply by 10
-    double average10 = (sum / data.size()) * 10;
+    double average10 = (sum / data.size()) * 5;
     Serial.println("Average10: " + String(average10));
 
     std::vector<std::pair<double, int>> peaks; // Initialize a vector to store peak frequency and index pairs
@@ -177,6 +178,7 @@ void computeFFT()
             {
                 double peakValue = peak.first;
                 int peakIndex = peak.second;
+                peakValues[j].push_back(peakValue);
             }
         }
 
@@ -199,6 +201,11 @@ void computeFFT()
     Serial.println("------------ THE PEAKS -----------");
     for (int j = 0; j < 3; j++)
     {
+        for (int i = 0; i < 3; i++)
+        {
+            Serial.print(peakValues[1][1]);
+            Serial.println("");
+        }
     }
 
     Serial.println("------------ The values -----------");

@@ -4,24 +4,6 @@
 			"path": "Project Testing Code"
 		},
 		{
-			"name": "PainlessMesh",
-			"path": "PainlessMesh"
-		},
-		{
-			"name": "Scan Networks - AP_STA",
-			"path": "Scan Networks - AP_STA"
-		},
-		{
-			"name": "Find my MAC Address",
-			"path": "Find my MAC Address"
-		},
-		{
-			"path": "Scan Networks - AP & STA/Scan Networks - STA"
-		},
-		{
-			"path": "Scan Networks - AP & STA/Scan Networks - AP"
-		},
-		{
 			"name": "PainlessMesh - Scan",
 			"path": "PainlessMesh - Scan"
 		},
@@ -32,10 +14,6 @@
 		{
 			"name": "Accelerometer - MPU-6050",
 			"path": "Accelerometer - MPU-6050"
-		},
-		{
-			"name": "painlessMesh - MPU6050",
-			"path": "painlessMesh - MPU6050"
 		},
 		{
 			"name": "Accelerometer - ADXL337",

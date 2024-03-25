@@ -50,18 +50,6 @@ std::vector<double> peakValues[3];
 // <----------------->
 const int numSamples = 256;
 const float sampleRate = 500;
-const float f1 = 25.0;
-const float f2 = 40.0;
-const float f3 = 90.0;
-const float f4 = 110;
-const float f5 = 155;
-const int amplitude = 127;
-std::vector<double> F1(numSamples);
-std::vector<double> F2(numSamples);
-std::vector<double> F3(numSamples);
-std::vector<double> F4(numSamples);
-std::vector<double> F5(numSamples);
-// <----------------->
 // <----------------->
 
 // Auxiliar Function
@@ -157,14 +145,7 @@ void measureAccelerations()
 
 void sampleAccelerometer()
 {
-  // Reset values of vReal, vImag, magnitude
-  // for (int i = 0; i < SAMPLES; i++)
-  // {
-  //   vReal[i] = 0;
-  //   vImag[i] = 0; // This is the one who causes problems
-  //   magnitude[i] = 0;
-  // }
-  /* Get new sensor events with the readings */
+
   sensors_event_t a, g, temp;
   mpu.getEvent(&a, &g, &temp);
 
@@ -196,19 +177,8 @@ void computeFFT()
       vImag[i] = 0; // This is the one who causes problems
       magnitude[i] = 0;
     }
-    // for (int i = 0; i < SAMPLES; i++)
-    // {
-    //   accelerations[i] = accelerometerSamples[i][j];
-    // }
     for (int i = 0; i < numSamples; i++)
     {
-
-      // float t = i / sampleRate; // Time in seconds
-      // F1[i] = amplitude * sin(2 * PI * f1 * t);
-      // F2[i] = amplitude * sin(2 * PI * f2 * t);
-      // F3[i] = amplitude * sin(2 * PI * f3 * t);
-      // F4[i] = amplitude * sin(2 * PI * f4 * t);
-      // F5[i] = amplitude * sin(2 * PI * f5 * t);
       if (j == 0)
       {
         accelerations[i] = accelerometerSamples[i][j];
@@ -264,16 +234,6 @@ void computeFFT()
 void sendAccelerometerSamples()
 {
   String msg = "";
-  // // Iterate through the collected samples
-  // for (int i = 0; i < SAMPLES; i++)
-  // {
-  //   msg += accelerometerSamples[i][0];
-  //   msg += " | ";
-  //   msg += accelerometerSamples[i][1];
-  //   msg += " | ";
-  //   msg += accelerometerSamples[i][2];
-  //   msg += " | ";
-  // }
   for (int j = 0; j < 3; j++)
   {
     msg += "Peak: ";

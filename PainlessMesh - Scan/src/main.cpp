@@ -1,123 +1,109 @@
-//************************************************************
-// painlessMesh library - basic.ino
-//
-// 1. scan networks periodically and filter the MAC Addresses
-// 2.
-//
-//
-//************************************************************
-#include "painlessMesh.h"
-#include "WiFi.h"
+  /*
+  ========================================================================
+                  ESP32 Mesh Network Data Transmission
+  ========================================================================
 
-#define MESH_PREFIX "myNetwork"
-#define MESH_PASSWORD "myPassword"
-#define MESH_PORT 5555
+  This code facilitates the establishment of a mesh network using ESP32 modules,
+  enabling data transmission between nodes.
 
-Scheduler userScheduler; // to control your personal task
-painlessMesh mesh;
+  Functionalities and Tasks:
 
-//
-void sendMessage(); // Prototype so PlatformIO doesn't complain
+  - Configures painlessMesh and WiFi libraries for mesh network communication.
+  - Implements periodic broadcast of network scanning data across the mesh.
+  - Handles received messages and tracks network connections.
+  - Initializes tasks for sending messages and scanning nearby networks.
 
-Task taskSendMessage(TASK_SECOND * 5, TASK_FOREVER, &sendMessage);
+  Author:   João Nuno Valente
+  Email:    jnvalente@ua.pt
+  Date:     September, 2023
 
-void sendMessage()
-{
-  String msg = "Mensagem";
-  mesh.sendBroadcast(msg);
-}
+  ========================================================================
+  */
 
-//  Function/Task that scan networks
-void scanNetworks(); // Prototype so PlatformIO doesn't complain
+  #include "painlessMesh.h"
+  #include "WiFi.h"
 
-Task taskScanNetworks(TASK_SECOND * 10, TASK_FOREVER, &scanNetworks);
+  #define MESH_PREFIX "myNetwork"    // Set the mesh network prefix
+  #define MESH_PASSWORD "myPassword" // Set the mesh network password
+  #define MESH_PORT 5555             // Define the mesh port number
 
-void scanNetworks()
-{
-  String msg = ""; // inicialization of the msg
+  Scheduler userScheduler; // Scheduler for controlling personal tasks
+  painlessMesh mesh;       // Initialize painlessMesh object
 
-  // returns the number of networks found
-  int numSSID = WiFi.scanNetworks();
+  void sendMessage(); // Prototype for sendMessage function
 
-  // print the network found:
-  for (int thisNet = 0; thisNet < numSSID; thisNet++)
+  Task taskSendMessage(TASK_SECOND * 5, TASK_FOREVER, &sendMessage); // Task to send messages at intervals
+
+  void sendMessage()
   {
-    // // List of ESP32 MAC addresses
-    // String MAC_address[] = {
-    //     "78:E3:6D:18:FE:68",
-    //     "78:E3:6D:18:FE:69",
-    //     "4C:11:AE:CA:92:91",
-    //     "78:E3:6D:0A:23:01",
-    //     "78:21:84:8C:B9:39",
-    //     "94:B9:7E:E4:A6:09"};
-    // // Number of MAC_address
-    // int Num_MAC_address = sizeof(MAC_address) / sizeof(MAC_address[0]);
-
-    // for (int ii = 0; ii < Num_MAC_address; ii++)
-    // {
-    //   // Prints the MAC_addresses and the RSSI
-    //   // that match the ESP32.
-
-    //   if (WiFi.BSSIDstr(thisNet) == MAC_address[ii])
-    //   {
-    //     // Message structure: "MAC 78:E3:6D:18:FE:68 | Signal = -39 dB"
-    //     // Every overall message is separeted by ||
-
-    msg += "MAC ";
-    msg += WiFi.BSSIDstr(thisNet);
-    msg += " | Signal = ";
-    msg += WiFi.RSSI(thisNet);
-    msg += " dB";
-    msg += " || ";
-    // }
-    // }
+    String msg = "Mensagem"; // Define the message to send
+    mesh.sendBroadcast(msg); // Send the message to all nodes in the mesh
   }
-  mesh.sendBroadcast(msg);
-}
 
-// Needed for painless library
-void receivedCallback(uint32_t from, String &msg)
-{
-  Serial.printf("%u | %s\n", from, msg.c_str());
-}
+  void scanNetworks(); // Prototype for scanNetworks function
 
-void newConnectionCallback(uint32_t nodeId)
-{
-  Serial.printf("--> startHere: New Connection, nodeId = %u\n", nodeId);
-}
+  Task taskScanNetworks(TASK_SECOND * 10, TASK_FOREVER, &scanNetworks); // Task to scan networks at intervals
 
-void changedConnectionCallback()
-{
-  Serial.printf("Changed connections %s\n", mesh.subConnectionJson().c_str());
-}
+  void scanNetworks()
+  {
+    String msg = ""; // Initialize an empty message
 
-void nodeTimeAdjustedCallback(int32_t offset)
-{
-  Serial.printf("Adjusted time %u. Offset = %d\n", mesh.getNodeTime(), offset);
-}
+    int numSSID = WiFi.scanNetworks(); // Scan for available networks and get the count
 
-void setup()
-{
-  Serial.begin(115200);
+    // Loop through each found network and gather information
+    for (int thisNet = 0; thisNet < numSSID; thisNet++)
+    {
+      msg += "MAC ";                 // Add MAC address to the message
+      msg += WiFi.BSSIDstr(thisNet); // Add BSSID (MAC address) of the network
+      msg += " | Signal = ";
+      msg += WiFi.RSSI(thisNet); // Add signal strength (RSSI) of the network
+      msg += " dB";
+      msg += " || ";
+    }
+    mesh.sendBroadcast(msg); // Send the collected network information to all nodes in the mesh
+  }
 
-  // mesh.setDebugMsgTypes( ERROR | MESH_STATUS | CONNECTION | SYNC | COMMUNICATION | GENERAL | MSG_TYPES | REMOTE ); // all types on
-  mesh.setDebugMsgTypes(ERROR | STARTUP); // set before init() so that you can see startup messages
+  // Callback function when a message is received
+  void receivedCallback(uint32_t from, String &msg)
+  {
+    Serial.printf("%u | %s\n", from, msg.c_str()); // Print the received message and sender's node ID
+  }
 
-  mesh.init(MESH_PREFIX, MESH_PASSWORD, &userScheduler, MESH_PORT);
-  mesh.onReceive(&receivedCallback);
-  mesh.onNewConnection(&newConnectionCallback);
-  mesh.onChangedConnections(&changedConnectionCallback);
-  mesh.onNodeTimeAdjusted(&nodeTimeAdjustedCallback);
+  // Callback function for a new connection
+  void newConnectionCallback(uint32_t nodeId)
+  {
+    Serial.printf("--> startHere: New Connection, nodeId = %u\n", nodeId); // Print when a new connection is established
+  }
 
-  userScheduler.addTask(taskScanNetworks);
-  taskScanNetworks.enable();
+  // Callback function when connections change
+  void changedConnectionCallback()
+  {
+    Serial.printf("Changed connections %s\n", mesh.subConnectionJson().c_str()); // Print when mesh connections change
+  }
 
-  // userScheduler.addTask(taskSendMessage);
-  // taskSendMessage.enable();
-}
+  // Callback function when node time is adjusted
+  void nodeTimeAdjustedCallback(int32_t offset)
+  {
+    Serial.printf("Adjusted time %u. Offset = %d\n", mesh.getNodeTime(), offset); // Print when node time is adjusted
+  }
 
-void loop()
-{
-  // it will run the user scheduler as well
-  mesh.update();
-}
+  void setup()
+  {
+    Serial.begin(115200); // Start serial communication
+
+    mesh.setDebugMsgTypes(ERROR | STARTUP); // Set debug message types for painlessMesh
+
+    mesh.init(MESH_PREFIX, MESH_PASSWORD, &userScheduler, MESH_PORT); // Initialize painlessMesh with network details
+    mesh.onReceive(&receivedCallback);                                // Set callback for received messages
+    mesh.onNewConnection(&newConnectionCallback);                     // Set callback for new connections
+    mesh.onChangedConnections(&changedConnectionCallback);            // Set callback for changed connections
+    mesh.onNodeTimeAdjusted(&nodeTimeAdjustedCallback);               // Set callback for adjusted node time
+
+    userScheduler.addTask(taskScanNetworks); // Add the task to scan networks to the user scheduler
+    taskScanNetworks.enable();               // Enable the task to scan networks
+  }
+
+  void loop()
+  {
+    mesh.update(); // Update the mesh network, including handling callbacks and tasks in the user scheduler
+  }

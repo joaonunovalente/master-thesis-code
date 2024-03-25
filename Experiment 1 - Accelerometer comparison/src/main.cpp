@@ -31,8 +31,8 @@ Date:     September, 2023
 Ticker timer;         // Create a timer object for periodic measurements
 Adafruit_MPU6050 mpu; // Create an MPU6050 accelerometer/gyroscope object
 
-#define SAMPLES 512       // Number of samples for FFT
-#define SAMPLING_FREQ 500 // Sampling frequency in Hz
+#define SAMPLES 2048      // Number of samples for FFT
+#define SAMPLING_FREQ 370 // Sampling frequency in Hz
 
 float accelerometerSamples[SAMPLES][3]; // Array to store accelerometer samples
 int sampleCount = 0;                    // Counter to keep track of collected samples
@@ -90,9 +90,11 @@ void setup()
 {
   Serial.begin(115200);                         // Initialize serial communication
   mpu.begin();                                  // Initialize the MPU6050 sensor
-  mpu.setAccelerometerRange(MPU6050_RANGE_4_G); // Set accelerometer range to +/- 4g
+  mpu.setAccelerometerRange(MPU6050_RANGE_2_G); // Set accelerometer range to +/- 2g
   mpu.setGyroRange(MPU6050_RANGE_500_DEG);      // Set gyroscope range to +/- 500 degrees per second
   mpu.setFilterBandwidth(MPU6050_BAND_5_HZ);    // Set filter bandwidth to 5 Hz
+
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop()
@@ -101,9 +103,9 @@ void loop()
   Serial.println(loopCounter);
   loopCounter++;
 
-  sampleCount = 0;                                               // Reset sample count
-  timer.attach_ms(1 / SAMPLING_FREQ, accelerationsMeasurements); // Set up timer to collect accelerometer data
-  delay(5000);                                                   // Delay for 5 seconds between measurements
+  sampleCount = 0;                                                  // Reset sample count
+  timer.attach_ms(1000 / SAMPLING_FREQ, accelerationsMeasurements); // Set up timer to collect accelerometer data
+  delay(15000);                                                     // Delay for 5 seconds between measurements
 }
 
 void accelerationsMeasurements()
@@ -119,9 +121,9 @@ void accelerationsMeasurements()
   mpu.getEvent(&a, &g, &temp); // Read accelerometer data from MPU6050
 
   // Store accelerometer data with adjustments in the accelerometerSamples array
-  accelerometerSamples[sampleCount][0] = a.acceleration.x - 0.29;
-  accelerometerSamples[sampleCount][1] = a.acceleration.y + 0.36;
-  accelerometerSamples[sampleCount][2] = a.acceleration.z + 1.07 - 0.52;
+  accelerometerSamples[sampleCount][0] = a.acceleration.x;
+  accelerometerSamples[sampleCount][1] = a.acceleration.y;
+  accelerometerSamples[sampleCount][2] = a.acceleration.z;
 
   sampleCount++; // Increment sample count
 
@@ -165,8 +167,8 @@ void computeFFT()
   // Print FFT results
   for (int i = 0; i < SAMPLES / 2; i++)
   {
-    Serial.print("Sample: ");
-    Serial.print(i + 1);
+    Serial.print("Freq: ");
+    Serial.print(frequency[i]);
     Serial.print(" | ");
     Serial.print(accelerometerSamples[i][2]);
     Serial.print(" | ");
