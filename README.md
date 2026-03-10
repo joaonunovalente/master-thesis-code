@@ -12,6 +12,8 @@ The embedded workflow combines three core parts:
 2. **On-node processing**: frequency-domain transforms and peak extraction run on the micro-controller.
 3. **Wireless delivery**: nodes exchange scanning/measurement data through a mesh network.
 
+![ESP-MESH topology](topology_ESP_MESH.jpg)
+
 ## Repository structure
 
 This repository is organized as **independent PlatformIO projects**, each in its own folder with a dedicated `platformio.ini` and `src/main.cpp`.
