@@ -1,12 +1,12 @@
 # Master thesis code
 
 Master thesis code presented to the University of Aveiro with the title *Accelerometers array using trilateration spatial localization and network communication*.
-This project uses ESP32 microcontrollers and ADXL337 and MPU-6050 accelerometers and programmed in **C/C++**.
+This project uses ESP32 microcontrollers and ADXL337 and MPU-6050 accelerometers and is programmed in **C/C++**.
 
 
 ## Project at a glance
 
-The embedded workflow combines three core parts:
+The workflow combines three parts:
 
 1. **Acquisition**: ESP32 samples acceleration signals from analog and digital MEMS sensors.
 2. **On-node processing**: frequency-domain transforms and peak extraction run on the micro-controller.
