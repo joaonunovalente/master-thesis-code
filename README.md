@@ -12,7 +12,9 @@ The embedded workflow combines three core parts:
 2. **On-node processing**: frequency-domain transforms and peak extraction run on the micro-controller.
 3. **Wireless delivery**: nodes exchange scanning/measurement data through a mesh network.
 
-![ESP-MESH topology](topology_ESP_MESH.jpg)
+<div align="center">
+  <img src="topology_ESP_MESH.jpg" alt="ESP-MESH topology">
+</div>
 
 ## Repository structure
 
